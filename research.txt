@@ -1,0 +1,7 @@
+
+To look into:
+
+linear-regression method:
+https://machinelearningmastery.com/linear-regression-for-machine-learning/
+
+...

@@ -1,14 +1,6 @@
 
-'''
 
-The following code example, we apply the gradient descent algorithm to find the minimum of the 
-function f(x) = (x^4) - 3(x^3) + 2 with derivative f'(x) = 4(x^3) - 9(x^2).
-
-Solving for 4(x^3) - 9(x^2) = 0 and evaluation of the second derivative at the solutions shows the 
-function has a plateau point at 0 and a global minimum at x = 9 / 4.
-
-'''
-
+# Example of gradient descent
 # line: y = mx + b
 
 def update_weights(m, b, X, Y, learning_rate):

@@ -9,27 +9,23 @@ function has a plateau point at 0 and a global minimum at x = 9 / 4.
 
 '''
 
+# line: y = mx + b
 
+def update_weights(m, b, X, Y, learning_rate):
+    m_deriv = 0
+    b_deriv = 0
+    N = len(X)
+    for i in range(N):
+        # Calculate partial derivatives
+        # -2x(y - (mx + b))
+        m_deriv += -2*X[i] * (Y[i] - (m*X[i] + b))
 
-next_x = 6  # We start the search at x=6
-gamma = 0.01  # Step size multiplier
-precision = 0.00001  # Desired precision of result
-max_iters = 10000  # Maximum number of iterations
+        # -2(y - (mx + b))
+        b_deriv += -2*(Y[i] - (m*X[i] + b))
 
-# Derivative function
-def df(x):
-    return 4 * x ** 3 - 9 * x ** 2
+    # We subtract because the derivatives point in direction of steepest ascent
+    m -= (m_deriv / float(N)) * learning_rate
+    b -= (b_deriv / float(N)) * learning_rate
 
+    return m, b
 
-for _i in range(max_iters):
-    current_x = next_x
-    next_x = current_x - gamma * df(current_x)
-
-    step = next_x - current_x
-    if abs(step) <= precision:
-        break
-
-print("Minimum at ", next_x)
-
-# The output for the above will be something like
-# "Minimum at 2.2499646074278457"

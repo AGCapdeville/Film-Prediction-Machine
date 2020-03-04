@@ -1,49 +1,79 @@
 from bs4 import BeautifulSoup
 import requests
+import re
+
+
+# FUNCTIONS START - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+def arrowExtractiom(mess):
+    toExtract = str(mess) 
+    # print("\nOriginal String:"+movieTitle)
+    first = toExtract.find('>')
+    toExtract = toExtract[first+1:len(toExtract)]
+    last = toExtract.find('<')
+    toExtract = toExtract[0:last]
+    return toExtract
+
+# FUNCTIONS END - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+
+# MOVIE TITLE SCRAPE START ( rottentomatoes ) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ###  Outline:
 # url = 'https://www.rottentomatoes.com/m/the_invisible_man_2020#contentReviews'
 # response = get(url)
 # content = BeautifulSoup(response.content, "html.parser")
-
 # url = 'https://www.rottentomatoes.com/m/mulan_2020'
 
-url = 'https://www.rottentomatoes.com/m/what_we_do_in_the_shadows'
+movie = 'what_we_do_in_the_shadows'
+url = 'https://www.rottentomatoes.com/m/'+movie
+
 
 response = requests.get(url, timeout=5)
 content = BeautifulSoup(response.content, "html.parser")
 
 movieTitle = content.findAll('h1', attrs={"class" : "mop-ratings-wrap__title mop-ratings-wrap__title--top"})
-movieTitle = str(movieTitle)
-print("\nOriginal String:"+movieTitle)
-first = movieTitle.find('>')
-movieTitle = movieTitle[first+1:len(movieTitle)]
-last = movieTitle.find('<')
-movieTitle = movieTitle[0:last]
+movieTitle = arrowExtractiom(movieTitle)
 print("\nMovie Title: " + movieTitle)
 
-# Youtube example:
-# https://www.youtube.com/results?search_query=The+Hunt+Trailer
+# MOVIE TITLE SCRAPE END ( rottentomatoes ) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-import re
+
+
+
+
+# YOUTUBE SCRAPE START - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Youtube URL example:
+# https://www.youtube.com/results?search_query=The+Hunt+Trailer
+# Altering the end: /results?search_query=[Movie+Title]+Trailer
+
 
 youtubeFormat = re.sub(r' ', '+', movieTitle)
-print(youtubeFormat)
-
 trailerUrl = 'https://www.youtube.com/results?search_query='+'movie+trailer+'+str(youtubeFormat)
-response = requests.get(trailerUrl, timeout=5)
+response = requests.get(trailerUrl, timeout=10)
 content = BeautifulSoup(response.content, "html.parser")
+strOfContent = str(content)
+
+w = strOfContent.find("video-time")
+mess = ""
+for i in range(20):
+    mess += strOfContent[i+w]
+trailerTime = arrowExtractiom(mess)
+
+print("Movie Trailer Time: "+ trailerTime)
+
+# YOUTUBE SCRAPE END - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-# print("test:")
-# print(content[int(index)-10: int(index)+10])
-
-# time = pageText[int(index)+20:int(index)+36]
-# time = time.strip()
-# print("Movie Trailer Time: " + time + "\n")
 
 
-# print(trailerTime)
+# t = "hello time-is-up/> 2:30 <"
+# s = t.find("time-is-up")
+# print(t[s])
+
 
 # <span class="style-scope ytd-thumbnail-overlay-time-status-renderer" aria-label="2 minutes, 25 seconds">
 #       2:25

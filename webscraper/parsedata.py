@@ -6,7 +6,10 @@ import requests
 # response = get(url)
 # content = BeautifulSoup(response.content, "html.parser")
 
-url = 'https://www.rottentomatoes.com/m/mulan_2020'
+# url = 'https://www.rottentomatoes.com/m/mulan_2020'
+
+url = 'https://www.rottentomatoes.com/m/what_we_do_in_the_shadows'
+
 response = requests.get(url, timeout=5)
 content = BeautifulSoup(response.content, "html.parser")
 
@@ -17,13 +20,40 @@ first = movieTitle.find('>')
 movieTitle = movieTitle[first+1:len(movieTitle)]
 last = movieTitle.find('<')
 movieTitle = movieTitle[0:last]
-print("\nTitle: " + movieTitle+"\n")
+print("\nMovie Title: " + movieTitle)
+
+# Youtube example:
+# https://www.youtube.com/results?search_query=The+Hunt+Trailer
+
+import re
+
+youtubeFormat = re.sub(r' ', '+', movieTitle)
+print(youtubeFormat)
+
+trailerUrl = 'https://www.youtube.com/results?search_query='+'movie+trailer+'+str(youtubeFormat)
+response = requests.get(trailerUrl, timeout=5)
+content = BeautifulSoup(response.content, "html.parser")
 
 
-movieRating = content.findAll('div', attrs={"class" : "meta-value"})
+# print("test:")
+# print(content[int(index)-10: int(index)+10])
 
-print("INFO:")
-print(movieRating)
+# time = pageText[int(index)+20:int(index)+36]
+# time = time.strip()
+# print("Movie Trailer Time: " + time + "\n")
+
+
+# print(trailerTime)
+
+# <span class="style-scope ytd-thumbnail-overlay-time-status-renderer" aria-label="2 minutes, 25 seconds">
+#       2:25
+# </span>
+# movieRating = content.findAll('div', attrs={"class" : "meta-value"})
+# print("INFO:")
+# print(movieRating)
+
+
+
 
 '''
 TODO: to extract:
@@ -48,6 +78,15 @@ TODO: to extract:
         <actor names>
 
 '''
+
+
+'''
+
+YouTube:    https://www.youtube.com/results?search_query=The+Hunt+Trailer
+
+
+'''
+
 
 
 

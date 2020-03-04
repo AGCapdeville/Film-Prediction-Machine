@@ -18,7 +18,6 @@ def arrowExtractiom(mess):
 
 
 
-
 # MOVIE TITLE SCRAPE START ( rottentomatoes ) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ###  Outline:

@@ -1,2 +1,3 @@
-# Film-Rating-Prediction-Machine
-Film rating prediction machine project
+# Film Prediction Machine
+
+Making predictions about movies

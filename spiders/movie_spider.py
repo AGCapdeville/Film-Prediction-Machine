@@ -3,6 +3,7 @@ import scrapy
 from items import ImdbItem
 from scrapy.crawler import CrawlerProcess
 from scrapy import Request
+import logging
 
 # tag we want = td class="titleColumn"
 
@@ -18,13 +19,29 @@ class ImdbSpider(scrapy.Spider):
     custom_settings = {'FEED_FORMAT':'csv','FEED_URI':'IMDB_TEST.csv'}
 
 
-    # def parse(self, response):
-    #     for href in response.css("td.titleColumn a::attr(href)").getall():
-    #         yield response.follow(url=href, callback=self.parse_movie)
-
     def parse(self, response):
-        for href in response.css("h3.lister-item-header a::attr(href)").getall():
-            yield response.follow(url=href, callback=self.parse_movie)
+        # for href in response.css("h3.lister-item-header a::attr(href)").getall():
+        #     yield response.follow(url=href, callback=self.parse_movie)
+        logging.info("start here!")
+        for nextPage in response.css('a::attr(href)').extract():
+            print("TYPE: ", type(nextPage))
+            logging.info("In Next Page:")
+            # yield scrapy.Request(response.urljoin(nextPage))
+
+    # main > div > div.lister.list.detail.sub-list > div.footer.filmosearch > div > div > a.flat-button.lister-page-next.next-page
+    # //*[@id="main"]/div/div[3]/div[5]/div/div/a[2]
+    
+    # def parse(self, response):
+    #     for quote in response.css("div.quote"):
+    #         item = QuotesItem()
+    #         item['quote'] = quote.css('span.text::text').extract()
+    #         item['author'] = quote.css('small.author::text').extract()
+    #         item['tags'] = quote.css("div.tags > a.tag::text").extract()
+    #         yield item
+
+    #     for nextPage in response.css('li.next a::attr(href)').extract():
+    #         yield scrapy.Request(response.urljoin(nextPage))
+        
 
     def parse_movie(self, response):
         
@@ -42,15 +59,14 @@ class ImdbSpider(scrapy.Spider):
         #     print (href)
 
         #main > div > div.lister.list.detail.sub-list > div.footer.filmosearch > div > div > a.flat-button.lister-page-next.next-page
-        print("What is this please!!!", response.xpath('//div[@class="list-pagination"]/a[@class="flat-button.lister-page-next"]/@href').extract())
-        for href in response.xpath('//div[@class="list-pagination"]/a[@class="flat-button.lister-page-next"]/@href').extract():
-            print("this is ann href?", href)
-            yield response.follow(url=href, callback=self.parse_movie)
+        # print("What is this please!!!", response.xpath('//div[@class="list-pagination"]/a[@class="flat-button.lister-page-next"]/@href').extract())
+        # for href in response.xpath('//div[@class="list-pagination"]/a[@class="flat-button.lister-page-next"]/@href').extract():
+        #     print("this is ann href?", href)
+        #     yield response.follow(url=href, callback=self.parse_movie)
         # nextpage = response.urljoin(nextpageurl)
-        
-       
+               
 
-    #     # TODO, go to next page, if next page is a thing
+        #     # TODO, go to next page, if next page is a thing
         return item
 
 

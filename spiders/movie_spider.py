@@ -2,6 +2,7 @@
 import scrapy
 from items import ImdbItem
 from scrapy.crawler import CrawlerProcess
+from scrapy import Request
 
 # tag we want = td class="titleColumn"
 
@@ -11,26 +12,45 @@ from scrapy.crawler import CrawlerProcess
 class ImdbSpider(scrapy.Spider):
     name = 'imdbspider' # eg name to use when running the script
     allowed_domains = ['imdb.com'] # Let’s say your target url is https://www.example.com/1.html, then add 'example.com' to the list.
-    start_urls = ['http://www.imdb.com/chart/top']
-
+    # start_urls = ['http://www.imdb.com/chart/top']
+    start_urls = ['https://www.imdb.com/list/ls005750764/']
     # add this to save file as csv #
-    custom_settings = {'FEED_FORMAT':'csv','FEED_URI':'IMDB.csv'}
+    custom_settings = {'FEED_FORMAT':'csv','FEED_URI':'IMDB_TEST.csv'}
 
+
+    # def parse(self, response):
+    #     for href in response.css("td.titleColumn a::attr(href)").getall():
+    #         yield response.follow(url=href, callback=self.parse_movie)
 
     def parse(self, response):
-        for href in response.css("td.titleColumn a::attr(href)").getall():
+        for href in response.css("h3.lister-item-header a::attr(href)").getall():
             yield response.follow(url=href, callback=self.parse_movie)
 
     def parse_movie(self, response):
+        
+
         item = ImdbItem()
         item['title'] = [ x.replace('\xa0', '')  for x in response.css(".title_wrapper h1::text").getall()][0]
-        item['directors'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Director")]/following-sibling::a/text()').getall()
-        item['writers'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Writers")]/following-sibling::a/text()').getall()
-        item['stars'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Stars")]/following-sibling::a/text()').getall()
-        item['popularity'] = response.css(".titleReviewBarSubItem span.subText::text")[2].re('([0-9]+)')
-        item['rating'] = response.css(".ratingValue span::text").get()
+        # item['directors'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Director")]/following-sibling::a/text()').getall()
+        # item['writers'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Writers")]/following-sibling::a/text()').getall()
+        # item['stars'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Stars")]/following-sibling::a/text()').getall()
+        # item['popularity'] = response.css(".titleReviewBarSubItem span.subText::text")[2].re('([0-9]+)')
+        # item['rating'] = response.css(".ratingValue span::text").get()
 
-        # TODO, go to next page, if next page is a thing
+        
+        # for href in response.xpath('//*[@id="main"]/div/div[3]/div[5]/div/div/a[2]/@href').extract():
+        #     print (href)
+
+        #main > div > div.lister.list.detail.sub-list > div.footer.filmosearch > div > div > a.flat-button.lister-page-next.next-page
+        print("What is this please!!!", response.xpath('//div[@class="list-pagination"]/a[@class="flat-button.lister-page-next"]/@href').extract())
+        for href in response.xpath('//div[@class="list-pagination"]/a[@class="flat-button.lister-page-next"]/@href').extract():
+            print("this is ann href?", href)
+            yield response.follow(url=href, callback=self.parse_movie)
+        # nextpage = response.urljoin(nextpageurl)
+        
+       
+
+    #     # TODO, go to next page, if next page is a thing
         return item
 
 

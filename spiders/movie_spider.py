@@ -23,8 +23,8 @@ class ImdbSpider(scrapy.Spider):
         # for href in response.css("h3.lister-item-header a::attr(href)").getall():
         #     yield response.follow(url=href, callback=self.parse_movie)
         logging.info("start here!")
-        for nextPage in response.css('a::attr(href)').extract():
-            print("TYPE: ", type(nextPage))
+        for nextPage in response.css('a.next-page ::attr(href)').extract():
+            print("!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!!!!!!\n!!!!!!!!!!!!\nTYPE: ", nextPage)
             logging.info("In Next Page:")
             # yield scrapy.Request(response.urljoin(nextPage))
 

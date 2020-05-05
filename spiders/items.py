@@ -7,3 +7,6 @@ class ImdbItem(scrapy.Item):
     # stars = scrapy.Field()
     # popularity = scrapy.Field()
     # rating = scrapy.Field()
+
+class TheNumbersItem(scrapy.Item):
+    title = scrapy.Field()

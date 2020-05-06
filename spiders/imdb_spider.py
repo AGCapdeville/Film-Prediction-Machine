@@ -23,8 +23,8 @@ class ImdbSpider(scrapy.Spider):
     def parse(self, response):
         for href in response.css("h3.lister-item-header a::attr(href)").getall():
             yield response.follow(url=href, callback=self.parse_movie)
-        # for nextPage in response.css('a.next-page ::attr(href)').extract():
-        #     yield scrapy.Request(response.urljoin(nextPage))
+        for nextPage in response.css('a.next-page ::attr(href)').extract():
+            yield scrapy.Request(response.urljoin(nextPage))
     
 
     def parse_movie(self, response): 
@@ -32,11 +32,18 @@ class ImdbSpider(scrapy.Spider):
         item['title'] = [ x.replace('\xa0', '')  for x in response.css(".title_wrapper h1::text").getall()][0]
         
         item['directors'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Director")]/following-sibling::a/text()').getall()
-        item['writers'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Writers")]/following-sibling::a/text()').getall()
+        
+        writers = response.xpath('//*[@id="title-overview-widget"]/div[2]/div[1]/div[3]/a/text()').getall()
+        writers2 = (response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Writers")]/following-sibling::a/text()').getall())
+        if writers != "":
+            item['writers'] = writers
+        else:
+            item['writers'] = writers2
+
         # item['stars'] = response.xpath('//div[@class="credit_summary_item"]/h4[contains(., "Stars")]/following-sibling::a/text()').getall()
         item['popularity'] = response.css(".titleReviewBarSubItem span.subText::text")[2].re('([0-9]+)')
         item['rating'] = response.css(".ratingValue span::text").get()
-        item['runtime'] = response.css(".txt-block time::text").getall()[0]
+        item['runtime'] = response.css(".txt-block time::text").getall()[0].split(' ')[0]
         item['genre'] = response.xpath('//*[@id="titleStoryLine"]/div[4]/a/text()').getall()
 
 

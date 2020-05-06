@@ -1,66 +1,1030 @@
 directors,genre,popularity,rating,runtime,title,writers
-Jean-Jacques Annaud," Crime, Drama, Mystery, Thriller","2,298",7.7,130 min,The Name of the Rose,"Umberto Eco,Andrew Birkin,3 more credits"
-Tony Scott," Action, Drama, Thriller, War","3,608",7.3,116 min,Crimson Tide,"Michael Schiffer,Richard P. Henrick,1 more credit"
-Roger Donaldson," Action, Horror, Sci-Fi, Thriller","1,815",5.8,108 min,Species,
-Nora Ephron," Comedy, Drama, Romance",835,6.6,119 min,You've Got Mail,"Miklós László,Nora Ephron,1 more credit"
-Rod Daniel," Comedy, Fantasy, Romance",917,6.1,91 min,Teen Wolf,"Jeph Loeb,Matthew Weisman"
-"Bobby Farrelly,Peter Farrelly"," Comedy, Romance",960,7.1,119 min,There's Something About Mary,"Ed Decter,John J. Strauss,4 more credits"
-Sylvester Stallone," Drama, Sport","1,745",6.9,91 min,Rocky IV,
-Mel Brooks," Adventure, Comedy, Musical, Romance","2,525",6.7,104 min,Robin Hood: Men in Tights,"J.D. Shapiro,Evan Chandler,3 more credits"
-Ivan Reitman," Comedy, Romance, Sci-Fi","3,410",4.6,109 min,Junior,"Kevin Wade,Chris Conrad"
-Charles Shyer," Comedy, Family, Romance","3,176",6.5,105 min,Father of the Bride,"Frances Goodrich,Albert Hackett,2 more credits"
-Hugh Wilson, Comedy,"1,083",6.7,96 min,Police Academy,"Neal Israel,Pat Proft,3 more credits"
-Luc Besson," Action, Thriller","4,228",7.3,117 min,La Femme Nikita,
-Ivan Reitman," Action, Comedy, Fantasy, Sci-Fi","3,101",6.6,108 min,Ghostbusters II,"Dan Aykroyd,Harold Ramis,2 more credits"
-Howard Zieff," Comedy, Drama, Family, Romance","1,676",6.9,102 min,My Girl,
-Richard Fleischer," Action, Adventure, Fantasy","2,830",5.9,103 min,Conan the Destroyer,"Robert E. Howard,Roy Thomas,2 more credits"
-Mark L. Lester," Action, Adventure, Thriller","1,756",6.7,90 min,Commando,"Jeph Loeb,Matthew Weisman,2 more credits"
-John Milius," Action, Adventure, Fantasy","1,333",6.9,129 min,Conan the Barbarian,"Robert E. Howard,John Milius,1 more credit"
-Ivan Reitman," Action, Comedy, Fantasy",728,7.8,105 min,Ghostbusters,"Dan Aykroyd,Harold Ramis"
-Menahem Golan," Action, Drama, Sport","3,993",5.8,93 min,Over the Top,"Gary Conway,David Engelbach,2 more credits"
-George P. Cosmatos," Action, Crime, Thriller","3,683",5.8,87 min,Cobra,"Paula Gosling,Sylvester Stallone"
-George P. Cosmatos," Action, Adventure, Thriller","1,811",6.5,96 min,Rambo: First Blood Part II,"David Morrell,Kevin Jarre,2 more credits"
-Roland Emmerich," Action, Sci-Fi","4,070",6.0,102 min,Universal Soldier,"Richard Rothstein,Christopher Leitch,1 more credit"
-Steven E. de Souza," Action, Adventure, Comedy, Thriller",,4.0,102 min,Street Fighter,
-Sheldon Lettich," Action, Crime","4,322",5.6,110 min,Double Impact,"Sheldon Lettich,Jean-Claude Van Damme,4 more credits"
-Hark Tsui," Action, Comedy, Sci-Fi, Thriller",,4.8,93 min,Double Team,"Don Jakoby,Don Jakoby,1 more credit"
-"Mark DiSalle,David Worth"," Action, Sport, Thriller","3,720",6.5,97 min,Kickboxer,"Mark DiSalle,Glenn A. Bruce,1 more credit"
-Jeremiah S. Chechik, Comedy,"2,896",7.6,97 min,National Lampoon's Christmas Vacation,
-Amy Heckerling," Adventure, Comedy","4,064",6.2,95 min,National Lampoon's European Vacation,"John Hughes,Robert Klane,1 more credit"
-Stephen Kessler, Comedy,"3,516",6.0,93 min,Vegas Vacation,"Elisa Bell,Bob Ducsay,1 more credit"
-Harold Ramis," Adventure, Comedy","1,031",7.4,98 min,National Lampoon's Vacation,"John Hughes,John Hughes"
-Penny Marshall," Biography, Drama","2,314",7.8,121 min,Awakenings,"Oliver Sacks,Steven Zaillian"
-Dan Aykroyd, Comedy,"4,207",5.1,94 min,Nothing But Trouble,"Peter Aykroyd,Dan Aykroyd"
-Walter Hill," Action, Comedy, Crime, Drama, Thriller","2,950",6.9,96 min,48 Hrs.,"Roger Spottiswoode,Walter Hill,2 more credits"
-Martin Brest," Action, Comedy, Crime, Thriller",844,7.3,105 min,Beverly Hills Cop,"Daniel Petrie Jr.,Danilo Bach,1 more credit"
-Tony Scott," Action, Comedy, Crime, Thriller","2,274",6.5,100 min,Beverly Hills Cop II,"Danilo Bach,Daniel Petrie Jr.,4 more credits"
-Randal Kleiser," Adventure, Drama, Romance",612,5.8,104 min,The Blue Lagoon,"Henry De Vere Stacpoole,Douglas Day Stewart"
-Tom Shadyac," Comedy, Romance, Sci-Fi","3,338",5.6,95 min,The Nutty Professor,"Jerry Lewis,Bill Richmond,4 more credits"
-Joe Dante," Action, Adventure, Comedy, Fantasy, Sci-Fi, Thriller","3,916",6.8,120 min,Innerspace,"Chip Proser,Jeffrey Boam,1 more credit"
-Joel Schumacher," Drama, Horror, Sci-Fi, Thriller","3,366",6.6,115 min,Flatliners,
-Alex Proyas," Action, Drama, Fantasy","1,109",7.6,102 min,The Crow,"James O'Barr,David J. Schow,1 more credit"
-Joe Dante," Comedy, Mystery, Thriller","2,392",6.9,102 min,The 'Burbs,
-Andrew Davis," Action, Crime, Drama, Mystery, Thriller","1,374",7.8,130 min,The Fugitive,"Jeb Stuart,David Twohy,2 more credits"
-"Joe Dante,Chuck Jones"," Comedy, Fantasy, Horror",,6.4,106 min,Gremlins 2: The New Batch,"Chris Columbus,Charles S. Haas"
-Joe Dante," Comedy, Fantasy, Horror","1,623",7.3,106 min,Gremlins,
-Renny Harlin," Action, Adventure, Thriller","3,024",6.4,113 min,Cliffhanger,"John Long,Michael France,2 more credits"
-Julien Temple," Comedy, Musical, Romance, Sci-Fi","3,041",5.4,100 min,Earth Girls Are Easy,"Julie Brown,Charlie Coffey,1 more credit"
-Richard Donner," Action, Adventure, Drama, Sci-Fi","1,120",7.3,143 min,Superman,"Jerry Siegel,Joe Shuster,5 more credits"
-Blake Edwards," Comedy, Crime","4,120",7.2,103 min,The Pink Panther Strikes Again,"Frank Waldman,Blake Edwards"
-Blake Edwards," Comedy, Crime, Romance","3,578",7.1,115 min,The Pink Panther,"Maurice Richlin,Blake Edwards"
-Paul Brickman," Comedy, Crime, Drama, Romance","1,457",6.8,99 min,Risky Business,
-"George Miller,George Ogilvie"," Action, Adventure, Sci-Fi","2,654",6.3,107 min,Mad Max Beyond Thunderdome,"Terry Hayes,George Miller"
-Roland Emmerich," Action, Adventure, Sci-Fi","1,494",7.1,116 min,Stargate,"Dean Devlin,Roland Emmerich"
-Richard Fleischer," Action, Adventure, Fantasy","4,384",5.1,89 min,Red Sonja,"Robert E. Howard,Clive Exton,1 more credit"
-Sidney J. Furie," Action, Adventure, Family, Sci-Fi","4,809",3.7,90 min,Superman IV: The Quest for Peace,"Jerry Siegel,Joe Shuster,5 more credits"
-James Cameron," Action, Sci-Fi",512,8.0,107 min,The Terminator,"James Cameron,Gale Anne Hurd,1 more credit"
-Stanley Kubrick," Drama, Mystery, Thriller",506,7.4,159 min,Eyes Wide Shut,"Stanley Kubrick,Frederic Raphael,1 more credit"
-Spike Jonze," Comedy, Drama, Fantasy","2,028",7.7,113 min,Being John Malkovich,
-Paul Verhoeven, Drama,"1,199",4.8,128 min,Showgirls,
-Gus Van Sant," Comedy, Crime, Drama, Thriller","3,127",6.8,106 min,To Die For,"Joyce Maynard,Buck Henry"
-Danny Boyle, Drama,687,8.1,93 min,Trainspotting,"Irvine Welsh,John Hodge"
-Barry Levinson," Biography, Comedy, Drama, War","2,763",7.3,121 min,"Good Morning, Vietnam",
-Barry Levinson," Drama, Thriller","3,863",6.1,128 min,Disclosure,"Michael Crichton,Paul Attanasio"
-Moustapha Akkad," Biography, Drama, History, War",,8.2,177 min,The Message,"H.A.L. Craig,Tewfik El-Hakim,3 more credits"
-Ivan Reitman," Comedy, Crime","2,560",6.1,107 min,Twins,"William Davies,William Osborne,2 more credits"
-Steven Spielberg," Action, Adventure, Sci-Fi, Thriller",95,8.1,127 min,Jurassic Park,"Michael Crichton,Michael Crichton,1 more credit"
+Mel Brooks," Adventure, Comedy, Musical, Romance","2,525",6.7,104,Robin Hood: Men in Tights,"J.D. Shapiro,Evan Chandler,3 more credits"
+Ivan Reitman," Comedy, Romance, Sci-Fi","3,410",4.6,109,Junior,"Kevin Wade,Chris Conrad"
+Stanley Kubrick," Drama, Mystery, Thriller",506,7.4,159,Eyes Wide Shut,"Stanley Kubrick,Frederic Raphael,1 more credit"
+Sylvester Stallone," Drama, Sport","1,745",6.9,91,Rocky IV,
+Spike Jonze," Comedy, Drama, Fantasy","2,028",7.7,113,Being John Malkovich,Charlie Kaufman
+Paul Verhoeven, Drama,"1,199",4.8,128,Showgirls,Joe Eszterhas
+Barry Levinson," Drama, Thriller","3,863",6.1,128,Disclosure,"Michael Crichton,Paul Attanasio"
+Gus Van Sant," Comedy, Crime, Drama, Thriller","3,127",6.8,106,To Die For,"Joyce Maynard,Buck Henry"
+Luc Besson," Action, Thriller","4,228",7.3,117,La Femme Nikita,Luc Besson
+Hugh Wilson, Comedy,"1,083",6.7,96,Police Academy,
+Barry Levinson," Biography, Comedy, Drama, War","2,763",7.3,121,"Good Morning, Vietnam",Mitch Markowitz
+Charles Shyer," Comedy, Family, Romance","3,176",6.5,105,Father of the Bride,"Frances Goodrich,Albert Hackett,2 more credits"
+Howard Zieff," Comedy, Drama, Family, Romance","1,676",6.9,102,My Girl,Laurice Elehwany
+Ivan Reitman," Action, Comedy, Fantasy, Sci-Fi","3,101",6.6,108,Ghostbusters II,"Dan Aykroyd,Harold Ramis,2 more credits"
+Mark L. Lester," Action, Adventure, Thriller","1,756",6.7,90,Commando,
+Richard Fleischer," Action, Adventure, Fantasy","2,830",5.9,103,Conan the Destroyer,"Robert E. Howard,Roy Thomas,2 more credits"
+John Milius," Action, Adventure, Fantasy","1,333",6.9,129,Conan the Barbarian,
+Ivan Reitman," Action, Comedy, Fantasy",728,7.8,105,Ghostbusters,"Dan Aykroyd,Harold Ramis"
+George P. Cosmatos," Action, Crime, Thriller","3,683",5.8,87,Cobra,"Paula Gosling,Sylvester Stallone"
+George P. Cosmatos," Action, Adventure, Thriller","1,811",6.5,96,Rambo: First Blood Part II,"David Morrell,Kevin Jarre,2 more credits"
+Menahem Golan," Action, Drama, Sport","3,993",5.8,93,Over the Top,"Gary Conway,David Engelbach,2 more credits"
+Roland Emmerich," Action, Sci-Fi","4,070",6.0,102,Universal Soldier,"Richard Rothstein,Christopher Leitch,1 more credit"
+Steven E. de Souza," Action, Adventure, Comedy, Thriller",,4.0,102,Street Fighter,Steven E. de Souza
+Jeremiah S. Chechik, Comedy,"2,896",7.6,97,National Lampoon's Christmas Vacation,John Hughes
+"Mark DiSalle,David Worth"," Action, Sport, Thriller","3,720",6.5,97,Kickboxer,"Mark DiSalle,Glenn A. Bruce,1 more credit"
+Sheldon Lettich," Action, Crime","4,322",5.6,110,Double Impact,"Sheldon Lettich,Jean-Claude Van Damme,4 more credits"
+Hark Tsui," Action, Comedy, Sci-Fi, Thriller",,4.8,93,Double Team,"Don Jakoby,Don Jakoby,1 more credit"
+Dan Aykroyd, Comedy,"4,207",5.1,94,Nothing But Trouble,"Peter Aykroyd,Dan Aykroyd"
+Stephen Kessler, Comedy,"3,516",6.0,93,Vegas Vacation,
+Harold Ramis," Adventure, Comedy","1,031",7.4,98,National Lampoon's Vacation,"John Hughes,John Hughes"
+Amy Heckerling," Adventure, Comedy","4,064",6.2,95,National Lampoon's European Vacation,"John Hughes,Robert Klane,1 more credit"
+Randal Kleiser," Adventure, Drama, Romance",612,5.8,104,The Blue Lagoon,"Henry De Vere Stacpoole,Douglas Day Stewart"
+Penny Marshall," Biography, Drama","2,314",7.8,121,Awakenings,"Oliver Sacks,Steven Zaillian"
+Walter Hill," Action, Comedy, Crime, Drama, Thriller","2,950",6.9,96,48 Hrs.,
+Martin Brest," Action, Comedy, Crime, Thriller",844,7.3,105,Beverly Hills Cop,"Daniel Petrie Jr.,Danilo Bach,1 more credit"
+Tony Scott," Action, Comedy, Crime, Thriller","2,274",6.5,100,Beverly Hills Cop II,"Danilo Bach,Daniel Petrie Jr.,4 more credits"
+Paul Verhoeven," Drama, Mystery, Thriller",516,7.0,127,Basic Instinct,Joe Eszterhas
+Frank Oz," Comedy, Crime","3,456",7.4,110,Dirty Rotten Scoundrels,"Dale Launer,Stanley Shapiro,1 more credit"
+Richard Donner," Action, Crime, Thriller","2,588",6.7,118,Lethal Weapon 3,"Jeffrey Boam,Jeffrey Boam,3 more credits"
+Richard Donner," Action, Crime, Thriller","2,624",6.6,127,Lethal Weapon 4,"Shane Black,Jonathan Lemkin,3 more credits"
+Richard Donner," Action, Crime, Thriller","2,003",7.2,114,Lethal Weapon 2,"Jeffrey Boam,Shane Black,2 more credits"
+Jan de Bont," Action, Adventure, Thriller",804,7.2,116,Speed,Graham Yost
+Richard Donner," Action, Crime, Thriller",998,7.6,109,Lethal Weapon,Shane Black
+Jean-Jacques Annaud," Adventure, Biography, Drama, History, War","2,108",7.1,136,Seven Years in Tibet,"Heinrich Harrer,Becky Johnston"
+Barry Levinson," Crime, Drama, Thriller","1,248",7.6,147,Sleepers,"Lorenzo Carcaterra,Barry Levinson"
+Peter MacDonald," Action, Adventure","3,095",5.8,102,Rambo III,"David Morrell,Sylvester Stallone,1 more credit"
+Peter Weir," Comedy, Drama",764,8.1,128,Dead Poets Society,Tom Schulman
+Katt Shea," Drama, Thriller",,5.4,88,Poison Ivy,"Melissa Goddard,Andy Ruben,1 more credit"
+Jonathan Demme, Drama,"1,823",7.7,125,Philadelphia,Ron Nyswaner
+James Cameron," Action, Comedy, Thriller","1,310",7.2,141,True Lies,"Claude Zidi,Simon Michaël,2 more credits"
+Frank Darabont," Crime, Drama, Fantasy, Mystery",175,8.6,189,The Green Mile,"Stephen King,Frank Darabont"
+Peter Weir," Comedy, Drama, Sci-Fi",418,8.1,103,The Truman Show,Andrew Niccol
+Wolfgang Petersen," Action, Crime, Drama, Thriller","2,758",7.2,128,In the Line of Fire,Jeff Maguire
+Taylor Hackford," Drama, Mystery, Thriller",904,7.5,144,The Devil's Advocate,"Andrew Neiderman,Jonathan Lemkin,1 more credit"
+Marco Brambilla," Action, Sci-Fi, Thriller","1,656",6.7,115,Demolition Man,
+"John Frankenheimer,Richard Stanley"," Horror, Sci-Fi, Thriller",,4.6,96,The Island of Dr. Moreau,"H.G. Wells,Richard Stanley,1 more credit"
+Adrian Lyne," Drama, Romance","1,278",6.0,117,Indecent Proposal,
+Curtis Hanson," Crime, Drama, Mystery, Thriller",886,8.2,138,L.A. Confidential,"James Ellroy,Brian Helgeland,1 more credit"
+Vincenzo Natali," Drama, Mystery, Sci-Fi, Thriller","1,898",7.2,90,Cube,"André Bijelic,Vincenzo Natali,1 more credit"
+Tom Shadyac," Comedy, Fantasy","1,575",6.9,86,Liar Liar,
+Richard Donner," Action, Mystery, Thriller","4,594",6.7,135,Conspiracy Theory,Brian Helgeland
+Richard Donner," Action, Adventure, Comedy, Thriller, Western","4,046",7.0,127,Maverick,"Roy Huggins,William Goldman"
+Martin Scorsese," Crime, Thriller",981,7.3,128,Cape Fear,"John D. MacDonald,James R. Webb,1 more credit"
+Phillip Noyce," Crime, Drama, Mystery, Thriller","2,104",6.7,118,The Bone Collector,"Jeffery Deaver,Jeremy Iacone"
+Richard Rush," Mystery, Romance, Thriller","4,310",5.2,121,Color of Night,"Billy Ray,Matthew Chapman,1 more credit"
+Oliver Stone," Action, Crime, Drama","1,202",7.3,118,Natural Born Killers,"Quentin Tarantino,David Veloz,2 more credits"
+Jerry Zucker," Drama, Fantasy, Romance, Thriller","1,680",7.0,127,Ghost,Bruce Joel Rubin
+Peter Hewitt," Adventure, Comedy, Fantasy, Music, Sci-Fi","4,312",6.3,93,Bill & Ted's Bogus Journey,"Chris Matheson,Ed Solomon,2 more credits"
+Oliver Stone," Biography, Drama, War","2,351",7.2,145,Born on the Fourth of July,"Ron Kovic,Oliver Stone,1 more credit"
+John G. Avildsen," Action, Drama, Family, Sport","4,758",5.2,112,The Karate Kid Part III,
+Barry Levinson," Comedy, Crime, Drama, Romance","3,013",6.5,123,Bandits,
+John G. Avildsen," Action, Drama, Family, Sport",994,7.2,126,The Karate Kid,Robert Mark Kamen
+Terry Gilliam," Comedy, Drama, Fantasy","2,925",7.5,137,The Fisher King,Richard LaGravenese
+John G. Avildsen," Action, Family, Romance, Sport","4,176",6.0,113,The Karate Kid Part II,
+John McTiernan," Action, Adventure, Sci-Fi, Thriller",470,7.8,107,Predator,"Jim Thomas,John Thomas"
+Curtis Hanson," Drama, Music","1,698",7.1,110,8 Mile,Scott Silver
+Quentin Tarantino," Action, Crime, Thriller",329,8.1,111,Kill Bill: Vol. 1,"Quentin Tarantino,Quentin Tarantino,1 more credit"
+John McTiernan," Action, Adventure, Comedy, Fantasy","2,230",6.4,130,Last Action Hero,"Zak Penn,Adam Leff,2 more credits"
+Andrew Niccol," Drama, Sci-Fi, Thriller","1,497",7.8,106,Gattaca,Andrew Niccol
+Tom Shadyac," Comedy, Drama, Fantasy","1,983",6.7,101,Bruce Almighty,"Steve Koren,Mark O'Keefe,3 more credits"
+Michael Bay," Action, Drama, History, Romance, War",675,6.2,183,Pearl Harbor,Randall Wallace
+Iain Softley," Drama, Horror, Mystery, Thriller","4,451",6.5,104,The Skeleton Key,Ehren Kruger
+Steven Spielberg," Adventure, Sci-Fi, Thriller","1,008",6.5,116,War of the Worlds,"Josh Friedman,David Koepp,1 more credit"
+Brett Ratner," Crime, Drama, Thriller",433,7.2,124,Red Dragon,"Thomas Harris,Ted Tally"
+Bryan Singer," Action, Sci-Fi, Thriller","1,481",7.4,134,X2: X-Men United,"Zak Penn,David Hayter,4 more credits"
+Brian De Palma," Crime, Drama, Mystery, Thriller","3,858",6.2,114,Femme Fatale,Brian De Palma
+Mel Gibson, Drama,688,7.2,127,The Passion of the Christ,"Benedict Fitzgerald,Mel Gibson"
+Stephen Chow," Action, Comedy, Fantasy","2,600",7.7,99,Kung Fu Hustle,"Stephen Chow,Kan-Cheung Tsang,2 more credits"
+"Paul Weitz,Chris Weitz", Comedy,227,7.0,95,American Pie,Adam Herz
+Martin Scorsese," Biography, Drama","1,003",7.5,170,The Aviator,John Logan
+J.B. Rogers, Comedy,"1,121",6.4,108,American Pie 2,"Adam Herz,David H. Steinberg,2 more credits"
+Bryan Singer," Action, Adventure, Sci-Fi",534,7.4,104,X-Men,"Tom DeSanto,Bryan Singer,1 more credit"
+," Biography, Drama, History, War",,7.3,179,Hitler: The Rise of Evil            ,
+Gaspar Noé," Crime, Drama, Mystery, Thriller",968,7.4,97,Irreversible,Gaspar Noé
+Richard Linklater," Comedy, Music","1,283",7.1,109,School of Rock,Mike White
+Tony Scott," Action, Comedy, Crime, Thriller","4,694",7.0,105,The Last Boy Scout,"Shane Black,Shane Black,1 more credit"
+Alexander Witt," Action, Horror, Sci-Fi, Thriller","2,111",6.2,94,Resident Evil: Apocalypse,Paul W.S. Anderson
+Nick Cassavetes," Crime, Drama, Thriller","4,755",7.1,116,John Q,James Kearns
+Jesse Dylan, Comedy,"2,458",6.3,96,American Wedding,"Adam Herz,Adam Herz"
+Ridley Scott," Crime, Drama, Thriller",549,6.8,131,Hannibal,"Thomas Harris,David Mamet,1 more credit"
+Sam Raimi," Action, Adventure, Sci-Fi",950,7.3,127,Spider-Man 2,"Stan Lee,Steve Ditko,4 more credits"
+Darren Aronofsky, Drama,186,8.3,102,Requiem for a Dream,"Hubert Selby Jr.,Hubert Selby Jr.,1 more credit"
+Michael Mann," Biography, Drama, Sport","2,933",6.8,157,Ali,"Gregory Allen Howard,Stephen J. Rivele,3 more credits"
+Jonathan Mostow," Action, Sci-Fi","1,524",6.3,109,Terminator 3: Rise of the Machines,"James Cameron,Gale Anne Hurd,5 more credits"
+Martin Scorsese," Crime, Drama",572,7.5,167,Gangs of New York,"Jay Cocks,Jay Cocks,2 more credits"
+Alejandro G. Iñárritu," Drama, Thriller","1,534",8.1,154,Amores Perros,Guillermo Arriaga
+Steven Soderbergh," Crime, Thriller",500,7.7,116,Ocean's Eleven,"George Clayton Johnson,Jack Golden Russell,3 more credits"
+Randall Wallace," Action, Drama, History, War","1,660",7.2,138,We Were Soldiers,"Harold G. Moore,Joseph L. Galloway,1 more credit"
+Nancy Meyers," Comedy, Fantasy, Romance","2,848",6.4,127,What Women Want,
+"Chris Weitz,Paul Weitz"," Comedy, Drama, Romance","2,860",7.0,101,About a Boy,
+Roger Michell," Comedy, Drama, Romance","1,055",7.1,124,Notting Hill,Richard Curtis
+Jon Amiel," Action, Crime, Romance, Thriller","4,527",6.3,113,Entrapment,"Ronald Bass,Michael Hertzberg,2 more credits"
+Sharon Maguire," Comedy, Drama, Romance","1,178",6.7,97,Bridget Jones's Diary,"Helen Fielding,Helen Fielding,2 more credits"
+Robert Luketic," Comedy, Romance","1,086",6.3,96,Legally Blonde,"Amanda Brown,Karen McCullah,1 more credit"
+David Fincher, Drama,96,8.8,139,Fight Club,"Chuck Palahniuk,Jim Uhls"
+Alex Proyas," Action, Drama, Sci-Fi, Thriller","1,801",7.1,115,"I, Robot","Jeff Vintar,Akiva Goldsman,2 more credits"
+Steven Soderbergh," Crime, Thriller",936,6.5,125,Ocean's Twelve,"George Nolfi,George Clayton Johnson,1 more credit"
+Danny Boyle," Adventure, Drama, Romance, Thriller","1,682",6.7,119,The Beach,"John Hodge,Alex Garland"
+Nancy Meyers,,"1,807",6.9,136,The Holiday,Nancy Meyers
+M. Night Shyamalan," Drama, Fantasy, Mystery, Thriller","4,991",5.5,110,Lady in the Water,M. Night Shyamalan
+Nick Cassavetes," Biography, Crime, Drama, Thriller","1,249",6.9,122,Alpha Dog,Nick Cassavetes
+M. Night Shyamalan," Drama, Mystery, Sci-Fi, Thriller","1,371",7.3,106,Unbreakable,M. Night Shyamalan
+Franklin J. Schaffner," Adventure, Sci-Fi","1,663",8.0,112,Planet of the Apes,"Michael Wilson,Rod Serling,1 more credit"
+Sylvester Stallone," Action, Drama, Sport","1,302",7.1,102,Rocky Balboa,"Sylvester Stallone,Sylvester Stallone"
+David Cronenberg," Drama, Horror, Sci-Fi","1,572",7.6,96,The Fly,"George Langelaan,Charles Edward Pogue,1 more credit"
+Sylvester Stallone," Drama, Sport","3,061",7.3,119,Rocky II,Sylvester Stallone
+Stephen Herek," Drama, Music","4,844",6.3,105,Rock Star,John Stockwell
+Sylvester Stallone," Drama, Sport","2,680",6.8,99,Rocky III,Sylvester Stallone
+John G. Avildsen," Drama, Sport",637,8.1,120,Rocky,Sylvester Stallone
+George Lucas," Action, Adventure, Fantasy, Sci-Fi",368,7.5,140,Star Wars: Episode III - Revenge of the Sith,George Lucas
+George Lucas," Action, Adventure, Fantasy, Sci-Fi",336,6.5,142,Star Wars: Episode II - Attack of the Clones,"George Lucas,Jonathan Hales,1 more credit"
+Mel Gibson," Action, Adventure, Drama, Thriller",474,7.8,139,Apocalypto,"Mel Gibson,Farhad Safinia"
+George Lucas," Action, Adventure, Fantasy, Sci-Fi",147,6.5,136,Star Wars: Episode I - The Phantom Menace,George Lucas
+Stanley Kubrick," Drama, Horror",169,8.4,144,The Shining,"Stephen King,Stanley Kubrick,1 more credit"
+Sam Raimi," Action, Adventure, Sci-Fi",944,6.2,139,Spider-Man 3,"Sam Raimi,Ivan Raimi,5 more credits"
+Neil LaBute," Horror, Mystery, Thriller","4,184",3.7,102,The Wicker Man,"Neil LaBute,Anthony Shaffer"
+Jean-Jacques Annaud," Drama, History, War","1,987",7.6,131,Enemy at the Gates,"Jean-Jacques Annaud,Alain Godard"
+Steven Spielberg," Drama, War",146,8.6,169,Saving Private Ryan,Robert Rodat
+Francis Lawrence," Action, Fantasy, Horror, Mystery",814,7.0,121,Constantine,"Jamie Delano,Garth Ennis,3 more credits"
+"Peter Farrelly,Bobby Farrelly", Comedy,"1,246",7.3,107,Dumb and Dumber,"Peter Farrelly,Bennett Yellin,1 more credit"
+Michael Caton-Jones," Drama, Mystery, Thriller","2,234",4.3,114,Basic Instinct 2,"Leora Barish,Henry Bean,1 more credit"
+Tony Kaye, Drama,370,8.5,119,American History X,David McKenna
+Zack Snyder," Action, Drama",453,7.6,117,300,"Zack Snyder,Kurt Johnstad,3 more credits"
+Darren Lynn Bousman," Crime, Fantasy, Horror, Mystery, Thriller","3,360",6.2,108,Saw III,"Leigh Whannell,James Wan,1 more credit"
+Roman Polanski," Biography, Drama, Music, War",365,8.5,150,The Pianist,"Ronald Harwood,Wladyslaw Szpilman"
+Francis Ford Coppola," Drama, Mystery, War",222,8.4,147,Apocalypse Now,"John Milius,Francis Ford Coppola,1 more credit"
+Karyn Kusama," Action, Adventure, Sci-Fi, Thriller","3,955",5.4,93,Æon Flux,"Phil Hay,Matt Manfredi,1 more credit"
+Stanley Kubrick," Adventure, Sci-Fi",376,8.3,149,2001: A Space Odyssey,"Stanley Kubrick,Arthur C. Clarke"
+Michael Mann," Biography, Drama, Thriller","1,859",7.8,157,The Insider,"Marie Brenner,Eric Roth,1 more credit"
+Werner Herzog," Action, Biography, Drama, Thriller, War","4,353",7.3,120,Rescue Dawn,Werner Herzog
+"Ethan Coen,Joel Coen"," Crime, Drama, Thriller",195,8.1,122,No Country for Old Men,"Joel Coen,Ethan Coen,1 more credit"
+Florian Henckel von Donnersmarck," Drama, Mystery, Thriller",729,8.4,137,The Lives of Others,
+Wayne Kramer," Action, Crime, Drama, Thriller","4,225",7.4,122,Running Scared,Wayne Kramer
+Robert Rodriguez," Action, Adventure, Comedy, Horror, Thriller",,7.1,105,Planet Terror,Robert Rodriguez
+Quentin Tarantino," Action, Adventure, Thriller",,7.0,114,Death Proof,Quentin Tarantino
+Paul Verhoeven," Action, Sci-Fi, Thriller",631,7.5,113,Total Recall,"Philip K. Dick,Ronald Shusett,5 more credits"
+Sergio Leone, Western,290,8.8,161,"The Good, the Bad and the Ugly","Luciano Vincenzoni,Sergio Leone,4 more credits"
+Oliver Hirschbiegel," Biography, Drama, History, War",761,8.2,156,Downfall,
+John Carpenter," Horror, Mystery, Sci-Fi",513,8.1,109,The Thing,"Bill Lancaster,John W. Campbell Jr."
+Roland Emmerich," Action, Adventure, Drama, Fantasy, History, Thriller","3,505",5.1,109,"10,000 BC","Roland Emmerich,Harald Kloser"
+Martyn Burke," Biography, Drama, History",,7.3,95,Pirates of Silicon Valley,"Paul Freiberger,Michael Swaine,1 more credit"
+Martin Scorsese," Crime, Drama, Thriller",53,8.5,151,The Departed,"William Monahan,Alan Mak,1 more credit"
+Sean Penn," Adventure, Biography, Drama",489,8.1,148,Into the Wild,"Sean Penn,Jon Krakauer"
+Robert Luketic," Crime, Drama, History, Thriller","1,902",6.8,123,21,"Peter Steinfeld,Allan Loeb,1 more credit"
+David Slade," Action, Horror, Thriller","2,885",6.6,113,30 Days of Night,"Steve Niles,Stuart Beattie,3 more credits"
+Clint Eastwood," Action, Adventure, Drama, History, War","3,610",7.9,141,Letters from Iwo Jima,
+Alejandro G. Iñárritu, Drama,"1,677",7.4,143,Babel,"Guillermo Arriaga,Guillermo Arriaga,1 more credit"
+Doug Liman," Action, Adventure, Sci-Fi, Thriller","2,423",6.1,88,Jumper,"David S. Goyer,Jim Uhls,2 more credits"
+Edward Zwick," Adventure, Drama, Thriller","1,094",8.0,143,Blood Diamond,"Charles Leavitt,Charles Leavitt,1 more credit"
+Paul W.S. Anderson," Horror, Sci-Fi, Thriller","1,081",6.7,96,Event Horizon,Philip Eisner
+Darren Aronofsky," Drama, Mystery, Romance, Sci-Fi","2,149",7.2,97,The Fountain,"Darren Aronofsky,Darren Aronofsky,1 more credit"
+David Cronenberg," Action, Crime, Drama, Thriller","2,143",7.6,100,Eastern Promises,Steven Knight
+Oliver Stone," Drama, War",524,8.1,120,Platoon,Oliver Stone
+Spike Lee," Crime, Drama, Mystery, Thriller","1,892",7.6,129,Inside Man,Russell Gewirtz
+Brad Anderson," Drama, Thriller","1,002",7.7,101,The Machinist,Scott Kosar
+M. Night Shyamalan," Drama, Mystery, Sci-Fi, Thriller","2,455",5.0,91,The Happening,M. Night Shyamalan
+Darren Aronofsky," Drama, Horror, Mystery, Sci-Fi, Thriller","2,973",7.4,84,Pi,"Darren Aronofsky,Darren Aronofsky,4 more credits"
+"Lana Wachowski,Lilly Wachowski"," Action, Sci-Fi",660,7.2,138,The Matrix Reloaded,"Lilly Wachowski,Lana Wachowski,2 more credits"
+"Lana Wachowski,Lilly Wachowski"," Action, Sci-Fi","1,045",6.8,129,The Matrix Revolutions,"Lilly Wachowski,Lana Wachowski,2 more credits"
+George Roy Hill," Biography, Crime, Drama, Western","1,124",8.0,110,Butch Cassidy and the Sundance Kid,William Goldman
+"Lana Wachowski,Lilly Wachowski"," Action, Sci-Fi",84,8.7,136,The Matrix,"Lilly Wachowski,Lana Wachowski"
+"Lana Wachowski,Lilly Wachowski"," Action, Adventure, Comedy, Drama, Family, Sci-Fi, Sport","3,481",6.0,135,Speed Racer,"Lilly Wachowski,Lana Wachowski,1 more credit"
+Sidney Lumet," Biography, Crime, Drama, Thriller",406,8.0,125,Dog Day Afternoon,"Frank Pierson,P.F. Kluge,1 more credit"
+Steven Soderbergh," Action, Crime, Thriller","1,053",6.9,122,Ocean's Thirteen,"Brian Koppelman,David Levien,2 more credits"
+Julian Schnabel," Biography, Drama","4,340",8.0,112,The Diving Bell and the Butterfly,"Ronald Harwood,Jean-Dominique Bauby"
+Kathryn Bigelow," Action, Crime, Thriller",454,7.3,122,Point Break,"Rick King,W. Peter Iliff,1 more credit"
+Mark Romanek," Drama, Thriller","4,992",6.8,96,One Hour Photo,Mark Romanek
+Jessie Nelson, Drama,"2,494",7.7,132,I Am Sam,"Kristine Johnson,Jessie Nelson"
+Ridley Scott," Action, Sci-Fi, Thriller",237,8.1,117,Blade Runner,"Hampton Fancher,David Webb Peoples,1 more credit"
+Andrew Niccol," Action, Crime, Drama","2,706",7.6,122,Lord of War,Andrew Niccol
+Marc Forster," Biography, Drama, Family","3,342",7.7,106,Finding Neverland,"Allan Knee,David Magee"
+Jason Reitman," Comedy, Drama","1,386",7.4,96,Juno,Diablo Cody
+Martin Scorsese," Crime, Drama",139,8.3,114,Taxi Driver,Paul Schrader
+"Mark Neveldine,Brian Taylor"," Action, Crime, Thriller","2,839",6.9,88,Crank,"Mark Neveldine,Brian Taylor"
+Peter Weir," Action, Adventure, Drama, History, War","1,736",7.4,138,Master and Commander: The Far Side of the World,"Patrick O'Brian,Peter Weir,1 more credit"
+David Lynch," Action, Adventure, Sci-Fi",75,6.5,137,Dune,"Frank Herbert,David Lynch"
+Steven Spielberg, Drama,"2,397",7.8,154,The Color Purple,"Menno Meyjes,Alice Walker"
+Gabriele Muccino,,943,8.0,117,The Pursuit of Happyness,Steve Conrad
+Guy Ritchie," Comedy, Crime",699,8.2,107,"Lock, Stock and Two Smoking Barrels",Guy Ritchie
+Luc Besson," Action, Adventure, Sci-Fi",543,7.7,126,The Fifth Element,"Luc Besson,Robert Mark Kamen,1 more credit"
+"Joel Coen,Ethan Coen"," Crime, Drama, Thriller",553,8.1,98,Fargo,"Ethan Coen,Joel Coen"
+Martin Scorsese," Crime, Drama",664,8.2,178,Casino,"Nicholas Pileggi,Nicholas Pileggi,1 more credit"
+"Joel Coen,Ethan Coen"," Comedy, Crime, Sport",326,8.1,117,The Big Lebowski,"Ethan Coen,Joel Coen"
+George A. Romero," Horror, Sci-Fi, Thriller","3,705",6.2,93,Land of the Dead,George A. Romero
+Danny Boyle," Drama, Horror, Sci-Fi, Thriller",539,7.6,113,28 Days Later...,Alex Garland
+Tim Burton," Action, Adventure, Sci-Fi, Thriller","2,123",5.7,119,Planet of the Apes,"Pierre Boulle,William Broyles Jr.,2 more credits"
+David Cronenberg," Horror, Sci-Fi, Thriller","2,417",6.8,97,eXistenZ,David Cronenberg
+George Tillman Jr.," Biography, Drama","3,968",7.2,129,Men of Honor,Scott Marshall Smith
+Ki-duk Kim,,"4,014",8.0,88,3-Iron,
+Frank Coraci," Comedy, Drama, Fantasy, Romance","1,314",6.4,107,Click,"Steve Koren,Mark O'Keefe"
+Ridley Scott," Action, Adventure, Drama, History, War",663,7.2,144,Kingdom of Heaven,William Monahan
+Ki-duk Kim,,"4,955",8.0,103,"Spring, Summer, Fall, Winter... and Spring",Ki-duk Kim
+Danny Boyle," Sci-Fi, Thriller","1,590",7.2,107,Sunshine,Alex Garland
+"Jaume Balagueró,Paco Plaza"," Adventure, Horror, Mystery, Sci-Fi, Thriller","2,611",7.4,78,REC,"Jaume Balagueró,Luiso Berdejo,1 more credit"
+Ridley Scott," Drama, History, War",713,7.7,144,Black Hawk Down,"Mark Bowden,Ken Nolan"
+Michael Bay," Action, Adventure, Sci-Fi",459,7.0,144,Transformers,"Roberto Orci,Alex Kurtzman,3 more credits"
+Chan-wook Park," Crime, Drama, Thriller","3,401",7.6,115,Lady Vengeance,
+Chan-wook Park," Action, Drama, Thriller","4,629",7.6,129,Sympathy for Mr. Vengeance,"Myeong-chan Park,Mu-yeong Lee,4 more credits"
+Ron Howard," Adventure, Drama, History","1,025",7.6,140,Apollo 13,"Jim Lovell,Jeffrey Kluger,2 more credits"
+Stuart Rosenberg," Crime, Drama","2,353",8.1,127,Cool Hand Luke,"Donn Pearce,Frank Pierson,1 more credit"
+Steven Spielberg," Action, Crime, Mystery, Sci-Fi, Thriller",479,7.6,145,Minority Report,"Philip K. Dick,Scott Frank,1 more credit"
+Jee-woon Kim," Drama, Horror, Mystery, Thriller","3,948",7.2,114,A Tale of Two Sisters,
+John Woo," Action, Adventure, Thriller","1,106",6.1,123,Mission: Impossible II,
+Brian De Palma," Action, Adventure, Thriller","1,287",7.1,110,Mission: Impossible,"Bruce Geller,David Koepp,3 more credits"
+Michael Haneke," Crime, Drama, Horror, Thriller","2,105",6.6,111,Funny Games,Michael Haneke
+J.J. Abrams," Action, Adventure, Thriller","1,484",6.9,126,Mission: Impossible III,"Alex Kurtzman,Roberto Orci,2 more credits"
+Jon Favreau," Action, Adventure, Sci-Fi",238,7.9,126,Iron Man,"Mark Fergus,Hawk Ostby,6 more credits"
+Paul Verhoeven," Drama, Thriller, War","3,257",7.7,145,Black Book,"Gerard Soeteman,Paul Verhoeven"
+Franklin J. Schaffner," Biography, Drama, War","4,144",7.9,172,Patton,"Francis Ford Coppola,Edmund H. North,2 more credits"
+Bong Joon Ho," Action, Crime, Drama, Mystery, Thriller",807,8.1,131,Memories of Murder,"Bong Joon Ho,Kwang-rim Kim,1 more credit"
+Michael Mann," Crime, Drama, Thriller","1,006",7.5,120,Collateral,Stuart Beattie
+Kevin Macdonald," Biography, Drama, History, Thriller","2,873",7.7,123,The Last King of Scotland,"Peter Morgan,Jeremy Brock,2 more credits"
+Hong-jin Na," Action, Crime, Thriller","3,369",7.9,125,The Chaser,"Won-Chan Hong,Shinho Lee,2 more credits"
+J.A. Bayona," Drama, Horror, Mystery, Thriller","3,251",7.4,105,The Orphanage,Sergio G. Sánchez
+Ryûhei Kitamura," Horror, Mystery, Thriller","4,351",6.1,98,The Midnight Meat Train,"Jeff Buhler,Clive Barker"
+Tom Holland," Horror, Thriller","2,694",6.6,87,Child's Play,"Don Mancini,Don Mancini,2 more credits"
+Ronny Yu," Comedy, Horror","4,710",5.4,89,Bride of Chucky,"Don Mancini,Don Mancini"
+Wes Craven," Horror, Mystery","2,912",5.6,116,Scream 3,"Kevin Williamson,Ehren Kruger"
+Rob Bowman," Action, Adventure, Fantasy, Thriller","2,293",6.2,101,Reign of Fire,"Gregg Chabot,Kevin Peterka,3 more credits"
+Takashi Miike," Drama, Horror, Mystery","1,940",7.2,115,Audition,"Ryû Murakami,Daisuke Tengan"
+Ben Stiller," Action, Comedy, War",278,7.0,107,Tropic Thunder,"Justin Theroux,Ben Stiller,3 more credits"
+"Albert Hughes,Allen Hughes"," Horror, Mystery, Thriller","2,987",6.8,122,From Hell,"Alan Moore,Eddie Campbell,2 more credits"
+John Frankenheimer," Action, Crime, Thriller","1,659",7.3,122,Ronin,"J.D. Zeik,J.D. Zeik,1 more credit"
+Steven Soderbergh," Crime, Drama, Thriller","1,851",7.6,147,Traffic,
+Wes Craven," Action, Adventure, Horror, Mystery",769,7.2,111,Scream,Kevin Williamson
+Wes Craven," Horror, Mystery","2,529",6.2,120,Scream 2,"Kevin Williamson,Kevin Williamson"
+Tom Tykwer," Crime, Drama","1,234",7.5,147,Perfume: The Story of a Murderer,"Andrew Birkin,Bernd Eichinger,2 more credits"
+Eric Brevig," Action, Adventure, Family, Fantasy, Sci-Fi","2,334",5.8,93,Journey to the Center of the Earth,"Michael D. Weiss,Jennifer Flackett,2 more credits"
+James Isaac," Action, Horror, Sci-Fi, Thriller","4,124",4.4,91,Jason X,"Victor Miller,Todd Farmer"
+Adam Marcus," Fantasy, Horror, Thriller","4,822",4.3,87,Jason Goes to Hell: The Final Friday,"Jay Huguely,Adam Marcus,2 more credits"
+Rob Hedden," Adventure, Horror, Thriller","3,786",4.6,100,Friday the 13th Part VIII: Jason Takes Manhattan,
+Ronny Yu," Action, Horror","2,943",5.7,97,Freddy vs. Jason,"Wes Craven,Victor Miller,2 more credits"
+Danny Steinmann," Horror, Mystery, Thriller","2,188",4.8,92,Friday the 13th: A New Beginning,
+John Carl Buechler," Horror, Thriller","3,226",5.3,88,Friday the 13th Part VII: The New Blood,
+Giuseppe Tornatore," Comedy, Drama, Romance, War",921,7.5,108,Malena,"Giuseppe Tornatore,Luciano Vincenzoni"
+Tom McLoughlin," Horror, Thriller","3,007",6.0,86,Friday the 13th Part VI: Jason Lives,Tom McLoughlin
+Joseph Zito," Horror, Thriller","2,386",6.0,91,Friday the 13th: The Final Chapter,
+Steve Miner," Horror, Thriller","2,895",5.7,95,Friday the 13th Part III,"Martin Kitrosser,Carol Watson,2 more credits"
+Mathieu Kassovitz," Action, Adventure, Sci-Fi, Thriller","4,808",5.6,90,Babylon A.D.,"Maurice G. Dantec,Mathieu Kassovitz,2 more credits"
+Martin Scorsese,,"2,401",7.6,164,The Last Temptation of Christ,"Nikos Kazantzakis,Paul Schrader"
+Sean S. Cunningham," Horror, Mystery, Thriller","1,129",6.5,95,Friday the 13th,Victor Miller
+Martin Scorsese," Drama, Romance","1,227",7.2,139,The Age of Innocence,"Edith Wharton,Jay Cocks,1 more credit"
+Stephen Norrington," Action, Horror, Sci-Fi","1,853",7.1,120,Blade,David S. Goyer
+Steve Miner," Horror, Mystery, Thriller","2,225",6.1,87,Friday the 13th Part 2,
+David Fincher," Action, Horror, Sci-Fi","1,115",6.5,114,Alien³,"Dan O'Bannon,Ronald Shusett,4 more credits"
+Ridley Scott," Horror, Sci-Fi",130,8.4,117,Alien,"Dan O'Bannon,Dan O'Bannon,1 more credit"
+James Cameron," Action, Adventure, Sci-Fi, Thriller",291,8.3,137,Aliens,"James Cameron,David Giler,4 more credits"
+D.J. Caruso," Action, Mystery, Thriller","3,448",6.6,118,Eagle Eye,"John Glenn,Travis Wright,3 more credits"
+Andrew Dominik," Biography, Crime, Drama, History, Western","1,597",7.5,160,The Assassination of Jesse James by the Coward Robert Ford,"Andrew Dominik,Ron Hansen"
+Stanley Kubrick," Crime, Drama, Romance","1,351",7.6,153,Lolita,"Vladimir Nabokov,Vladimir Nabokov"
+Stanley Kubrick," Drama, War",494,8.3,116,Full Metal Jacket,"Stanley Kubrick,Michael Herr,2 more credits"
+Stanley Kubrick," Drama, War",,8.4,88,Paths of Glory,"Stanley Kubrick,Calder Willingham,2 more credits"
+Woody Allen," Comedy, Drama, Romance","1,345",7.1,96,Vicky Cristina Barcelona,Woody Allen
+David Lynch," Drama, Horror, Mystery, Thriller","2,061",7.3,134,Twin Peaks: Fire Walk with Me,"David Lynch,Robert Engels,2 more credits"
+"Ethan Coen,Joel Coen"," Comedy, Crime, Thriller","2,671",6.2,104,The Ladykillers,"Joel Coen,Ethan Coen,1 more credit"
+Gregory Hoblit," Crime, Drama, Mystery, Thriller","1,262",7.7,129,Primal Fear,"William Diehl,Steve Shagan,1 more credit"
+Wolfgang Becker," Comedy, Drama, Romance","3,749",7.7,121,Good Bye Lenin!,
+David Hackl," Horror, Mystery, Thriller","3,409",5.8,92,Saw V,"Patrick Melton,Marcus Dunstan"
+David Lynch," Comedy, Crime, Drama, Thriller","2,196",7.2,125,Wild at Heart,"Barry Gifford,David Lynch"
+Tony Scott," Action, Crime, Thriller","2,425",7.1,126,Spy Game,
+Francis Ford Coppola, Horror,697,7.4,128,Bram Stoker's Dracula,"Bram Stoker,James V. Hart"
+David Lynch,,"1,670",7.6,134,Lost Highway,
+David Fincher," Crime, Drama, Thriller","1,335",6.8,112,Panic Room,David Koepp
+David Lynch,,"2,843",8.0,112,The Straight Story,
+William Friedkin, Horror,691,8.0,122,The Exorcist,"William Peter Blatty,William Peter Blatty"
+William Peter Blatty," Drama, Horror, Mystery","4,261",6.4,110,The Exorcist III,
+Jean-Pierre Jeunet," Comedy, Romance",672,8.3,122,Amélie,"Guillaume Laurant,Jean-Pierre Jeunet,1 more credit"
+Jim Sheridan," Biography, Drama","1,871",7.9,103,My Left Foot,"Shane Connaughton,Jim Sheridan,1 more credit"
+Woody Allen," Comedy, Romance","1,001",8.0,93,Annie Hall,"Woody Allen,Marshall Brickman"
+Martin Brest," Action, Comedy, Crime, Thriller","1,254",7.5,126,Midnight Run,
+Todd Haynes," Biography, Drama, Music","4,338",6.9,135,I'm Not There,"Todd Haynes,Oren Moverman,1 more credit"
+Darren Aronofsky," Drama, Sport","2,073",7.9,109,The Wrestler,Robert Siegel
+Robert Rossen," Drama, Sport","4,156",8.0,134,The Hustler,"Sidney Carroll,Robert Rossen,1 more credit"
+Stephen Daldry," Drama, Romance","1,381",7.6,124,The Reader,"David Hare,Bernhard Schlink"
+Ron Howard," Biography, Drama, History","4,997",7.7,122,Frost/Nixon,"Peter Morgan,Peter Morgan"
+Krzysztof Kieslowski,,"4,446",8.1,99,Three Colors: Red,"Krzysztof Kieslowski,Krzysztof Piesiewicz,4 more credits"
+Krzysztof Kieslowski,,"4,142",7.9,94,Three Colors: Blue,"Krzysztof Kieslowski,Krzysztof Piesiewicz,3 more credits"
+Krzysztof Kieslowski," Drama, Fantasy, Music, Mystery, Romance","4,654",7.8,98,The Double Life of Véronique,
+Martin Scorsese," Comedy, Crime, Drama, Thriller","2,566",7.7,97,After Hours,Joseph Minion
+Roman Polanski," Drama, Horror, Thriller","4,190",7.7,105,Repulsion,
+Martin Scorsese," Drama, Sport","3,866",7.0,119,The Color of Money,"Walter Tevis,Richard Price"
+"Danny Boyle,Loveleen Tandan"," Drama, Romance",47,8.0,120,Slumdog Millionaire,"Simon Beaufoy,Vikas Swarup"
+Ridley Scott," Comedy, Crime, Drama, Thriller","4,850",7.3,116,Matchstick Men,"Eric Garcia,Nicholas Griffin,1 more credit"
+Peyton Reed," Comedy, Romance","1,638",6.8,104,Yes Man,"Nicholas Stoller,Jarrad Paul,2 more credits"
+Wilson Yip," Action, Adventure, Biography, Drama, History","1,502",8.0,106,Ip Man,"Edmond Wong,Tai-lee Chan"
+Roman Polanski," Drama, Horror",863,8.0,137,Rosemary's Baby,"Ira Levin,Roman Polanski"
+Roman Polanski," Drama, Mystery, Thriller","1,038",8.2,130,Chinatown,Robert Towne
+Pascal Laugier, Horror,,7.1,99,Martyrs,
+Richard Attenborough," Drama, History, War",,7.4,175,A Bridge Too Far,
+Troy Duffy," Action, Crime, Thriller","1,729",7.8,108,The Boondock Saints,Troy Duffy
+Gabriele Muccino, Drama,"1,909",7.6,123,Seven Pounds,Grant Nieporte
+Tomas Alfredson," Drama, Horror, Romance","2,438",7.9,114,Let the Right One In,"John Ajvide Lindqvist,John Ajvide Lindqvist"
+Sam Raimi," Horror, Thriller","2,253",6.5,99,Drag Me to Hell,"Sam Raimi,Ivan Raimi"
+Alfred Hitchcock," Mystery, Romance, Thriller",858,8.3,128,Vertigo,"Alec Coppel,Samuel A. Taylor,2 more credits"
+Vittorio De Sica, Drama,,8.3,89,Bicycle Thieves,"Cesare Zavattini,Luigi Bartolini,7 more credits"
+Quentin Tarantino," Crime, Drama, Thriller",343,8.3,99,Reservoir Dogs,"Quentin Tarantino,Quentin Tarantino,1 more credit"
+Paul Verhoeven," Action, Horror, Sci-Fi, Thriller","1,952",5.8,112,Hollow Man,"Gary Scott Thompson,Andrew W. Marlowe,1 more credit"
+Woody Allen," Comedy, Drama, Romance","2,792",7.9,96,Manhattan,"Woody Allen,Marshall Brickman"
+Roman Polanski," Drama, Romance, Thriller",,7.2,139,Bitter Moon,
+Milos Forman," Comedy, Drama, Musical, Romance, War","3,534",7.6,121,Hair,"Gerome Ragni,James Rado,1 more credit"
+Bernardo Bertolucci," Drama, History","2,724",7.7,245,1900,
+Ridley Scott," Action, Crime, Thriller","4,968",6.7,125,Black Rain,
+Akira Kurosawa," Crime, Drama, Mystery","3,230",8.2,88,Rashomon,
+Lars von Trier," Crime, Drama, Musical","2,495",8.0,140,Dancer in the Dark,Lars von Trier
+Woody Allen,,"4,168",7.1,93,Whatever Works,Woody Allen
+Jan de Bont," Action, Adventure, Thriller",832,6.4,113,Twister,"Michael Crichton,Anne-Marie Martin"
+Pedro Almodóvar,,"3,582",7.6,121,Volver,Pedro Almodóvar
+William Friedkin," Action, Crime, Drama, Thriller","1,498",7.7,104,The French Connection,"Ernest Tidyman,Robin Moore"
+Rian Johnson," Action, Crime, Drama, Mystery, Thriller","3,384",7.3,110,Brick,Rian Johnson
+John Hamburg," Comedy, Romance","3,895",7.0,105,"I Love You, Man","John Hamburg,Larry Levin,1 more credit"
+Steve McQueen," Biography, Drama","4,531",7.6,96,Hunger,"Enda Walsh,Steve McQueen"
+Lars von Trier," Drama, Horror","1,064",6.6,108,Antichrist,Lars von Trier
+Karyn Kusama," Comedy, Horror","1,587",5.2,102,Jennifer's Body,Diablo Cody
+Todd Phillips, Comedy,374,7.7,100,The Hangover,"Jon Lucas,Scott Moore"
+Darnell Martin," Biography, Drama, Music","4,442",7.0,109,Cadillac Records,Darnell Martin
+James Watkins," Horror, Thriller","2,797",6.8,91,Eden Lake,James Watkins
+Tom Hooper," Biography, Drama, Sport","4,231",7.5,98,The Damned United,"Peter Morgan,David Peace"
+Duncan Jones," Drama, Mystery, Sci-Fi","1,029",7.9,97,Moon,"Duncan Jones,Nathan Parker"
+Justin Lin," Action, Thriller",519,6.6,107,Fast & Furious,"Chris Morgan,Gary Scott Thompson"
+Justin Lin," Action, Crime, Thriller",475,6.0,104,The Fast and the Furious: Tokyo Drift,Chris Morgan
+Rob Cohen," Action, Crime, Thriller",274,6.8,106,The Fast and the Furious,"Ken Li,Gary Scott Thompson,3 more credits"
+McG," Action, Adventure, Sci-Fi","1,865",6.5,115,Terminator Salvation,"John Brancato,Michael Ferris"
+John Singleton," Action, Crime, Thriller",855,5.9,107,2 Fast 2 Furious,"Gary Scott Thompson,Michael Brandt,4 more credits"
+David Slade," Drama, Thriller","3,677",7.1,104,Hard Candy,Brian Nelson
+Dominic Sena," Action, Crime, Thriller","4,112",6.5,99,Swordfish,Skip Woods
+Gus Van Sant," Crime, Drama, Thriller","4,287",7.2,81,Elephant,Gus Van Sant
+Arthur Penn," Action, Biography, Crime, Drama","1,793",7.8,111,Bonnie and Clyde,"David Newman,Robert Benton"
+Michael Mann," Biography, Crime, Drama, History","1,292",7.0,140,Public Enemies,"Ronan Bennett,Michael Mann,2 more credits"
+Tony Scott,,"4,349",6.4,106,The Taking of Pelham 123,"Brian Helgeland,John Godey"
+Matthew Vaughn,,"1,586",7.3,105,Layer Cake,"J.J. Connolly,J.J. Connolly"
+"Jonathan Dayton,Valerie Faris"," Comedy, Drama","1,084",7.8,101,Little Miss Sunshine,Michael Arndt
+Stephen Gaghan," Drama, Thriller","4,878",6.9,128,Syriana,"Stephen Gaghan,Robert Baer"
+Jonathan Mostow," Action, Sci-Fi, Thriller","3,252",6.3,89,Surrogates,"Michael Ferris,John Brancato,2 more credits"
+Nick Cassavetes,,"4,570",7.4,109,My Sister's Keeper,"Jeremy Leven,Nick Cassavetes,1 more credit"
+Cy Endfield," Drama, History, War","4,925",7.7,138,Zulu,
+Clint Eastwood,,"3,420",7.6,138,A Perfect World,John Lee Hancock
+Don Siegel," Action, Crime, Thriller","1,786",7.7,102,Dirty Harry,"Harry Julian Fink,Rita M. Fink,3 more credits"
+Frank Capra," Drama, Family, Fantasy","1,269",8.6,130,It's a Wonderful Life,"Frances Goodrich,Albert Hackett,3 more credits"
+Alfonso Cuarón, Drama,"1,074",7.6,106,Y Tu Mamá También,"Carlos Cuarón,Alfonso Cuarón"
+"Larry Clark,Edward Lachman", Drama,,5.9,93,Ken Park,
+Ruben Fleischer," Adventure, Comedy, Fantasy, Sci-Fi",568,7.6,88,Zombieland,"Rhett Reese,Paul Wernick"
+Kar-Wai Wong," Comedy, Crime, Drama, Mystery, Romance","2,447",8.1,102,Chungking Express,Kar-Wai Wong
+Patrick Tatopoulos," Action, Adventure, Fantasy, Thriller","3,447",6.6,92,Underworld: Rise of the Lycans,"Danny McBride,Dirk Blackman,7 more credits"
+Christian Alvart," Action, Horror, Mystery, Sci-Fi, Thriller","1,974",6.7,108,Pandorum,"Travis Milloy,Travis Milloy,1 more credit"
+Jim Jarmusch," Comedy, Drama, Mystery, Romance","4,621",7.2,106,Broken Flowers,"Jim Jarmusch,Bill Raden,1 more credit"
+F. Gary Gray," Action, Crime, Drama, Thriller","1,648",7.4,109,Law Abiding Citizen,Kurt Wimmer
+Milos Forman," Biography, Comedy, Drama","4,398",7.4,118,Man on the Moon,"Scott Alexander,Larry Karaszewski"
+Bennett Miller,,"2,768",7.3,114,Capote,"Dan Futterman,Gerald Clarke"
+Olivier Dahan," Biography, Drama, Music, Romance","3,457",7.6,140,La Vie En Rose,"Isabelle Sobelman,Olivier Dahan"
+Andy Fickman," Comedy, Romance, Sport","1,418",6.3,105,She's the Man,"Ewan Leslie,Karen McCullah,2 more credits"
+Joe Wright," Drama, Romance",352,7.8,129,Pride & Prejudice,"Jane Austen,Deborah Moggach"
+"Victor Fleming,George Cukor,4 more credits"," Adventure, Family, Fantasy, Musical",754,8.0,102,The Wizard of Oz,"Noel Langley,Florence Ryerson,3 more credits"
+Gil Kenan," Adventure, Family, Fantasy, Sci-Fi","3,570",6.5,90,City of Ember,"Caroline Thompson,Jeanne Duprau"
+Kevin Greutert," Adventure, Fantasy, Horror, Mystery, Thriller","3,896",6.0,90,Saw VI,"Patrick Melton,Marcus Dunstan"
+Kinji Fukasaku," Adventure, Drama, Sci-Fi, Thriller","1,743",7.6,114,Battle Royale,
+Rob Marshall,,"2,435",7.4,145,Memoirs of a Geisha,"Robin Swicord,Arthur Golden"
+Jason Reitman," Comedy, Drama","4,471",7.6,92,Thank You for Smoking,"Jason Reitman,Christopher Buckley"
+Cameron Crowe," Adventure, Comedy, Drama, Music",74,7.9,122,Almost Famous,Cameron Crowe
+Gurinder Chadha," Comedy, Drama, Romance, Sport","2,486",6.6,112,Bend It Like Beckham,"Gurinder Chadha,Guljit Bindra,1 more credit"
+Marc Forster," Drama, Romance","3,365",7.0,111,Monster's Ball,"Milo Addica,Will Rokos"
+Luke Greenfield," Comedy, Drama, Romance","1,161",6.7,109,The Girl Next Door,"David Wagner,Brent Goldberg,3 more credits"
+Peter Segal, Comedy,"4,372",6.3,106,Anger Management,David Dorfman
+Jacques Audiard," Crime, Drama","4,331",7.9,155,A Prophet,"Thomas Bidegain,Jacques Audiard,2 more credits"
+Rob Marshall," Drama, Musical, Romance","3,115",5.8,118,Nine,"Michael Tolkin,Anthony Minghella,3 more credits"
+Jon Favreau," Action, Adventure, Sci-Fi",378,7.0,124,Iron Man 2,"Justin Theroux,Stan Lee,3 more credits"
+Chris Weitz," Adventure, Drama, Fantasy, Romance","1,465",4.7,130,The Twilight Saga: New Moon,"Melissa Rosenberg,Stephenie Meyer"
+Terry Gilliam," Adventure, Comedy, Fantasy, Mystery","2,449",6.8,123,The Imaginarium of Doctor Parnassus,"Terry Gilliam,Charles McKeown"
+Niels Arden Oplev," Crime, Drama, Mystery, Thriller","1,556",7.8,152,The Girl with the Dragon Tattoo,"Nikolaj Arcel,Rasmus Heisterberg,1 more credit"
+Peter Jackson," Drama, Fantasy, Thriller","1,041",6.7,135,The Lovely Bones,"Fran Walsh,Philippa Boyens,2 more credits"
+Antoine Fuqua," Action, Adventure, Drama, History, War","2,020",6.3,126,King Arthur,David Franzoni
+Daniel Alfredson," Crime, Drama, Mystery, Thriller","4,015",7.2,129,The Girl Who Played with Fire,"Jonas Frykberg,Stieg Larsson"
+Louis Leterrier," Action, Adventure, Fantasy","1,350",5.8,106,Clash of the Titans,"Travis Beacham,Phil Hay,2 more credits"
+Martin Scorsese," Mystery, Thriller",152,8.1,138,Shutter Island,"Laeta Kalogridis,Dennis Lehane"
+Guy Ritchie," Action, Adventure, Crime, Mystery, Thriller",678,7.6,128,Sherlock Holmes,"Michael Robert Johnson,Anthony Peckham,4 more credits"
+Chan-wook Park," Drama, Fantasy, Horror, Romance","4,356",7.1,134,Thirst,"Émile Zola,Chan-wook Park,1 more credit"
+George Lucas," Drama, Sci-Fi, Thriller","4,763",6.7,86,THX 1138,"George Lucas,George Lucas,1 more credit"
+"Olivier Assayas,Frédéric Auburtin,20 more credits"," Comedy, Drama, Romance","4,855",7.2,120,"Paris, je t'aime","Tristan Carné,Emmanuel Benbihy,30 more credits"
+Federico Fellini, Drama,,8.0,138,8½,"Federico Fellini,Ennio Flaiano,4 more credits"
+Jim Sheridan," Action, Drama, Thriller, War","2,744",7.1,105,Brothers,"David Benioff,Susanne Bier,1 more credit"
+"Victor Fleming,George Cukor,1 more credit"," Drama, History, Romance, War",707,8.1,238,Gone with the Wind,"Margaret Mitchell,Sidney Howard"
+Alejandro Amenábar," Adventure, Biography, Drama, History, Romance","3,147",7.2,127,Agora,"Alejandro Amenábar,Mateo Gil"
+Peter Billingsley, Comedy,"2,898",5.5,113,Couples Retreat,"Jon Favreau,Vince Vaughn,1 more credit"
+Olatunde Osunsanmi," Horror, Mystery, Sci-Fi, Thriller","4,278",5.9,98,The Fourth Kind,"Olatunde Osunsanmi,Olatunde Osunsanmi,1 more credit"
+Grant Heslov," Comedy, War","4,971",6.2,94,The Men Who Stare at Goats,"Jon Ronson,Peter Straughan"
+Jason Reitman," Comedy, Drama, Romance","1,802",7.4,109,Up in the Air,"Walter Kirn,Jason Reitman,1 more credit"
+Christian Alvart," Horror, Mystery, Thriller","3,162",6.2,109,Case 39,Ray Wright
+Kevin Smith," Action, Comedy, Crime, Thriller","4,107",5.6,107,Cop Out,"Robb Cullen,Mark Cullen"
+James Wan," Horror, Mystery, Thriller","1,070",6.8,103,Insidious,Leigh Whannell
+Gregor Jordan," Crime, Drama, Thriller",,7.1,97,Unthinkable,Peter Woodward
+Florian Henckel von Donnersmarck," Action, Adventure, Crime, Mystery, Romance, Thriller","1,784",6.0,103,The Tourist,"Florian Henckel von Donnersmarck,Christopher McQuarrie,2 more credits"
+Mel Gibson," Biography, Drama, History, War",354,8.3,178,Braveheart,Randall Wallace
+Edward Zwick," Comedy, Drama, Romance","1,697",6.7,112,Love & Other Drugs,"Charles Randolph,Edward Zwick,2 more credits"
+George Roy Hill," Comedy, Drama, Sport","3,263",7.3,123,Slap Shot,Nancy Dowd
+Tod Williams, Horror,"4,942",5.6,91,Paranormal Activity 2,"Michael R. Perry,Christopher Landon,3 more credits"
+Michael Bay," Action, Adventure, Sci-Fi","1,773",6.0,149,Transformers: Revenge of the Fallen,"Ehren Kruger,Roberto Orci,1 more credit"
+Danny Boyle," Biography, Drama","1,854",7.6,94,127 Hours,"Danny Boyle,Simon Beaufoy,1 more credit"
+Peter Berg," Action, Drama, Sport","2,568",7.2,118,Friday Night Lights,
+Oliver Stone, Drama,"4,707",6.2,133,Wall Street: Money Never Sleeps,"Allan Loeb,Stephen Schiff,2 more credits"
+Adam McKay," Action, Comedy, Crime",882,6.6,107,The Other Guys,"Adam McKay,Chris Henchy"
+Tony Scott," Action, Thriller","2,764",6.8,98,Unstoppable,Mark Bomback
+Ben Affleck," Crime, Drama, Thriller",492,7.5,125,The Town,"Peter Craig,Ben Affleck,2 more credits"
+Doug Liman,,"1,334",6.5,120,Mr. & Mrs. Smith,Simon Kinberg
+Barry Levinson," Drama, Sport","1,499",7.5,138,The Natural,"Bernard Malamud,Roger Towne,1 more credit"
+Wes Anderson," Action, Adventure, Comedy, Drama, Romance","2,060",7.3,119,The Life Aquatic with Steve Zissou,"Wes Anderson,Noah Baumbach"
+Steven Lisberger," Action, Adventure, Sci-Fi","2,075",6.8,96,TRON,"Steven Lisberger,Steven Lisberger,1 more credit"
+Joe Carnahan," Action, Adventure, Thriller","2,499",6.7,117,The A-Team,"Joe Carnahan,Brian Bloom,3 more credits"
+Sylvester Stallone," Action, Adventure, Thriller","1,162",6.5,103,The Expendables,"Dave Callaham,Sylvester Stallone,1 more credit"
+David Fincher," Biography, Drama",231,7.7,120,The Social Network,"Aaron Sorkin,Ben Mezrich"
+Julio Medem,,"1,829",7.1,128,Sex and Lucía,Julio Medem
+Richard Kelly," Drama, Fantasy, Mystery, Sci-Fi, Thriller","4,810",5.6,115,The Box,"Richard Kelly,Richard Matheson"
+Nicholas Stoller," Comedy, Music","1,508",6.4,109,Get Him to the Greek,"Nicholas Stoller,Jason Segel"
+Debra Granik," Drama, Mystery","2,932",7.2,100,Winter's Bone,"Debra Granik,Anne Rosellini,1 more credit"
+Adam McKay, Comedy,"1,672",7.2,94,Anchorman: The Legend of Ron Burgundy,"Will Ferrell,Adam McKay"
+Mark Waters, Comedy,429,7.0,97,Mean Girls,"Rosalind Wiseman,Tina Fey"
+M. Night Shyamalan," Action, Adventure, Family, Fantasy",536,4.1,103,The Last Airbender,M. Night Shyamalan
+Todd Phillips," Comedy, Drama","2,753",6.5,95,Due Date,"Alan R. Cohen,Alan Freedland,4 more credits"
+James Mangold,,"3,415",6.3,109,Knight and Day,Patrick O'Neill
+Wes Craven," Horror, Mystery","1,512",6.1,111,Scream 4,Kevin Williamson
+Tetsuya Nakashima,,,7.8,106,Confessions,
+Duncan Jones," Action, Drama, Mystery, Sci-Fi, Thriller","1,209",7.5,93,Source Code,Ben Ripley
+Norman Jewison," Crime, Drama, Thriller","4,079",7.4,119,And Justice for All,"Valerie Curtin,Barry Levinson"
+Alejandro Amenábar,,,7.8,117,Open Your Eyes,"Alejandro Amenábar,Mateo Gil"
+Sam Raimi," Comedy, Horror","3,356",7.8,84,Evil Dead II,"Sam Raimi,Scott Spiegel"
+Peter Weir," Crime, Drama, Romance, Thriller","2,690",7.4,112,Witness,"William Kelley,Pamela Wallace,3 more credits"
+Sam Raimi," Comedy, Horror","2,574",7.5,81,Army of Darkness,"Sam Raimi,Ivan Raimi"
+George Tillman Jr.," Action, Crime, Drama, Thriller","1,956",6.4,98,Faster,"Tony Gayton,Joe Gayton"
+Sam Raimi, Horror,"1,299",7.5,85,The Evil Dead,Sam Raimi
+Simon West," Action, Thriller","2,626",6.6,93,The Mechanic,"Richard Wenk,Lewis John Carlino,1 more credit"
+Dennis Dugan," Comedy, Romance",827,6.4,117,Just Go with It,"Allan Loeb,Timothy Dowling,4 more credits"
+Barry Levinson," Biography, Drama",,7.6,134,You Don't Know Jack,
+Vincenzo Natali," Drama, Horror, Sci-Fi","2,485",5.7,104,Splice,"Vincenzo Natali,Antoinette Terry Bryant,3 more credits"
+Samuel Bayer," Crime, Drama, Horror, Mystery","1,422",5.2,95,A Nightmare on Elm Street,"Wesley Strick,Eric Heisserer,2 more credits"
+Phillip Noyce," Action, Thriller","2,214",6.9,117,Patriot Games,
+Walter Salles," Adventure, Biography, Drama","4,732",7.8,126,The Motorcycle Diaries,"Ernesto 'Che' Guevara,Alberto Granado,1 more credit"
+Nimród Antal," Action, Adventure, Sci-Fi, Thriller","1,712",6.4,107,Predators,"Alex Litvak,Michael Finch,2 more credits"
+Dean Parisot," Comedy, Crime","3,824",6.2,90,Fun with Dick and Jane,"Judd Apatow,Nicholas Stoller,7 more credits"
+John McTiernan," Action, Adventure, Thriller",940,7.6,135,The Hunt for Red October,"Tom Clancy,Larry Ferguson,1 more credit"
+Juan José Campanella," Drama, Mystery, Romance, Thriller","1,039",8.2,129,The Secret in Their Eyes,"Eduardo Sacheri,Juan José Campanella,1 more credit"
+Brian G. Hutton," Action, Adventure, War","2,266",7.7,158,Where Eagles Dare,"Alistair MacLean,Alistair MacLean"
+George Roy Hill," Comedy, Crime, Drama","1,614",8.3,129,The Sting,David S. Ward
+Mike Newell," Action, Adventure, Fantasy","1,448",6.6,116,Prince of Persia: The Sands of Time,"Boaz Yakin,Doug Miro,3 more credits"
+Breck Eisner," Horror, Thriller","1,979",6.5,101,The Crazies,"Scott Kosar,Ray Wright,1 more credit"
+Matthew Vaughn," Action, Comedy, Crime","1,203",7.6,117,Kick-Ass,"Jane Goldman,Matthew Vaughn,2 more credits"
+Judd Apatow," Comedy, Drama","2,459",6.3,146,Funny People,Judd Apatow
+Oliver Stone," Action, Biography, Drama, History, War","2,019",5.6,175,Alexander,"Oliver Stone,Christopher Kyle,1 more credit"
+Roman Polanski," Drama, Mystery, Thriller","3,339",7.2,128,The Ghost Writer,"Robert Harris,Roman Polanski,1 more credit"
+Greg Mottola, Comedy,310,7.6,113,Superbad,"Seth Rogen,Evan Goldberg"
+Christopher Smith," Fantasy, Mystery, Thriller",,6.9,99,Triangle,Christopher Smith
+Christopher Nolan," Action, Adventure, Sci-Fi, Thriller",46,8.8,148,Inception,Christopher Nolan
+Clint Eastwood," Biography, Drama, History, Sport","3,598",7.3,134,Invictus,"Anthony Peckham,John Carlin"
+Michael Bay," Action, Adventure, Sci-Fi, Thriller","1,040",6.7,151,Armageddon,"Jonathan Hensleigh,J.J. Abrams,4 more credits"
+Jane Campion,,"1,618",7.6,121,The Piano,Jane Campion
+Pierre Morel," Action, Crime, Thriller","3,731",6.5,92,From Paris with Love,"Adi Hasak,Luc Besson"
+Anthony Minghella," Adventure, Drama, History, Romance, War","1,710",7.2,154,Cold Mountain,"Charles Frazier,Anthony Minghella"
+Joe Johnston," Drama, Fantasy, Horror, Thriller","3,078",5.8,103,The Wolfman,"Andrew Kevin Walker,David Self,1 more credit"
+Wilson Yip,,"3,471",7.5,108,Ip Man 2,"Tai-lee Chan,Hiu-Yan Choi,1 more credit"
+Tim Burton," Adventure, Family, Fantasy","1,102",6.4,108,Alice in Wonderland,"Linda Woolverton,Lewis Carroll"
+Gil Junger," Comedy, Drama, Romance",440,7.3,97,10 Things I Hate About You,"Karen McCullah,Kirsten Smith"
+"Albert Hughes,Allen Hughes"," Action, Adventure, Drama, Thriller","1,442",6.9,118,The Book of Eli,Gary Whitta
+John Curran," Drama, Romance","4,764",7.5,125,The Painted Veil,"Ron Nyswaner,W. Somerset Maugham"
+Mark Steven Johnson," Comedy, Romance","2,992",5.6,91,When in Rome,"David Diamond,David Weissman"
+Bernardo Bertolucci," Biography, Drama, History","2,798",7.7,163,The Last Emperor,"Mark Peploe,Bernardo Bertolucci,1 more credit"
+Ridley Scott," Action, Adventure, Drama, History","2,002",6.6,140,Robin Hood,"Brian Helgeland,Brian Helgeland,2 more credits"
+Daniel Alfredson," Crime, Drama, Thriller","4,812",7.3,147,The Girl Who Kicked the Hornet's Nest,"Stieg Larsson,Ulf Ryberg"
+John Hillcoat, Drama,"1,464",7.2,111,The Road,"Joe Penhall,Cormac McCarthy"
+Martin Campbell," Crime, Drama, Mystery, Thriller","1,194",6.6,117,Edge of Darkness,"William Monahan,Andrew Bovell,1 more credit"
+Lone Scherfig, Drama,"4,360",7.3,100,An Education,"Lynn Barber,Nick Hornby"
+Kevin Smith," Comedy, Romance","2,777",6.5,101,Zack and Miri Make a Porno,Kevin Smith
+Neill Blomkamp," Action, Sci-Fi, Thriller",978,7.9,112,District 9,"Neill Blomkamp,Terri Tatchell"
+Alejandro Agresti," Drama, Fantasy, Romance","3,626",6.8,99,The Lake House,"David Auburn,Eun-Jeong Kim,1 more credit"
+"Michael Spierig,Peter Spierig"," Action, Fantasy, Horror, Sci-Fi, Thriller","3,708",6.4,98,Daybreakers,"Michael Spierig,Peter Spierig"
+Jon Harris," Adventure, Horror, Thriller",,5.8,94,The Descent: Part 2,"James McCarthy,J Blakeson,1 more credit"
+Clement Virgo," Drama, Romance",,5.3,93,Lie with Me,
+Nora Ephron," Biography, Drama, Romance","2,530",7.0,123,Julie & Julia,"Nora Ephron,Julie Powell,2 more credits"
+Guillaume Canet," Crime, Drama, Mystery, Romance, Thriller","4,126",7.5,131,Tell No One,"Guillaume Canet,Harlan Coben,1 more credit"
+Gavin O'Connor," Biography, Drama, History, Sport","3,059",7.5,135,Miracle,Eric Guggenheim
+John McTiernan," Crime, Romance, Thriller","3,451",6.8,113,The Thomas Crown Affair,"Alan Trustman,Leslie Dixon,1 more credit"
+Richard Linklater, Comedy,382,7.6,102,Dazed and Confused,Richard Linklater
+Robert Zemeckis," Adventure, Drama, Romance",491,7.8,143,Cast Away,William Broyles Jr.
+"Jeff Schaffer,Alec Berg,1 more credit", Comedy,"1,226",6.6,92,EuroTrip,"Alec Berg,David Mandel,1 more credit"
+"Fatih Akin,Yvan Attal,9 more credits"," Comedy, Drama, Romance","3,388",6.2,103,"New York, I Love You","Hu Hong,Yao Meng,16 more credits"
+Edgar Wright," Comedy, Horror",686,7.9,99,Shaun of the Dead,
+Baz Luhrmann," Drama, Musical, Romance",864,7.6,127,Moulin Rouge!,"Baz Luhrmann,Craig Pearce"
+Drew Barrymore," Drama, Sport","4,245",6.9,111,Whip It,"Shauna Cross,Shauna Cross"
+Michael Curtiz," Drama, Romance, War",383,8.5,102,Casablanca,"Julius J. Epstein,Philip G. Epstein,3 more credits"
+Sergio Leone, Western,"1,749",8.3,132,For a Few Dollars More,"Sergio Leone,Fulvio Morsella,2 more credits"
+Kevin Smith," Adventure, Comedy, Drama, Fantasy","2,313",7.3,130,Dogma,Kevin Smith
+Sergio Leone," Action, Drama, Western","2,193",8.0,99,A Fistful of Dollars,"Adriano Bolzoni,Mark Lowell,5 more credits"
+Orson Welles," Crime, Drama, Film-Noir, Thriller","4,734",8.0,95,Touch of Evil,"Orson Welles,Whit Masterson"
+Bernardo Bertolucci," Drama, Romance",647,7.2,115,The Dreamers,"Gilbert Adair,Gilbert Adair"
+Roland Emmerich," Action, Adventure, Sci-Fi",600,5.8,158,2012,"Roland Emmerich,Harald Kloser"
+Tobe Hooper, Horror,"1,550",7.5,83,The Texas Chain Saw Massacre,"Kim Henkel,Tobe Hooper,1 more credit"
+Ang Lee," Drama, History, Romance, Thriller, War","3,468",7.5,157,"Lust, Caution","Eileen Chang,James Schamus,1 more credit"
+Rob Reiner," Drama, Thriller","1,009",7.8,107,Misery,"Stephen King,William Goldman"
+Kathryn Bigelow," Drama, Thriller, War","1,332",7.6,131,The Hurt Locker,Mark Boal
+Wes Anderson," Comedy, Crime, Drama","3,816",7.0,91,Bottle Rocket,"Owen Wilson,Wes Anderson"
+"Ethan Coen,Joel Coen",,"1,782",7.0,106,A Serious Man,"Joel Coen,Ethan Coen"
+Gus Van Sant, Drama,"2,620",7.1,104,My Own Private Idaho,Gus Van Sant
+Peter Jackson," Comedy, Horror","3,542",7.5,104,Dead Alive,
+Robert Luketic," Comedy, Romance","2,761",6.4,96,The Ugly Truth,"Nicole Eastman,Karen McCullah,2 more credits"
+Kerry Conran," Action, Adventure, Mystery, Sci-Fi, Thriller","4,945",6.0,106,Sky Captain and the World of Tomorrow,Kerry Conran
+Ken Loach," Drama, War","4,560",7.5,127,The Wind that Shakes the Barley,Paul Laverty
+Wes Anderson," Adventure, Comedy, Drama","1,111",7.2,91,The Darjeeling Limited,"Wes Anderson,Roman Coppola,1 more credit"
+Richard Curtis," Comedy, Drama, Music","3,855",7.4,135,Pirate Radio,Richard Curtis
+Bong Joon Ho," Crime, Drama, Thriller","1,847",7.8,129,Mother,"Bong Joon Ho,Eun-kyo Park,1 more credit"
+Kar-Wai Wong," Drama, Romance, Sci-Fi","4,522",7.4,129,2046,Kar-Wai Wong
+David Twohy," Drama, Mystery, Thriller","2,683",6.5,98,A Perfect Getaway,David Twohy
+Oliver Stone," Crime, Drama","2,569",7.4,126,Wall Street,"Stanley Weiser,Oliver Stone"
+Catherine Hardwicke," Drama, Fantasy, Romance",239,5.2,122,Twilight,"Melissa Rosenberg,Stephenie Meyer"
+Quentin Tarantino," Adventure, Drama, War",81,8.3,153,Inglourious Basterds,Quentin Tarantino
+Steven Soderbergh, Drama,"3,006",7.2,100,"Sex, Lies, and Videotape",Steven Soderbergh
+Oren Peli," Horror, Mystery, Thriller","2,675",6.3,86,Paranormal Activity,Oren Peli
+Dominic Sena," Action, Crime, Thriller","2,295",6.5,118,Gone in 60 Seconds,
+Marc Webb," Comedy, Drama, Romance","1,475",7.7,95,500 Days of Summer,"Scott Neustadter,Michael H. Weber"
+"Mark Neveldine,Brian Taylor"," Action, Sci-Fi, Thriller","3,235",5.8,95,Gamer,"Mark Neveldine,Brian Taylor"
+John Carney," Drama, Music, Romance","4,702",7.8,86,Once,John Carney
+Adam McKay, Comedy,676,6.9,98,Step Brothers,"Will Ferrell,Adam McKay,3 more credits"
+David Gordon Green," Action, Comedy, Crime","1,753",7.0,111,Pineapple Express,"Seth Rogen,Evan Goldberg,3 more credits"
+James Cameron," Action, Adventure, Fantasy, Sci-Fi",209,7.8,162,Avatar,James Cameron
+David Cronenberg," Drama, Thriller","1,936",7.4,96,A History of Violence,"John Wagner,Vince Locke,1 more credit"
+Edgar Wright," Action, Comedy, Mystery, Thriller",770,7.8,121,Hot Fuzz,"Edgar Wright,Simon Pegg"
+Shane Meadows," Crime, Drama, Thriller","4,680",7.6,90,Dead Man's Shoes,"Paddy Considine,Shane Meadows,1 more credit"
+Jim Jarmusch," Adventure, Drama, Fantasy, Western","4,035",7.6,121,Dead Man,Jim Jarmusch
+Bill Paxton," Crime, Drama, Thriller","4,250",7.2,100,Frailty,
+Giuseppe Tornatore, Drama,"1,424",8.5,155,Cinema Paradiso,"Giuseppe Tornatore,Giuseppe Tornatore,2 more credits"
+Tim McCanlies,,"1,897",7.5,111,Secondhand Lions,Tim McCanlies
+Robert Clouse," Action, Crime, Drama, Thriller","2,737",7.7,102,Enter the Dragon,Michael Allin
+Kevin Smith, Comedy,"2,720",7.7,92,Clerks,Kevin Smith
+Luis Buñuel, Drama,,7.7,100,Belle de Jour,"Joseph Kessel,Luis Buñuel,1 more credit"
+Rob Reiner," Comedy, Music","1,864",7.9,82,This Is Spinal Tap,"Christopher Guest,Michael McKean,2 more credits"
+Bernardo Bertolucci," Drama, Mystery, Romance","3,232",6.6,118,Stealing Beauty,"Bernardo Bertolucci,Susan Minot"
+Stephen Sommers," Action, Adventure, Fantasy","1,145",6.1,131,Van Helsing,Stephen Sommers
+David Lean," Drama, Romance, War","2,493",8.0,197,Doctor Zhivago,"Boris Pasternak,Robert Bolt"
+J.J. Abrams," Action, Adventure, Sci-Fi",379,7.9,127,Star Trek,"Roberto Orci,Alex Kurtzman,1 more credit"
+Anne Fletcher," Comedy, Drama, Romance","1,781",6.7,108,The Proposal,Peter Chiarelli
+Tommy O'Haver," Comedy, Romance","3,538",5.7,87,Get Over It,R. Lee Fleming Jr.
+Nacho Vigalondo," Horror, Mystery, Sci-Fi, Thriller","2,613",7.2,92,Timecrimes,Nacho Vigalondo
+Gregory Hoblit," Crime, Mystery, Thriller","4,859",6.2,101,Untraceable,"Robert Fyvolent,Mark Brinker,3 more credits"
+Jaume Collet-Serra," Horror, Mystery, Thriller","1,716",6.9,123,Orphan,"David Leslie Johnson-McGoldrick,Alex Mace"
+Charlie Kaufman,,"2,705",7.6,124,"Synecdoche, New York",Charlie Kaufman
+Sidney Lumet," Crime, Drama, Thriller","2,239",7.3,117,Before the Devil Knows You're Dead,Kelly Masterson
+"Mark Neveldine,Brian Taylor"," Action, Thriller","4,026",6.2,96,Crank: High Voltage,"Mark Neveldine,Brian Taylor"
+Alfred Hitchcock," Drama, Horror, Mystery, Romance","1,537",7.7,119,The Birds,"Daphne Du Maurier,Evan Hunter"
+Philip G. Atwell," Action, Thriller","4,432",6.2,103,War,"Lee Anthony Smith,Gregory J. Bradley"
+Kevin Macdonald," Crime, Drama, Mystery, Thriller","3,305",7.1,127,State of Play,"Matthew Michael Carnahan,Tony Gilroy,2 more credits"
+Paul McGuigan," Action, Sci-Fi, Thriller","2,220",6.1,111,Push,David Bourla
+Tony Giglio," Action, Crime, Drama, Thriller",,6.5,106,Chaos,
+Quentin Tarantino," Crime, Drama",55,8.9,154,Pulp Fiction,"Quentin Tarantino,Roger Avary,1 more credit"
+Nick Moore," Comedy, Drama, Romance",,6.1,98,Wild Child,
+Michael Winterbottom," Drama, Music, Romance","1,696",4.8,71,9 Songs,"Kieran O'Brien,Margo Stilley,Black Rebel Motorcycle Club,See full cast & crew"
+Stephen Sommers," Action, Adventure, Sci-Fi, Thriller","1,630",5.8,118,G.I. Joe: The Rise of Cobra,"Stuart Beattie,David Elliot,4 more credits"
+Alfred Hitchcock," Horror, Mystery, Thriller",359,8.5,109,Psycho,"Joseph Stefano,Robert Bloch"
+Michael Mann," Action, Crime, Thriller","3,745",6.0,132,Miami Vice,"Michael Mann,Anthony Yerkovich"
+Baz Luhrmann,,"2,128",6.6,165,Australia,"Stuart Beattie,Baz Luhrmann,3 more credits"
+Fred Wolf," Comedy, Romance","1,707",5.5,97,The House Bunny,"Karen McCullah,Kirsten Smith"
+"Charles Guard,Thomas Guard"," Drama, Horror, Mystery, Thriller","3,792",6.3,87,The Uninvited,"Craig Rosenberg,Doug Miro,2 more credits"
+Gavin Hood," Action, Adventure, Sci-Fi",680,6.6,107,X-Men Origins: Wolverine,"David Benioff,Skip Woods"
+David R. Ellis," Horror, Thriller","3,854",5.2,82,The Final Destination,"Eric Bress,Jeffrey Reddick"
+Alfred Hitchcock," Mystery, Thriller",640,8.4,112,Rear Window,"John Michael Hayes,Cornell Woolrich"
+Ron Howard," Action, Mystery, Thriller","1,757",6.7,138,Angels & Demons,"David Koepp,Akiva Goldsman,1 more credit"
+Frank Miller," Action, Crime, Fantasy, Thriller","4,464",4.8,103,The Spirit,"Frank Miller,Will Eisner"
+Zack Snyder," Action, Drama, Mystery, Sci-Fi",353,7.6,162,Watchmen,"David Hayter,Alex Tse,1 more credit"
+Quentin Tarantino," Crime, Drama, Thriller",722,7.5,154,Jackie Brown,"Quentin Tarantino,Elmore Leonard"
+Akira Kurosawa, Drama,,8.3,143,Ikiru,
+Guy Ritchie," Action, Crime, Thriller","1,359",7.3,114,RocknRolla,Guy Ritchie
+Sidney Lumet," Crime, Drama",296,8.9,96,12 Angry Men,"Reginald Rose,Reginald Rose"
+Lars von Trier, Drama,"3,576",7.9,159,Breaking the Waves,"Lars von Trier,Peter Asmussen"
+"Val Guest,Ken Hughes,4 more credits", Comedy,"2,465",5.2,131,Casino Royale,
+Tony Scott," Crime, Drama, Romance, Thriller",567,7.9,119,True Romance,Quentin Tarantino
+Boaz Yakin," Biography, Drama, Sport",958,7.8,113,Remember the Titans,Gregory Allen Howard
+Roman Polanski," Drama, Thriller",,7.7,126,The Tenant,
+Alex Proyas," Drama, Mystery, Sci-Fi, Thriller","1,579",6.2,121,Knowing,"Ryne Douglas Pearson,Juliet Snowden,2 more credits"
+Ingmar Bergman, Drama,"2,460",8.1,188,Fanny and Alexander,
+Edward Zwick," Action, Drama, History, Thriller, War","2,333",7.2,137,Defiance,"Clayton Frohman,Edward Zwick,1 more credit"
+Dennis Iliadis," Horror, Thriller","2,546",6.5,110,The Last House on the Left,"Adam Alleca,Carl Ellsworth,1 more credit"
+Jonathan Demme," Drama, Mystery, Sci-Fi, Thriller","2,901",6.6,129,The Manchurian Candidate,"Richard Condon,George Axelrod,2 more credits"
+Roman Polanski," Drama, Romance","4,781",7.3,172,Tess,
+Roman Polanski," Comedy, Horror","4,941",7.2,108,The Fearless Vampire Killers,
+Marcus Nispel," Horror, Mystery, Thriller","1,312",5.5,97,Friday the 13th,"Victor Miller,Damian Shannon,4 more credits"
+Clint Eastwood,,603,8.1,116,Gran Torino,"Nick Schenk,Dave Johannson,1 more credit"
+Marc Forster," Action, Adventure, Thriller",758,6.6,106,Quantum of Solace,"Paul Haggis,Neal Purvis,1 more credit"
+Martin Campbell," Action, Adventure, Thriller",324,8.0,144,Casino Royale,"Neal Purvis,Robert Wade,2 more credits"
+David Fincher," Drama, Fantasy, Romance",417,7.8,166,The Curious Case of Benjamin Button,"Eric Roth,Eric Roth,2 more credits"
+Lee Tamahori," Action, Adventure, Thriller","1,046",6.1,133,Die Another Day,"Ian Fleming,Neal Purvis,1 more credit"
+Michael Apted," Action, Adventure, Thriller","1,087",6.4,128,The World Is Not Enough,"Neal Purvis,Robert Wade,3 more credits"
+Sam Mendes,,"1,228",7.3,119,Revolutionary Road,"Justin Haythe,Richard Yates"
+Roger Spottiswoode," Action, Adventure, Thriller","1,446",6.5,119,Tomorrow Never Dies,
+John Glen," Action, Adventure, Thriller","1,549",6.7,130,The Living Daylights,
+Martin Campbell," Action, Adventure, Thriller",616,7.2,130,GoldenEye,"Ian Fleming,Michael France,2 more credits"
+John Glen," Action, Adventure, Thriller","1,220",6.6,133,Licence to Kill,"Michael G. Wilson,Richard Maibaum,1 more credit"
+John Patrick Shanley," Drama, Mystery","3,953",7.5,104,Doubt,"John Patrick Shanley,John Patrick Shanley"
+John Glen," Action, Adventure, Thriller","1,013",6.4,131,A View to a Kill,
+Bryan Singer," Drama, History, Thriller, War","2,036",7.1,121,Valkyrie,"Christopher McQuarrie,Nathan Alexander"
+John Glen," Action, Adventure, Thriller","1,256",6.6,131,Octopussy,"George MacDonald Fraser,Richard Maibaum,1 more credit"
+John Glen," Action, Adventure, Thriller",703,6.8,127,For Your Eyes Only,"Richard Maibaum,Michael G. Wilson"
+Guy Hamilton," Action, Adventure, Thriller","1,337",6.8,121,Live and Let Die,Tom Mankiewicz
+Martin Scorsese," Crime, Drama, Thriller","2,136",7.3,112,Mean Streets,"Martin Scorsese,Mardik Martin,1 more credit"
+Lewis Gilbert," Action, Adventure, Sci-Fi, Thriller","1,533",6.3,126,Moonraker,
+Guy Hamilton," Action, Adventure, Thriller","1,690",6.8,125,The Man with the Golden Gun,"Richard Maibaum,Tom Mankiewicz"
+Lewis Gilbert," Action, Adventure, Thriller",977,7.1,125,The Spy Who Loved Me,"Christopher Wood,Richard Maibaum"
+Sean Anders," Comedy, Romance","2,117",6.5,109,Sex Drive,"Sean Anders,John Morris,1 more credit"
+Gus Van Sant," Biography, Drama","3,603",7.5,128,Milk,Dustin Lance Black
+Paul Thomas Anderson," Crime, Drama","3,650",7.2,102,Hard Eight,Paul Thomas Anderson
+Ingmar Bergman," Drama, Thriller","2,553",8.1,85,Persona,Ingmar Bergman
+Irvin Kershner," Action, Adventure, Thriller","1,368",6.2,134,Never Say Never Again,"Kevin McClory,Jack Whittingham,2 more credits"
+Richard Attenborough," Biography, Drama, History","2,134",8.0,191,Gandhi,John Briley
+"Joel Coen,Ethan Coen"," Crime, Drama, Thriller","3,109",7.6,99,Blood Simple,"Joel Coen,Ethan Coen"
+Ingmar Bergman," Drama, Romance",,8.2,91,Wild Strawberries,
+Guy Hamilton," Action, Adventure, Thriller",951,6.6,120,Diamonds Are Forever,
+Mark Herman," Drama, War","1,235",7.8,94,The Boy in the Striped Pajamas,"John Boyne,Mark Herman"
+Andrei Tarkovsky,,,8.2,165,Andrei Rublev,
+Ridley Scott," Action, Drama, Thriller",817,7.1,128,Body of Lies,"William Monahan,David Ignatius"
+"Joel Coen,Ethan Coen"," Comedy, Drama, Thriller","3,729",7.7,116,Barton Fink,"Joel Coen,Ethan Coen"
+Oliver Stone," Drama, Sport","3,452",6.9,162,Any Given Sunday,
+James Ivory," Drama, Romance","2,446",7.3,117,A Room with a View,
+Ingmar Bergman," Drama, Fantasy",,8.2,96,The Seventh Seal,
+Stanley Kubrick," Adventure, Drama, History, War","1,490",8.1,185,Barry Lyndon,"Stanley Kubrick,William Makepeace Thackeray"
+Paul Thomas Anderson, Drama,564,7.9,155,Boogie Nights,Paul Thomas Anderson
+Peter R. Hunt," Action, Adventure, Thriller",841,6.7,142,On Her Majesty's Secret Service,"Simon Raven,Richard Maibaum"
+Paul Thomas Anderson,,"1,643",7.3,95,Punch-Drunk Love,Paul Thomas Anderson
+Lewis Gilbert," Action, Adventure, Thriller",843,6.9,117,You Only Live Twice,"Harold Jack Bloom,Roald Dahl"
+Terence Young," Action, Adventure, Thriller","1,091",7.0,130,Thunderball,"Richard Maibaum,John Hopkins,4 more credits"
+Terence Young," Action, Adventure, Thriller",821,7.4,115,From Russia with Love,"Richard Maibaum,Johanna Harwood"
+José Padilha," Action, Crime, Drama, Thriller","4,378",8.1,115,Elite Squad,"André Batista,Bráulio Mantovani,4 more credits"
+Terence Young," Action, Adventure, Thriller",658,7.3,110,Dr. No,"Richard Maibaum,Johanna Harwood,2 more credits"
+Roger Donaldson," Adventure, Drama, History, Romance","3,371",7.0,132,The Bounty,"Richard Hough,Robert Bolt"
+Guy Hamilton," Action, Adventure, Thriller",812,7.7,110,Goldfinger,"Richard Maibaum,Paul Dehn"
+Scott Derrickson," Drama, Sci-Fi, Thriller","2,340",5.5,104,The Day the Earth Stood Still,"David Scarpa,Edmund H. North"
+Nicholas Hytner," Drama, History",,6.8,124,The Crucible,"Arthur Miller,Arthur Miller"
+Philip Kaufman," Drama, Romance","2,674",7.3,171,The Unbearable Lightness of Being,
+Cameron Crowe," Fantasy, Mystery, Romance, Sci-Fi, Thriller",928,6.9,136,Vanilla Sky,
+Spike Jonze," Comedy, Drama","2,056",7.7,115,Adaptation.,"Susan Orlean,Charlie Kaufman"
+Woody Allen," Drama, Romance, Thriller","1,376",7.6,124,Match Point,Woody Allen
+Wim Wenders," Drama, Fantasy, Romance","2,927",8.0,128,Wings of Desire,
+Andrei Tarkovsky,,,8.1,149,The Sacrifice,Andrei Tarkovsky
+Andrei Tarkovsky,,,8.1,125,Nostalgia,
+"Joel Coen,Ethan Coen"," Crime, Drama","3,765",7.5,116,The Man Who Wasn't There,"Joel Coen,Ethan Coen"
+Milos Forman," Biography, Drama","4,533",7.3,130,The People vs. Larry Flynt,"Scott Alexander,Larry Karaszewski"
+Andrei Tarkovsky,,,8.1,107,The Mirror,
+Clint Eastwood," Biography, Crime, Drama, History, Mystery, Thriller","2,601",7.7,141,Changeling,J. Michael Straczynski
+Andrei Tarkovsky," Drama, Mystery, Sci-Fi","1,764",8.1,167,Solaris,
+Stanley Kubrick," Crime, Drama, Film-Noir, Thriller",,8.0,84,The Killing,"Stanley Kubrick,Jim Thompson,1 more credit"
+"Joel Coen,Ethan Coen"," Comedy, Crime","1,900",7.3,94,Raising Arizona,"Ethan Coen,Joel Coen"
+Akira Kurosawa,,"2,178",8.2,162,Ran,"Akira Kurosawa,Hideo Oguni,2 more credits"
+Jim Sheridan," Biography, Drama","2,069",8.1,133,In the Name of the Father,
+Sam Mendes," Crime, Drama, Thriller",404,7.7,117,Road to Perdition,"Max Allan Collins,Richard Piers Rayner,1 more credit"
+John Sturges," Adventure, Drama, History, Thriller, War","1,384",8.2,172,The Great Escape,"Paul Brickhill,James Clavell,1 more credit"
+David Lynch, Horror,"1,518",7.4,89,Eraserhead,
+Andrei Tarkovsky,,,8.2,162,Stalker,"Arkadiy Strugatskiy,Boris Strugatskiy,2 more credits"
+David Lynch," Drama, Mystery, Thriller",789,7.8,120,Blue Velvet,
+Michael Mann," Action, Adventure, Drama, Romance, War",948,7.7,112,The Last of the Mohicans,"James Fenimore Cooper,John L. Balderston,5 more credits"
+"Ethan Coen,Joel Coen"," Comedy, Crime, Drama, Thriller","1,821",7.0,96,Burn After Reading,"Joel Coen,Ethan Coen"
+"Joel Coen,Ethan Coen"," Adventure, Comedy, Crime, Music","1,316",7.7,107,"O Brother, Where Art Thou?","Homer,Ethan Coen,1 more credit"
+Pierre Morel," Action, Thriller",896,7.8,90,Taken,"Luc Besson,Robert Mark Kamen"
+Cameron Crowe," Comedy, Drama, Romance, Sport","1,063",7.3,139,Jerry Maguire,Cameron Crowe
+Richard Donner, Horror,"2,342",7.5,111,The Omen,David Seltzer
+Ang Lee," Drama, Romance",667,7.7,134,Brokeback Mountain,"Annie Proulx,Larry McMurtry,1 more credit"
+Spike Lee, Drama,"4,569",7.6,135,25th Hour,"David Benioff,David Benioff"
+Robert Zemeckis," Drama, Mystery, Sci-Fi, Thriller",797,7.4,150,Contact,"James V. Hart,Michael Goldenberg,3 more credits"
+"Joel Coen,Ethan Coen"," Crime, Drama, Thriller","3,177",7.8,115,Miller's Crossing,"Joel Coen,Ethan Coen"
+Tim Burton," Drama, Horror, Musical, Thriller","1,380",7.3,116,Sweeney Todd: The Demon Barber of Fleet Street,"John Logan,Hugh Wheeler,1 more credit"
+David Lynch," Biography, Drama",138,8.1,124,The Elephant Man,
+Dennis Gansel," Drama, Thriller",,7.6,107,The Wave,
+"Andrew Lau,Alan Mak"," Crime, Drama, Mystery, Thriller","4,167",8.0,101,Infernal Affairs,"Alan Mak,Felix Chong"
+"Ken Annakin,Andrew Marton,3 more credits"," Action, Drama, History, War","3,777",7.8,178,The Longest Day,"Cornelius Ryan,Cornelius Ryan,4 more credits"
+Christopher Nolan," Action, Crime, Drama, Thriller",65,9.0,152,The Dark Knight,"Jonathan Nolan,Christopher Nolan,3 more credits"
+Bryan Bertino," Horror, Mystery, Thriller","2,406",6.2,86,The Strangers,
+Paul Thomas Anderson, Drama,893,8.0,188,Magnolia,Paul Thomas Anderson
+Nick Cassavetes," Drama, Romance",358,7.8,123,The Notebook,"Jeremy Leven,Jan Sardi,1 more credit"
+David Lynch," Drama, Mystery, Thriller","3,413",6.9,180,Inland Empire,
+Edward Zwick," Biography, Drama, History, War","2,476",7.8,122,Glory,"Kevin Jarre,Lincoln Kirstein,2 more credits"
+Elem Klimov,,,8.3,142,Come and See,"Ales Adamovich,Ales Adamovich,1 more credit"
+Oliver Stone," Drama, History, Thriller","2,391",8.0,189,JFK,"Oliver Stone,Zachary Sklar,2 more credits"
+Jean-Pierre Jeunet," Action, Horror, Sci-Fi","1,286",6.2,109,Alien: Resurrection,"Dan O'Bannon,Ronald Shusett,1 more credit"
+Paul W.S. Anderson," Action, Sci-Fi, Thriller","2,238",6.4,105,Death Race,"Paul W.S. Anderson,Paul W.S. Anderson,3 more credits"
+David S. Goyer," Action, Adventure, Fantasy, Horror, Sci-Fi","3,324",5.9,113,Blade: Trinity,"David S. Goyer,Marv Wolfman,1 more credit"
+Terry Gilliam," Adventure, Comedy, Drama","1,858",7.6,118,Fear and Loathing in Las Vegas,"Hunter S. Thompson,Terry Gilliam,3 more credits"
+Martin Scorsese," Comedy, Crime, Drama, Thriller","2,795",7.8,109,The King of Comedy,Paul D. Zimmerman
+Todd Haynes," Drama, Music","4,074",7.0,118,Velvet Goldmine,"James Lyons,Todd Haynes,1 more credit"
+Guillermo del Toro," Action, Fantasy, Horror, Sci-Fi, Thriller","2,915",6.7,117,Blade II,"Marv Wolfman,Gene Colan,1 more credit"
+Guillermo del Toro," Drama, Horror","3,879",7.4,106,The Devil's Backbone,"Guillermo del Toro,Antonio Trashorras,1 more credit"
+Lasse Hallström, Drama,961,7.8,118,What's Eating Gilbert Grape,
+Alan Parker," Biography, Crime, Drama, Thriller","2,067",7.6,121,Midnight Express,"Oliver Stone,Billy Hayes,1 more credit"
+Akira Kurosawa," Action, Adventure, Drama",740,8.6,207,Seven Samurai,
+Pedro Almodóvar,,"3,922",7.9,112,Talk to Her,Pedro Almodóvar
+Joel Schumacher," Crime, Drama, Thriller","2,713",7.6,113,Falling Down,Ebbe Roe Smith
+Alan Parker," Horror, Mystery, Thriller","2,610",7.3,113,Angel Heart,"William Hjortsberg,Alan Parker"
+Tom Tykwer," Crime, Drama, Thriller","4,085",7.6,81,Run Lola Run,Tom Tykwer
+David Lynch," Drama, Mystery, Thriller",473,8.0,147,Mulholland Drive,David Lynch
+Wes Craven, Horror,973,7.5,91,A Nightmare on Elm Street,Wes Craven
+Chuck Russell," Fantasy, Horror","3,540",6.6,96,A Nightmare on Elm Street 3: Dream Warriors,"Wes Craven,Bruce Wagner,5 more credits"
+Michael Caton-Jones," Biography, Drama","4,224",7.3,115,This Boy's Life,"Tobias Wolff,Robert Getchell"
+Michael Cimino," Drama, War",399,8.1,183,The Deer Hunter,"Michael Cimino,Deric Washburn,3 more credits"
+Jack Sholder, Horror,"4,316",5.5,87,A Nightmare on Elm Street 2: Freddy's Revenge,"David Chaskin,Wes Craven"
+Christopher Nolan," Crime, Mystery, Thriller","2,952",7.5,69,Following,Christopher Nolan
+Lars von Trier," Crime, Drama","1,819",8.0,178,Dogville,Lars von Trier
+Jon Avnet," Crime, Drama, Mystery, Thriller","4,299",6.0,101,Righteous Kill,Russell Gewirtz
+Neil Marshall," Action, Sci-Fi, Thriller","4,388",6.0,113,Doomsday,Neil Marshall
+Jee-woon Kim," Action, Crime, Drama, Thriller",,7.6,119,A Bittersweet Life,
+Steven Spielberg," Action, Adventure",979,6.1,122,Indiana Jones and the Kingdom of the Crystal Skull,"David Koepp,George Lucas,3 more credits"
+Ron Howard," Mystery, Thriller","1,166",6.6,149,The Da Vinci Code,"Akiva Goldsman,Dan Brown"
+Steven Spielberg," Adventure, Drama, Thriller",385,8.0,124,Jaws,"Peter Benchley,Carl Gottlieb,1 more credit"
+Terry Gilliam," Drama, Sci-Fi","1,633",7.9,132,Brazil,"Terry Gilliam,Tom Stoppard,1 more credit"
+Steven Spielberg," Drama, Sci-Fi",741,7.6,133,Close Encounters of the Third Kind,Steven Spielberg
+Peter Weir," Adventure, Drama, History, War","4,258",7.4,110,Gallipoli,"David Williamson,Peter Weir"
+Tarsem Singh," Adventure, Drama, Fantasy","2,247",7.9,117,The Fall,"Dan Gilroy,Nico Soultanakis,2 more credits"
+Amy Heckerling," Comedy, Drama",810,7.2,90,Fast Times at Ridgemont High,"Cameron Crowe,Cameron Crowe"
+Tim Story," Action, Adventure, Family, Fantasy, Sci-Fi","3,327",5.6,92,Fantastic 4: Rise of the Silver Surfer,"Don Payne,Mark Frost,4 more credits"
+Peter Berg," Action, Fantasy","1,735",6.4,92,Hancock,"Vy Vincent Ngo,Vince Gilligan"
+Tony Scott," Action, Crime, Drama, Thriller","1,056",7.7,146,Man on Fire,"A.J. Quinnell,Brian Helgeland"
+Bong Joon Ho," Action, Drama, Horror, Sci-Fi",989,7.1,120,The Host,"Bong Joon Ho,Won-jun Ha,1 more credit"
+Alexander Payne," Comedy, Drama, Romance","2,407",7.2,103,Election,"Tom Perrotta,Alexander Payne,1 more credit"
+Christopher Nolan," Action, Adventure",286,8.2,140,Batman Begins,"Bob Kane,David S. Goyer,2 more credits"
+Steven Spielberg," Action, Adventure",361,8.2,127,Indiana Jones and the Last Crusade,"Jeffrey Boam,George Lucas,3 more credits"
+Steven Spielberg," Action, Adventure",318,7.6,118,Indiana Jones and the Temple of Doom,"Willard Huyck,Gloria Katz,1 more credit"
+Louis Leterrier," Action, Adventure, Sci-Fi",515,6.7,112,The Incredible Hulk,"Zak Penn,Zak Penn,2 more credits"
+Steven Spielberg," Action, Adventure",179,8.4,115,Raiders of the Lost Ark,"Lawrence Kasdan,George Lucas,1 more credit"
+Steven Spielberg," Action, Drama, History, Thriller","1,565",7.5,164,Munich,
+Brian De Palma," Crime, Drama, Thriller",662,7.9,119,The Untouchables,"Oscar Fraley,Eliot Ness,1 more credit"
+James Mangold," Mystery, Thriller","1,173",7.3,90,Identity,Michael Cooney
+Ted Demme," Biography, Crime, Drama","1,142",7.6,124,Blow,"Bruce Porter,David McKenna,1 more credit"
+Joel Schumacher," Crime, Mystery, Thriller",,6.4,98,The Number 23,Fernley Phillips
+Steven Spielberg," Action, Drama, History, War",894,7.7,153,Empire of the Sun,"Tom Stoppard,J.G. Ballard"
+Shane Black," Action, Comedy, Crime, Mystery, Thriller","1,915",7.5,103,Kiss Kiss Bang Bang,"Brett Halliday,Shane Black,1 more credit"
+James Cameron," Adventure, Drama, Mystery, Sci-Fi, Thriller","1,406",7.6,140,The Abyss,James Cameron
+Mike Newell," Biography, Crime, Drama","1,136",7.7,127,Donnie Brasco,"Joseph D. Pistone,Richard Woodley,1 more credit"
+Rob Cohen," Action, Adventure, Fantasy, Horror, Thriller","1,613",5.2,112,The Mummy: Tomb of the Dragon Emperor,"Alfred Gough,Miles Millar"
+Guy Ritchie," Action, Crime, Drama, Mystery, Thriller","3,380",6.4,111,Revolver,"Luc Besson,Guy Ritchie"
+Milos Forman, Drama,327,8.7,133,One Flew Over the Cuckoo's Nest,"Lawrence Hauben,Bo Goldman,2 more credits"
+Tim Burton," Biography, Comedy, Drama","3,280",7.8,127,Ed Wood,"Rudolph Grey,Scott Alexander,1 more credit"
+Guillermo del Toro," Action, Fantasy, Horror, Sci-Fi","1,754",6.8,122,Hellboy,"Guillermo del Toro,Guillermo del Toro,2 more credits"
+Guillermo del Toro," Action, Adventure, Fantasy, Horror, Sci-Fi, War","2,676",7.0,120,Hellboy II: The Golden Army,"Guillermo del Toro,Guillermo del Toro,2 more credits"
+Jonathan Mostow," Action, War","4,163",6.6,116,U-571,
+Ericson Core," Biography, Drama, Sport","4,042",7.1,105,Invincible,Brad Gann
+Oliver Stone," Biography, Drama, Music","2,685",7.2,140,The Doors,"Randall Jahnson,Oliver Stone"
+Stanley Kubrick, Comedy,847,8.4,95,Dr. Strangelove,"Stanley Kubrick,Terry Southern,2 more credits"
+Sergio Leone," Crime, Drama",,8.4,229,Once Upon a Time in America,"Harry Grey,Leonardo Benvenuti,6 more credits"
+James L. Brooks," Comedy, Drama, Romance","1,075",7.7,139,As Good as It Gets,"Mark Andrus,Mark Andrus,1 more credit"
+Martin Scorsese,,"1,071",8.2,129,Raging Bull,"Jake LaMotta,Joseph Carter,3 more credits"
+Zack Snyder," Action, Horror","1,354",7.3,101,Dawn of the Dead,"George A. Romero,James Gunn"
+James Foley," Crime, Drama, Mystery","2,365",7.7,100,Glengarry Glen Ross,"David Mamet,David Mamet"
+Sidney Lumet," Biography, Crime, Drama, Thriller",730,7.7,130,Serpico,"Peter Maas,Waldo Salt,1 more credit"
+Len Wiseman," Action, Fantasy, Thriller","1,420",7.0,121,Underworld,"Kevin Grevioux,Len Wiseman,2 more credits"
+Len Wiseman," Action, Fantasy, Sci-Fi, Thriller","3,738",6.7,106,Underworld: Evolution,"Danny McBride,Len Wiseman,4 more credits"
+Roman Polanski," Mystery, Thriller","1,268",6.7,133,The Ninth Gate,"Arturo Pérez-Reverte,John Brownjohn,2 more credits"
+"Jim Abrahams,David Zucker,1 more credit"," Comedy, Music","1,800",7.2,90,Top Secret!,
+Alejandro Amenábar," Horror, Mystery, Thriller","1,367",7.6,101,The Others,Alejandro Amenábar
+Mary Harron," Comedy, Crime, Drama",377,7.6,101,American Psycho,"Bret Easton Ellis,Mary Harron,1 more credit"
+Luc Besson," Action, Crime, Drama, Thriller",193,8.5,110,Léon: The Professional,Luc Besson
+Neil Marshall," Adventure, Horror, Thriller",925,7.2,99,The Descent,Neil Marshall
+Tim Burton," Drama, Fantasy, Romance",923,7.9,105,Edward Scissorhands,"Tim Burton,Caroline Thompson,1 more credit"
+Peter Jackson," Adventure, Drama, Fantasy",159,8.9,201,The Lord of the Rings: The Return of the King,"J.R.R. Tolkien,Fran Walsh,2 more credits"
+Kimberly Peirce," Biography, Crime, Drama, Romance","2,700",7.5,118,Boys Don't Cry,"Kimberly Peirce,Andy Bienen"
+Peter Jackson," Action, Adventure, Drama, Fantasy",68,8.8,178,The Lord of the Rings: The Fellowship of the Ring,"J.R.R. Tolkien,Fran Walsh,2 more credits"
+Tim Burton," Fantasy, Horror, Mystery","1,583",7.3,105,Sleepy Hollow,"Washington Irving,Kevin Yagher,2 more credits"
+Sam Raimi," Drama, Fantasy, Horror, Mystery","2,122",6.6,112,The Gift,"Billy Bob Thornton,Tom Epperson"
+Peter Jackson," Adventure, Drama, Fantasy",267,8.7,179,The Lord of the Rings: The Two Towers,"J.R.R. Tolkien,Fran Walsh,3 more credits"
+Jerry Schatzberg, Drama,"3,524",7.1,110,The Panic in Needle Park,
+Timur Bekmambetov," Action, Crime, Fantasy, Thriller","1,628",6.7,110,Wanted,"Michael Brandt,Derek Haas,5 more credits"
+Sofia Coppola," Drama, Romance",737,7.7,102,Lost in Translation,Sofia Coppola
+Brian De Palma," Crime, Drama, Thriller",840,7.9,144,Carlito's Way,"Edwin Torres,David Koepp"
+Juan Carlos Fresnadillo," Horror, Sci-Fi","1,747",7.0,100,28 Weeks Later,"Rowan Joffe,Juan Carlos Fresnadillo,2 more credits"
+David Fincher," Crime, Drama, Mystery, Thriller",257,7.7,157,Zodiac,"James Vanderbilt,Robert Graysmith"
+Tony Gilroy," Crime, Drama, Mystery, Thriller","3,166",7.2,119,Michael Clayton,Tony Gilroy
+Martin Scorsese," Biography, Crime, Drama",102,8.7,146,Goodfellas,"Nicholas Pileggi,Nicholas Pileggi,1 more credit"
+Martin McDonagh," Comedy, Crime, Drama, Thriller","1,462",7.9,107,In Bruges,Martin McDonagh
+Joe Wright," Drama, Mystery, Romance, War",705,7.8,123,Atonement,"Ian McEwan,Christopher Hampton"
+Jon Turteltaub,,"2,203",6.5,124,National Treasure: Book of Secrets,"Marianne Wibberley,Cormac Wibberley,8 more credits"
+Jon Turteltaub," Action, Adventure, Mystery, Thriller",813,6.8,131,National Treasure,"Jim Kouf,Cormac Wibberley,4 more credits"
+Terry Gilliam," Mystery, Sci-Fi, Thriller",335,8.0,129,12 Monkeys,
+James McTeigue," Action, Drama, Sci-Fi, Thriller",665,8.2,132,V for Vendetta,"Lilly Wachowski,Lana Wachowski,1 more credit"
+Guillermo del Toro," Drama, Fantasy, War",551,8.2,118,Pan's Labyrinth,Guillermo del Toro
+Harold Ramis," Comedy, Fantasy, Romance",745,8.0,101,Groundhog Day,"Danny Rubin,Harold Ramis,1 more credit"
+Ben Affleck," Crime, Drama, Mystery, Thriller","1,840",7.6,114,Gone Baby Gone,"Ben Affleck,Aaron Stockard,1 more credit"
+Bruce A. Evans," Crime, Drama, Thriller","4,369",7.3,120,Mr. Brooks,
+Guy Ritchie," Comedy, Crime",275,8.3,104,Snatch,Guy Ritchie
+Joel Schumacher," Crime, Thriller","3,104",7.0,81,Phone Booth,Larry Cohen
+Louis Leterrier," Action, Adventure, Crime, Drama, Thriller","4,961",7.0,103,Unleashed,
+Lexi Alexander," Crime, Drama, Sport, War","2,440",7.5,109,Green Street Hooligans,"Lexi Alexander,Dougie Brimson,3 more credits"
+Tim Burton," Adventure, Drama, Fantasy, Romance",880,8.0,125,Big Fish,"Daniel Wallace,John August"
+Michael Bay," Action, Sci-Fi, Thriller","1,744",6.8,136,The Island,"Caspian Tredwell-Owen,Alex Kurtzman,2 more credits"
+Wolfgang Petersen," Adventure, Drama, Thriller, War","1,113",8.3,149,Das Boot,"Wolfgang Petersen,Lothar G. Buchheim"
+Antoine Fuqua," Action, Drama, Thriller","1,241",7.2,124,Shooter,"Jonathan Lemkin,Stephen Hunter"
+Gore Verbinski," Action, Adventure, Fantasy",674,7.3,151,Pirates of the Caribbean: Dead Man's Chest,"Ted Elliott,Terry Rossio,4 more credits"
+Gore Verbinski," Action, Adventure, Fantasy",819,7.1,169,Pirates of the Caribbean: At World's End,"Ted Elliott,Terry Rossio,4 more credits"
+Kurt Wimmer," Action, Drama, Sci-Fi, Thriller","1,868",7.4,107,Equilibrium,Kurt Wimmer
+Stanley Kubrick," Adventure, Biography, Drama, History, War","1,564",7.9,197,Spartacus,"Dalton Trumbo,Howard Fast"
+Andrew Davis," Action, Adventure, Drama","4,640",6.9,139,The Guardian,Ron L. Brinkerhoff
+Alex Proyas," Mystery, Sci-Fi, Thriller","1,873",7.6,100,Dark City,"Alex Proyas,Alex Proyas,2 more credits"
+Pete Travis," Action, Crime, Drama, Mystery, Thriller","4,885",6.6,90,Vantage Point,Barry L. Levy
+Roger Donaldson," Crime, Thriller","2,897",7.2,111,The Bank Job,"Dick Clement,Ian La Frenais"
+Gore Verbinski," Action, Adventure, Fantasy",173,8.0,143,Pirates of the Caribbean: The Curse of the Black Pearl,"Ted Elliott,Terry Rossio,4 more credits"
+Rob Reiner," Comedy, Drama","3,043",7.4,97,The Bucket List,Justin Zackham
+David Lean," Adventure, Biography, Drama, History, War","1,021",8.3,187,Lawrence of Arabia,"T.E. Lawrence,Robert Bolt,1 more credit"
+Mathieu Kassovitz," Crime, Drama",,8.1,98,La Haine,Mathieu Kassovitz
+Francis Lawrence," Adventure, Drama, Sci-Fi, Thriller",483,7.2,101,I Am Legend,"Mark Protosevich,Akiva Goldsman,3 more credits"
+Shawn Levy," Adventure, Comedy, Family, Fantasy","1,181",6.4,108,Night at the Museum,"Robert Ben Garant,Thomas Lennon,3 more credits"
+Rob Minkoff," Action, Adventure, Fantasy","3,636",6.6,104,The Forbidden Kingdom,John Fusco
+Matt Reeves," Action, Adventure, Horror, Mystery, Sci-Fi, Thriller","1,455",7.0,85,Cloverfield,Drew Goddard
+Paul McGuigan," Crime, Drama, Mystery, Thriller","2,840",7.7,110,Lucky Number Slevin,Jason Smilovic
+Justin Chadwick," Biography, Drama, History, Romance","1,159",6.7,115,The Other Boleyn Girl,"Peter Morgan,Philippa Gregory"
+Paul Thomas Anderson, Drama,230,8.2,158,There Will Be Blood,"Paul Thomas Anderson,Upton Sinclair"
+Richard Eyre," Crime, Drama, Romance, Thriller","4,778",7.4,92,Notes on a Scandal,"Patrick Marber,Zoë Heller"
+"Fernando Meirelles,Kátia Lund"," Crime, Drama",499,8.6,130,City of God,"Paulo Lins,Bráulio Mantovani"
+Gregory Wilson," Crime, Drama, Horror, Thriller","2,699",6.6,91,The Girl Next Door,"Daniel Farrands,Philip Nutman,1 more credit"
+Richard Schenkman," Drama, Fantasy, Sci-Fi",,7.9,87,The Man from Earth,Jerome Bixby
+Ridley Scott," Biography, Crime, Drama, Thriller","1,216",7.8,157,American Gangster,"Steven Zaillian,Mark Jacobson"
+Gus Van Sant," Drama, Romance",216,8.3,126,Good Will Hunting,"Matt Damon,Ben Affleck"
+Ridley Scott," Action, Adventure, Drama",83,8.5,155,Gladiator,"David Franzoni,David Franzoni,2 more credits"
+Betty Thomas," Comedy, Romance","1,763",5.8,89,John Tucker Must Die,Jeff Lowell
+Stanley Kubrick," Crime, Drama, Sci-Fi",331,8.3,136,A Clockwork Orange,"Stanley Kubrick,Anthony Burgess"
+Clint Eastwood," Action, Adventure, Drama, History, War","4,575",7.1,135,Flags of Our Fathers,"William Broyles Jr.,Paul Haggis,2 more credits"
+Jon Avnet," Crime, Drama, Mystery, Thriller","4,949",5.9,108,88 Minutes,Gary Scott Thompson
+Steven Spielberg," Biography, Drama, History","3,723",7.3,155,Amistad,David Franzoni
+Bryan Singer," Crime, Mystery, Thriller",269,8.5,106,The Usual Suspects,Christopher McQuarrie
+Frank Darabont," Horror, Sci-Fi","1,137",7.1,126,The Mist,"Frank Darabont,Stephen King"
+David Ayer," Action, Crime, Drama, Thriller","4,923",6.8,109,Street Kings,"James Ellroy,Kurt Wimmer,2 more credits"
+James Mangold," Action, Adventure, Crime, Drama, Western","1,769",7.7,122,3:10 to Yuma,"Halsted Welles,Michael Brandt,2 more credits"
+Robert Zemeckis," Adventure, Comedy, Sci-Fi, Western","1,184",7.4,118,Back to the Future Part III,"Robert Zemeckis,Bob Gale,3 more credits"
+David Lean," Adventure, Drama, War","2,373",8.1,161,The Bridge on the River Kwai,"Pierre Boulle,Carl Foreman,1 more credit"
+Sylvester Stallone," Action, Thriller","1,561",7.0,92,Rambo,"Art Monterastelli,Sylvester Stallone,1 more credit"
+Darren Lynn Bousman," Crime, Fantasy, Horror, Mystery, Thriller","3,181",5.9,93,Saw IV,"Patrick Melton,Marcus Dunstan,3 more credits"
+James Wan," Horror, Mystery, Thriller","4,339",6.2,89,Dead Silence,
+Len Wiseman," Action, Thriller","1,816",7.1,128,Live Free or Die Hard,"Mark Bomback,Mark Bomback,3 more credits"
+David Fincher," Action, Drama, Mystery, Thriller",999,7.8,129,The Game,"John Brancato,Michael Ferris"
+Ridley Scott," Comedy, Drama, Romance","2,811",7.0,117,A Good Year,"Marc Klein,Peter Mayle"
+Peter Jackson," Action, Adventure, Drama, Romance",888,7.2,187,King Kong,"Fran Walsh,Philippa Boyens,3 more credits"
+Mark Steven Johnson," Action, Fantasy, Thriller","1,724",5.2,110,Ghost Rider,"Mark Steven Johnson,Mark Steven Johnson"
+Robert Zemeckis," Adventure, Comedy, Sci-Fi",767,7.8,108,Back to the Future Part II,"Robert Zemeckis,Bob Gale,3 more credits"
+Bob Rafelson," Crime, Drama, Romance, Thriller","3,828",6.6,122,The Postman Always Rings Twice,"James M. Cain,David Mamet"
+David Fincher," Crime, Drama, Mystery, Thriller",97,8.6,127,Se7en,Andrew Kevin Walker
+Tony Scott," Action, Crime, Sci-Fi, Thriller","2,736",7.0,126,Deja Vu,"Bill Marsilii,Terry Rossio"
+Robert Zemeckis," Adventure, Comedy, Sci-Fi",108,8.5,116,Back to the Future,"Robert Zemeckis,Bob Gale"
+Christopher Nolan," Drama, Mystery, Sci-Fi, Thriller",117,8.5,130,The Prestige,"Jonathan Nolan,Christopher Nolan,1 more credit"
+Brett Ratner," Action, Adventure, Sci-Fi","1,336",6.7,104,X-Men: The Last Stand,"Simon Kinberg,Zak Penn"
+M. Night Shyamalan," Drama, Mystery, Thriller","1,691",6.5,108,The Village,M. Night Shyamalan
+M. Night Shyamalan," Drama, Mystery, Sci-Fi, Thriller","1,182",6.7,106,Signs,M. Night Shyamalan
+Mike Nichols," Biography, Comedy, Drama, History","2,147",7.0,102,Charlie Wilson's War,"Aaron Sorkin,George Crile"
+Bryan Singer," Action, Sci-Fi","1,911",6.0,154,Superman Returns,"Michael Dougherty,Dan Harris,5 more credits"
+Neil Burger," Drama, Fantasy, History, Mystery, Romance, Thriller","1,955",7.6,110,The Illusionist,"Neil Burger,Steven Millhauser"
+Paul Greengrass," Action, Mystery, Thriller","1,535",8.0,115,The Bourne Ultimatum,
+Roberto Benigni," Comedy, Drama, Romance, War",394,8.6,116,Life Is Beautiful,"Vincenzo Cerami,Roberto Benigni"
+James Cameron," Drama, Romance",87,7.8,194,Titanic,James Cameron
+Anthony Minghella," Drama, Romance, War","1,449",7.4,162,The English Patient,"Michael Ondaatje,Anthony Minghella"
+David Frankel," Comedy, Drama",563,6.9,109,The Devil Wears Prada,"Aline Brosh McKenna,Lauren Weisberger"
+Russell Mulcahy," Action, Adventure, Fantasy, Horror, Sci-Fi, Thriller","3,118",6.3,94,Resident Evil: Extinction,Paul W.S. Anderson
+Alfonso Cuarón," Drama, Sci-Fi, Thriller",787,7.9,109,Children of Men,"Alfonso Cuarón,Timothy J. Sexton,4 more credits"
+Christophe Gans, Horror,"2,275",6.5,125,Silent Hill,Roger Avary
+"Bobby Farrelly,Peter Farrelly"," Comedy, Drama, Fantasy, Romance","3,556",5.9,114,Shallow Hal,"Sean Moynihan,Peter Farrelly,1 more credit"
+Paul Michael Glaser," Action, Sci-Fi, Thriller","2,512",6.7,101,The Running Man,"Stephen King,Steven E. de Souza"
+Robert Zemeckis," Drama, Romance",106,8.8,142,Forrest Gump,"Winston Groom,Eric Roth"
+D.J. Caruso," Crime, Drama, Mystery, Thriller","2,265",6.8,105,Disturbia,"Christopher Landon,Carl Ellsworth,1 more credit"
+Paul Greengrass," Action, Mystery, Thriller","1,671",7.7,108,The Bourne Supremacy,
+Rob Bowman," Action, Adventure, Crime, Fantasy","2,980",4.7,97,Elektra,"Mark Steven Johnson,Frank Miller,3 more credits"
+Steven Spielberg," Biography, Crime, Drama",346,8.1,141,Catch Me If You Can,"Jeff Nathanson,Frank Abagnale Jr.,1 more credit"
+Darren Lynn Bousman," Adventure, Crime, Fantasy, Horror, Mystery","2,816",6.6,93,Saw II,"Leigh Whannell,Darren Lynn Bousman"
+David Twohy," Action, Adventure, Sci-Fi, Thriller","1,437",6.7,119,The Chronicles of Riddick,
+Doug Liman," Action, Mystery, Thriller",905,7.9,119,The Bourne Identity,"Tony Gilroy,W. Blake Herron,1 more credit"
+Judd Apatow," Comedy, Romance","1,285",7.1,116,The 40-Year-Old Virgin,"Judd Apatow,Steve Carell"
+Andrew Douglas, Horror,"3,033",6.0,90,The Amityville Horror,"Scott Kosar,Jay Anson,3 more credits"
+David Twohy," Horror, Sci-Fi","1,454",7.1,109,Pitch Black,"Jim Wheat,Ken Wheat,3 more credits"
+Rawson Marshall Thurber," Comedy, Sport",437,6.7,92,Dodgeball,Rawson Marshall Thurber
+Clint Eastwood," Drama, Sport","1,175",8.1,132,Million Dollar Baby,"Paul Haggis,F.X. Toole"
+Richard Kelly," Drama, Mystery, Sci-Fi, Thriller",445,8.0,113,Donnie Darko,Richard Kelly
+Stephen Sommers," Action, Adventure, Fantasy, Thriller",795,6.3,130,The Mummy Returns,Stephen Sommers
+Stephen Sommers," Action, Adventure, Fantasy",356,7.0,124,The Mummy,"Stephen Sommers,Lloyd Fonvielle,2 more credits"
+Francis Ford Coppola," Crime, Drama",412,7.6,162,The Godfather: Part III,"Mario Puzo,Francis Ford Coppola"
+Francis Ford Coppola," Crime, Drama",28,9.2,175,The Godfather,"Mario Puzo,Francis Ford Coppola,1 more credit"
+Francis Ford Coppola," Crime, Drama",124,9.0,202,The Godfather: Part II,"Francis Ford Coppola,Mario Puzo,1 more credit"
+Roland Emmerich," Action, Adventure, Sci-Fi, Thriller","1,144",6.4,124,The Day After Tomorrow,"Roland Emmerich,Roland Emmerich,1 more credit"
+Alejandro G. Iñárritu," Crime, Drama, Thriller","2,844",7.7,124,21 Grams,Guillermo Arriaga
+Jaume Collet-Serra," Horror, Thriller","2,414",5.3,113,House of Wax,"Charles Belden,Chad Hayes,1 more credit"
+Andrzej Bartkowiak," Action, Adventure, Fantasy, Horror, Sci-Fi, War","2,323",5.2,105,Doom,
+Richard Marquand," Action, Adventure, Fantasy, Sci-Fi",502,8.3,131,Star Wars: Episode VI - Return of the Jedi,"Lawrence Kasdan,George Lucas,1 more credit"
+George Lucas," Action, Adventure, Fantasy, Sci-Fi",155,8.6,121,Star Wars: Episode IV - A New Hope,George Lucas
+Tim Story," Action, Adventure, Family, Fantasy, Sci-Fi","1,907",5.7,106,Fantastic Four,"Mark Frost,Michael France,2 more credits"
+Irvin Kershner," Action, Adventure, Fantasy, Sci-Fi",398,8.7,124,Star Wars: Episode V - The Empire Strikes Back,"Leigh Brackett,Lawrence Kasdan,1 more credit"
+Iain Softley," Drama, Mystery, Sci-Fi","4,701",7.4,120,K-PAX,"Gene Brewer,Charles Leavitt"
+Peter Segal," Comedy, Drama, Romance","1,298",6.8,99,50 First Dates,George Wing
+F. Gary Gray," Action, Crime, Thriller","1,695",7.0,111,The Italian Job,"Troy Kennedy-Martin,Donna Powers,1 more credit"
+Gore Verbinski," Horror, Mystery","1,434",7.1,115,The Ring,"Ehren Kruger,Kôji Suzuki"
+Michel Gondry," Drama, Romance, Sci-Fi",295,8.3,108,Eternal Sunshine of the Spotless Mind,"Charlie Kaufman,Michel Gondry,2 more credits"
+Steven Shainberg," Comedy, Drama, Romance","1,183",7.0,107,Secretary,"Erin Cressida Wilson,Mary Gaitskill,2 more credits"
+Frank Darabont, Drama,26,9.3,142,The Shawshank Redemption,"Stephen King,Frank Darabont"
+Chan-wook Park," Action, Drama, Mystery, Thriller",351,8.4,120,Oldboy,"Garon Tsuchiya,Nobuaki Minegishi,4 more credits"
+Scott Derrickson," Drama, Horror, Thriller","3,256",6.7,119,The Exorcism of Emily Rose,"Paul Harris Boardman,Scott Derrickson"
+Brian De Palma," Crime, Drama",164,8.3,170,Scarface,Oliver Stone
+Mike Nichols," Drama, Romance",873,7.2,104,Closer,"Patrick Marber,Patrick Marber"
+Wolfgang Petersen," Drama, History",223,7.2,163,Troy,"Homer,David Benioff"
+Wes Craven," Action, Mystery, Thriller","2,138",6.4,85,Red Eye,"Carl Ellsworth,Carl Ellsworth,1 more credit"
+James Wan," Horror, Mystery, Thriller",903,7.6,103,Saw,"Leigh Whannell,James Wan,1 more credit"
+"Frank Miller,Robert Rodriguez,1 more credit"," Crime, Thriller",532,8.0,124,Sin City,Frank Miller
+Steven Spielberg," Biography, Drama, History",145,8.9,195,Schindler's List,"Thomas Keneally,Steven Zaillian"
+"Eric Bress,J. Mackye Gruber"," Drama, Sci-Fi, Thriller",974,7.6,113,The Butterfly Effect,"J. Mackye Gruber,Eric Bress"
+Ron Howard," Biography, Drama, History, Romance, Sport","2,941",8.0,144,Cinderella Man,"Cliff Hollingsworth,Akiva Goldsman,1 more credit"
+Doug Liman," Comedy, Crime","4,397",7.2,102,Go,John August
+Clint Eastwood," Crime, Drama, Mystery, Thriller",421,7.9,138,Mystic River,"Brian Helgeland,Dennis Lehane"
+Edward Zwick," Action, Drama, War","1,035",7.7,154,The Last Samurai,"John Logan,John Logan,2 more credits"
+Steven Spielberg," Comedy, Drama, Romance","1,197",7.4,128,The Terminal,"Andrew Niccol,Sacha Gervasi,2 more credits"
+Christopher Nolan," Mystery, Thriller",302,8.4,113,Memento,"Christopher Nolan,Jonathan Nolan"
+Christopher Nolan," Drama, Mystery, Thriller","1,224",7.2,118,Insomnia,"Hillary Seitz,Nikolaj Frobenius,1 more credit"
+Roland Emmerich," Action, Drama, History, War",738,7.2,165,The Patriot,Robert Rodat
+Paul Haggis," Crime, Drama, Thriller",681,7.8,112,Crash,"Paul Haggis,Paul Haggis,1 more credit"
+Quentin Tarantino," Action, Crime, Thriller",836,8.0,137,Kill Bill: Vol. 2,"Quentin Tarantino,Quentin Tarantino,1 more credit"
+Yimou Zhang," Action, Adventure, History","3,025",7.9,107,Hero,"Feng Li,Yimou Zhang,1 more credit"
+Antoine Fuqua," Crime, Drama, Thriller",889,7.7,122,Training Day,David Ayer
+Chris Columbus," Adventure, Family, Fantasy",56,7.6,152,Harry Potter and the Sorcerer's Stone,"J.K. Rowling,Steve Kloves"
+Harold Ramis," Comedy, Fantasy","1,962",6.0,93,Bedazzled,"Peter Cook,Peter Cook,4 more credits"
+Paul W.S. Anderson," Action, Horror, Sci-Fi","1,160",6.7,100,Resident Evil,Paul W.S. Anderson
+Steven Spielberg," Drama, Sci-Fi","1,574",7.2,146,A.I. Artificial Intelligence,"Brian Aldiss,Ian Watson,1 more credit"
+Roger Spottiswoode," Action, Mystery, Sci-Fi, Thriller","2,318",5.9,123,The 6th Day,"Cormac Wibberley,Marianne Wibberley"
+Ron Howard," Biography, Drama",581,8.2,135,A Beautiful Mind,"Akiva Goldsman,Sylvia Nasar"
+Frank Oz," Crime, Drama, Thriller","1,878",6.8,124,The Score,
+Sam Raimi," Action, Adventure, Sci-Fi",298,7.3,121,Spider-Man,"Stan Lee,Steve Ditko,1 more credit"
+"Bobby Farrelly,Peter Farrelly", Comedy,"2,760",6.6,116,"Me, Myself & Irene","Peter Farrelly,Mike Cerrone,1 more credit"
+Clint Eastwood," Action, Adventure, Thriller","4,616",6.4,130,Space Cowboys,"Ken Kaufman,Howard Klausner"
+Martin Brest," Drama, Fantasy, Romance",505,7.2,178,Meet Joe Black,
+Ben Stiller," Comedy, Drama, Thriller","4,505",6.1,96,The Cable Guy,Lou Holtz Jr.
+Danny Cannon," Action, Crime, Sci-Fi, Thriller",,5.6,96,Judge Dredd,
+Newt Arnold," Action, Biography, Drama, Sport","1,379",6.8,92,Bloodsport,
+Barry Levinson, Drama,"1,270",8.0,133,Rain Man,"Barry Morrow,Ronald Bass,1 more credit"
+John McTiernan," Action, Adventure, Thriller","2,027",7.6,128,Die Hard with a Vengeance,"Jonathan Hensleigh,Roderick Thorp"
+John McTiernan," Action, Thriller",535,8.2,132,Die Hard,"Roderick Thorp,Jeb Stuart,1 more credit"
+Clint Eastwood," Drama, Western",396,8.2,130,Unforgiven,David Webb Peoples
+Chuck Russell," Action, Comedy, Crime, Fantasy",509,6.9,101,The Mask,"Michael Fallon,Mark Verheiden,1 more credit"
+Jonathan Demme," Crime, Drama, Thriller",119,8.6,118,The Silence of the Lambs,"Thomas Harris,Ted Tally"
+George Miller," Comedy, Fantasy, Horror","3,568",6.5,118,The Witches of Eastwick,"John Updike,Michael Cristofer"
+Terrence Malick," Drama, War","1,611",7.6,170,The Thin Red Line,"James Jones,Terrence Malick"
+Renny Harlin," Action, Thriller","1,988",7.2,124,Die Hard 2,"Walter Wager,Steven E. de Souza,1 more credit"
+Neil Jordan," Drama, Horror","1,023",7.6,123,Interview with the Vampire: The Vampire Chronicles,"Anne Rice,Anne Rice"
+Randall Wallace," Action, Adventure, Drama","2,889",6.5,132,The Man in the Iron Mask,
+Sam Mendes, Drama,200,8.3,122,American Beauty,Alan Ball
+Michael Mann," Crime, Drama, Thriller",288,8.2,170,Heat,Michael Mann
+Milos Forman," Biography, Drama, History, Music",915,8.3,160,Amadeus,"Peter Shaffer,Peter Shaffer"
+James Cameron," Action, Sci-Fi",537,8.5,137,Terminator 2: Judgment Day,"James Cameron,William Wisher"
+Martin Brest, Drama,732,8.0,156,Scent of a Woman,
+Scott Kalvert," Biography, Crime, Drama, Sport","1,831",7.3,102,The Basketball Diaries,"Jim Carroll,Bryan Goluboff"
+Tony Scott," Action, Drama",220,6.9,110,Top Gun,"Jim Cash,Jack Epps Jr.,1 more credit"
+Tony Scott," Action, Drama, Sport","1,945",6.0,107,Days of Thunder,"Robert Towne,Tom Cruise,1 more credit"
+"Andrey Konchalovskiy,Albert Magnoli"," Action, Comedy, Crime, Thriller","3,052",6.4,104,Tango & Cash,
+Tim Burton," Comedy, Fantasy",669,7.5,92,Beetlejuice,"Michael McDowell,Larry Wilson,2 more credits"
+John Woo," Action, Crime, Sci-Fi, Thriller","1,453",7.3,138,Face/Off,"Mike Werb,Michael Colleary"
+M. Night Shyamalan," Drama, Mystery, Thriller",381,8.1,107,The Sixth Sense,M. Night Shyamalan
+John Landis," Adventure, Comedy, Crime, Music, Musical","1,477",7.9,133,The Blues Brothers,
+John G. Avildsen," Drama, Sport","2,085",5.3,104,Rocky V,
+John Landis," Comedy, Western","3,701",6.5,104,¡Three Amigos!,
+Ted Kotcheff," Action, Adventure","1,153",7.7,93,First Blood,"David Morrell,Michael Kozoll,2 more credits"
+Franklin J. Schaffner," Biography, Crime, Drama","1,594",8.0,151,Papillon,"Dalton Trumbo,Lorenzo Semple Jr.,1 more credit"
+Ted Kotcheff," Adventure, Comedy, Crime","1,158",6.4,97,Weekend at Bernie's,Robert Klane
+Taylor Hackford," Drama, Romance","2,099",7.0,124,An Officer and a Gentleman,Douglas Day Stewart
+Garry Marshall," Comedy, Romance",861,7.0,119,Pretty Woman,J.F. Lawton
+Rob Reiner," Comedy, Drama, Romance","1,526",7.6,95,When Harry Met Sally...,Nora Ephron
+Allan Moyle," Comedy, Drama, Music, Romance","2,035",6.7,90,Empire Records,Carol Heikkinen
+Andrew Bergman," Comedy, Crime, Drama, Thriller","2,818",4.5,115,Striptease,"Carl Hiaasen,Andrew Bergman"
+Amy Heckerling," Comedy, Romance",485,6.8,97,Clueless,Amy Heckerling
+Robert Stevenson," Comedy, Family, Sport","4,916",6.5,108,The Love Bug,
+Hugh Wilson," Comedy, Drama, Romance, Sci-Fi","3,503",6.6,112,Blast from the Past,
+John Hughes," Comedy, Romance, Sci-Fi","1,305",6.6,94,Weird Science,John Hughes
+Gene Wilder," Comedy, Romance","4,798",5.9,87,The Woman in Red,
+"Richard Lester,Richard Donner"," Action, Adventure, Sci-Fi","3,512",6.8,127,Superman II,"Jerry Siegel,Joe Shuster,4 more credits"
+Richard Lester," Action, Adventure, Comedy, Sci-Fi","4,082",5.0,125,Superman III,"Jerry Siegel,Joe Shuster,2 more credits"
+Robert Moore," Comedy, Crime, Mystery, Thriller","4,873",7.4,95,Murder by Death,Neil Simon
+Andrew Davis," Crime, Drama, Thriller","4,318",6.5,107,A Perfect Murder,"Frederick Knott,Patrick Smith Kelly"
+Russell Mulcahy," Action, Adventure, Fantasy","1,239",7.1,116,Highlander,"Gregory Widen,Gregory Widen,2 more credits"
+Michael Bay," Action, Adventure, Thriller","1,397",7.4,136,The Rock,
+Ron Howard," Comedy, Fantasy, Romance","1,771",6.2,111,Splash,"Brian Grazer,Bruce Jay Friedman,3 more credits"
+Nora Ephron," Comedy, Drama, Romance","1,652",6.8,105,Sleepless in Seattle,"Jeff Arch,Nora Ephron,2 more credits"
+Rob Reiner," Drama, Thriller",997,7.7,138,A Few Good Men,"Aaron Sorkin,Aaron Sorkin"
+John N. Smith," Biography, Drama","2,858",6.5,99,Dangerous Minds,
+Roger Donaldson," Comedy, Drama, Romance","1,383",5.9,104,Cocktail,Heywood Gould
+Mike Nichols," Drama, Horror, Romance, Thriller",,6.2,125,Wolf,"Jim Harrison,Wesley Strick"
+Chris Columbus," Adventure, Comedy, Crime, Family",,6.7,120,Home Alone 2: Lost in New York,"John Hughes,John Hughes"
+Chris Columbus," Comedy, Family",771,7.6,103,Home Alone,John Hughes
+John Carpenter," Action, Adventure, Comedy, Fantasy","1,605",7.3,99,Big Trouble in Little China,"Gary Goldman,David Z. Weinstein,1 more credit"
+George Miller," Action, Adventure, Sci-Fi, Thriller","1,622",7.6,96,Mad Max 2: The Road Warrior,"Terry Hayes,George Miller,1 more credit"
+George Miller," Action, Adventure, Sci-Fi, Thriller","1,059",6.9,88,Mad Max,
+Mary Lambert," Horror, Thriller","2,096",6.6,103,Pet Sematary,"Stephen King,Stephen King"
+"Jim Abrahams,David Zucker,1 more credit", Comedy,349,7.7,88,Airplane!,"Jim Abrahams,David Zucker,1 more credit"
+Jim Drake," Comedy, Crime","4,980",5.0,88,Police Academy 4: Citizens on Patrol,
+"Jerry Paris,James Signorelli", Comedy,"4,665",5.8,87,Police Academy 2: Their First Assignment,
+Joel Schumacher," Drama, Horror, Sci-Fi, Thriller","3,366",6.6,115,Flatliners,
+Tom Shadyac," Comedy, Romance, Sci-Fi","3,338",5.6,95,The Nutty Professor,"Jerry Lewis,Bill Richmond,4 more credits"
+Alex Proyas," Action, Drama, Fantasy","1,109",7.6,102,The Crow,"James O'Barr,David J. Schow,1 more credit"
+Joe Dante," Action, Adventure, Comedy, Fantasy, Sci-Fi, Thriller","3,916",6.8,120,Innerspace,"Chip Proser,Jeffrey Boam,1 more credit"
+Andrew Davis," Action, Crime, Drama, Mystery, Thriller","1,374",7.8,130,The Fugitive,"Jeb Stuart,David Twohy,2 more credits"
+Joe Dante," Comedy, Mystery, Thriller","2,392",6.9,102,The 'Burbs,Dana Olsen
+Joe Dante," Comedy, Fantasy, Horror","1,623",7.3,106,Gremlins,Chris Columbus
+"Joe Dante,Chuck Jones"," Comedy, Fantasy, Horror",,6.4,106,Gremlins 2: The New Batch,"Chris Columbus,Charles S. Haas"
+Julien Temple," Comedy, Musical, Romance, Sci-Fi","3,041",5.4,100,Earth Girls Are Easy,"Julie Brown,Charlie Coffey,1 more credit"
+Renny Harlin," Action, Adventure, Thriller","3,024",6.4,113,Cliffhanger,"John Long,Michael France,2 more credits"
+Richard Donner," Action, Adventure, Drama, Sci-Fi","1,120",7.3,143,Superman,"Jerry Siegel,Joe Shuster,5 more credits"
+Blake Edwards," Comedy, Crime","4,120",7.2,103,The Pink Panther Strikes Again,
+Blake Edwards," Comedy, Crime, Romance","3,578",7.1,115,The Pink Panther,"Maurice Richlin,Blake Edwards"
+"George Miller,George Ogilvie"," Action, Adventure, Sci-Fi","2,654",6.3,107,Mad Max Beyond Thunderdome,"Terry Hayes,George Miller"
+Paul Brickman," Comedy, Crime, Drama, Romance","1,457",6.8,99,Risky Business,Paul Brickman
+Richard Fleischer," Action, Adventure, Fantasy","4,384",5.1,89,Red Sonja,"Robert E. Howard,Clive Exton,1 more credit"
+Roland Emmerich," Action, Adventure, Sci-Fi","1,494",7.1,116,Stargate,
+James Cameron," Action, Sci-Fi",512,8.0,107,The Terminator,"James Cameron,Gale Anne Hurd,1 more credit"
+Sidney J. Furie," Action, Adventure, Family, Sci-Fi","4,809",3.7,90,Superman IV: The Quest for Peace,"Jerry Siegel,Joe Shuster,5 more credits"
+Nora Ephron," Comedy, Drama, Romance",835,6.6,119,You've Got Mail,"Miklós László,Nora Ephron,1 more credit"
+Roger Donaldson," Action, Horror, Sci-Fi, Thriller","1,815",5.8,108,Species,
+Tony Scott," Action, Drama, Thriller, War","3,608",7.3,116,Crimson Tide,"Michael Schiffer,Richard P. Henrick,1 more credit"
+Jean-Jacques Annaud," Crime, Drama, Mystery, Thriller","2,298",7.7,130,The Name of the Rose,
+"Bobby Farrelly,Peter Farrelly"," Comedy, Romance",960,7.1,119,There's Something About Mary,
+Rod Daniel," Comedy, Fantasy, Romance",917,6.1,91,Teen Wolf,
+Moustapha Akkad," Biography, Drama, History, War",,8.2,177,The Message,
+Danny Boyle, Drama,687,8.1,93,Trainspotting,"Irvine Welsh,John Hodge"
+Ivan Reitman," Comedy, Crime","2,560",6.1,107,Twins,"William Davies,William Osborne,2 more credits"
+Steven Spielberg," Action, Adventure, Sci-Fi, Thriller",95,8.1,127,Jurassic Park,"Michael Crichton,Michael Crichton,1 more credit"

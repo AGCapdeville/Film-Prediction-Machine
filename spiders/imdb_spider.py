@@ -47,9 +47,7 @@ class ImdbSpider(scrapy.Spider):
         item['genre'] = response.xpath('//*[@id="titleStoryLine"]/div[4]/a/text()').getall()
 
 
-
         return item
-
 
 
 open('IMDB_MOVIES.csv', 'w').close()

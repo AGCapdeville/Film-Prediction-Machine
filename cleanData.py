@@ -38,12 +38,10 @@ print("Good:", good_count, "\nBad: ", bad_count)
 # Our data split ----------------------------------------------------------------------------------
 
 
+x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20 )
 
-
-
-
-
-
+x_train.reset_index(inplace=True)
+x_test.reset_index(inplace=True)
 
 
 def get_avg_score_dict(data, data_col, splitby, col_str):
@@ -73,73 +71,68 @@ genres = ["Comedy", "Drama", "Short", "Family", "Romance", "Talk-Show",
           "History", "Western", "Biography", "War", "Film-Noir", "Adult"]
 
 
-writers = data[['writers']]
+def clean_writers(writers):
+    for e in range(len(writers)):
+        series = writers.iloc[e]
+        s = series.to_string(index=False)
+        list_s = s.split(',')
 
-# print("type:", type(writers))
-# print("writers[0]:", writers[0])
-# print("writers.iloc[0]:", writers.iloc[0])
+        if (len(list_s) >= 3):
+            list_s.pop(-1)
 
+        writers.iloc[e] = ','.join(list_s)
+    return writers
 
-for e in range(len(writers)):
-    series = writers.iloc[e]
-    s = series.to_string(index=False)
-    list_s = s.split(',')
+clean_x_train_writers = clean_writers(x_train[['writers']])
+clean_x_test_writers = clean_writers(x_test[['writers']])
 
-    if (len(list_s) >= 3):
-        list_s.pop(-1)
-
-    writers.iloc[e] = ','.join(list_s)
-
-
-writers_score_dict = get_avg_score_dict(data, writers, ',', 'writers')
-# data.drop('writers', axis='columns', inplace=True)
-# print(writers_score_dict)
-
-print("We are here writing about the writers!!!!!!!!!!!!!!!!!!!!!!")
-
-i = 0    
-writers_score_sumation = {}
-
-for index in range(len(writers)):      
-    total_score = 0      
-    length = 0
-    for item in writers.iloc[index].to_string(index=False).split(','):
-        item = item.strip()
-        total_score += writers_score_dict[item]
-        length += 1
-    writers_score_sumation[index] = total_score / length
-
-newWritersScores = pd.DataFrame.from_dict(writers_score_sumation, orient='index', columns=['writers'])
-
-print("length of newDataframe:", len(newWritersScores))
-print("length of data:", len(data))
-
-data.drop('writers', axis='columns', inplace=True)
-
-
-data = pd.concat([data, newWritersScores], axis=1)
-data.drop("index", axis='columns', inplace=True)
+x_train_writers_score_dict = get_avg_score_dict(x_train, clean_x_train_writers, ',', 'writers')
+x_test_writers_score_dict = get_avg_score_dict(x_test, clean_x_test_writers, ',', 'writers')
 
 
 
-# genre_dict = get_avg_score_dict(data,data["genre"], True, ',', 'genre')
-data.drop('genre', axis='columns', inplace=True)
-# directors_dic = data["directors"]
-data.drop('directors', axis='columns', inplace=True)
-# title = data["title"]
-data.drop('title', axis='columns', inplace=True)
+def summation_of_writers(clean_writers, writers_score_dict):
+    writers_score_sumation = {}
+    for index in range(len(clean_writers)):      
+        total_score = 0      
+        length = 0
+        for item in clean_writers.iloc[index].to_string(index=False).split(','):
+            item = item.strip()
+            total_score += writers_score_dict[item]
+            length += 1
+        writers_score_sumation[index] = total_score / length
+    return writers_score_sumation
 
-data.drop('rating', axis='columns', inplace=True)
+x_trian_writer_score_sum = summation_of_writers(clean_x_train_writers, x_train_writers_score_dict)
+x_test_writer_score_sum = summation_of_writers(clean_x_test_writers, x_test_writers_score_dict)
+
+new_x_train_writers_scores = pd.DataFrame.from_dict(x_trian_writer_score_sum, orient='index', columns=['writers'])
+new_x_test_writers_scores = pd.DataFrame.from_dict(x_test_writer_score_sum, orient='index', columns=['writers'])
 
 
+x_train.drop('writers', axis='columns', inplace=True)
+x_test.drop('writers', axis='columns', inplace=True)
+
+x_train = pd.concat([x_train, new_x_train_writers_scores], axis=1)
+x_train.drop("index", axis='columns', inplace=True)
+
+x_test = pd.concat([x_test, new_x_test_writers_scores], axis=1)
+x_test.drop("index", axis='columns', inplace=True)
 
 
+def drop_data(data):
+    data.drop('genre', axis='columns', inplace=True)
+    data.drop('directors', axis='columns', inplace=True)
+    data.drop('title', axis='columns', inplace=True)
+    data.drop('rating', axis='columns', inplace=True)
+    return data
 
+x_train = drop_data(x_train)
+x_test = drop_data(x_test)
 
 
 
 knn = KNeighborsClassifier(n_neighbors=2)
-x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20 )
 
 knn.fit(x_train, y_train)
 prediction = knn.predict(x_test)

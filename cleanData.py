@@ -87,24 +87,33 @@ clean_x_train_writers = clean_writers(x_train[['writers']])
 clean_x_test_writers = clean_writers(x_test[['writers']])
 
 x_train_writers_score_dict = get_avg_score_dict(x_train, clean_x_train_writers, ',', 'writers')
-x_test_writers_score_dict = get_avg_score_dict(x_test, clean_x_test_writers, ',', 'writers')
+# x_test_writers_score_dict = get_avg_score_dict(x_test, clean_x_test_writers, ',', 'writers')
 
 
 
 def summation_of_writers(clean_writers, writers_score_dict):
     writers_score_sumation = {}
     for index in range(len(clean_writers)):      
-        total_score = 0      
+        total_score = 0     
         length = 0
         for item in clean_writers.iloc[index].to_string(index=False).split(','):
             item = item.strip()
-            total_score += writers_score_dict[item]
-            length += 1
+            if item in writers_score_dict:
+                # print("writer is in the score dictionary")
+                total_score += writers_score_dict[item]
+                length += 1
+            else:
+                total_score += 5
+                length += 1
+                # print("writer is not in score dictionary")
+                
         writers_score_sumation[index] = total_score / length
     return writers_score_sumation
 
+# TODO: exclude test writer score data from test, only use what is in trained
+# Thats why these are the same: x_train_writers_score_dict
 x_trian_writer_score_sum = summation_of_writers(clean_x_train_writers, x_train_writers_score_dict)
-x_test_writer_score_sum = summation_of_writers(clean_x_test_writers, x_test_writers_score_dict)
+x_test_writer_score_sum = summation_of_writers(clean_x_test_writers, x_train_writers_score_dict)
 
 new_x_train_writers_scores = pd.DataFrame.from_dict(x_trian_writer_score_sum, orient='index', columns=['writers'])
 new_x_test_writers_scores = pd.DataFrame.from_dict(x_test_writer_score_sum, orient='index', columns=['writers'])
@@ -131,18 +140,20 @@ x_train = drop_data(x_train)
 x_test = drop_data(x_test)
 
 
+print(5*"\n")
 
-knn = KNeighborsClassifier(n_neighbors=2)
+knn = KNeighborsClassifier(n_neighbors=5)
 
 knn.fit(x_train, y_train)
 prediction = knn.predict(x_test)
 report = classification_report(y_test, prediction)
 
+print(70*"=","\n")
 print(report)
+print(70*"=")
 
 
-
-
+# we need to do a 5 fold cross validation test now... to really see how good this is...
 
 
 

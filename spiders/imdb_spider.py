@@ -10,6 +10,13 @@ import logging
 # xpath = //*[@id="main"]/div/span/div/div/div[3]/table/tbody/tr[1]/td[2]/a
 
 
+# options: 
+#   collect more data,
+#   class weight (to balance data)
+#   try normalizing
+#   try to have more features
+
+
 class ImdbSpider(scrapy.Spider):
     name = 'imdbspider' # eg name to use when running the script
     allowed_domains = ['imdb.com'] # Let’s say your target url is https://www.example.com/1.html, then add 'example.com' to the list.

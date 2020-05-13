@@ -21,12 +21,15 @@ data.dropna(inplace=True)
 data.reset_index(inplace=True)
 
 
+# class weight, for the classifiers 
+#  (knn does not have this),
+#  (a way of punushing the predictor, for not balanced data)
 
 target = []
 bad_count = 0
 good_count = 0
 for rating in data["rating"]:
-    if(rating < 7.5):
+    if(rating < 7.3):
         target.append("Bad")
         bad_count += 1
     else:
@@ -37,8 +40,10 @@ print("Good:", good_count, "\nBad: ", bad_count)
 
 # Our data split ----------------------------------------------------------------------------------
 
+# TODO:
+#       np.random.seed, takes care of random
 
-x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20 )
+x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20, random_state=42 )
 
 x_train.reset_index(inplace=True)
 x_test.reset_index(inplace=True)
@@ -89,6 +94,7 @@ clean_x_test_writers = clean_writers(x_test[['writers']])
 x_train_writers_score_dict = get_avg_score_dict(x_train, clean_x_train_writers, ',', 'writers')
 # x_test_writers_score_dict = get_avg_score_dict(x_test, clean_x_test_writers, ',', 'writers')
 
+# for w in data[['writer']]
 
 
 def summation_of_writers(clean_writers, writers_score_dict):
@@ -127,6 +133,7 @@ x_train.drop("index", axis='columns', inplace=True)
 
 x_test = pd.concat([x_test, new_x_test_writers_scores], axis=1)
 x_test.drop("index", axis='columns', inplace=True)
+
 
 
 def drop_data(data):

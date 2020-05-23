@@ -1,46 +1,73 @@
+import numpy as np
+import pandas as pd
 from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.preprocessing import OneHotEncoder
-import numpy
-import pandas as pd
 from sklearn.model_selection import train_test_split
+from cleanFunctions import CleanFunctions
+import math  
 
 
-
+cf = CleanFunctions()
 
 with open("./IMDB_MOVIES.csv") as csvfile:
     data = pd.read_csv(csvfile, delimiter=',')
 
-pop = data['popularity']
-data.drop('popularity', axis='columns', inplace=True)
+# directors,genre,popularity,rating,runtime,title,writers
+# directors,
 
-pop.dropna(inplace=True)
-# print("the length of all pop", len(pop))
+
+data['writers'].fillna('iamnotaperson', inplace=True)
 
 data.dropna(inplace=True)
 data.reset_index(inplace=True)
 
+print('data total:',len(data))
 
-# class weight, for the classifiers 
-#  (knn does not have this),
-#  (a way of punushing the predictor, for not balanced data)
+# Target Data ---------------------------------------------------------------------------------------
+
+
+all_ratings = data["rating"]
+
+all_ratings = all_ratings.sort_values()
+
+sumOfRating = all_ratings.sum()
+average = sumOfRating/len(all_ratings)
+# print( "AVG: ", average )
+
 
 target = []
 bad_count = 0
 good_count = 0
+
 for rating in data["rating"]:
-    if(rating < 7.3):
-        target.append("Bad")
+    if(rating < 7.3 ):
+        target.append(0) #Bad
         bad_count += 1
     else:
-        target.append("Good")
+        target.append(1) #Good
         good_count += 1
 
 print("Good:", good_count, "\nBad: ", bad_count)
 
-# Our data split ----------------------------------------------------------------------------------
+# Data Plot ---------------------------------------------------------------------------------------
+import matplotlib.pyplot as plt
 
-# TODO:
+# ratings_data = data["rating"]
+# ratings_data = ratings_data.sort_values()
+# ratings_data = ratings_data.reset_index()
+# ratings_data.drop('index', axis="columns", inplace=True)
+# print(ratings_data)
+# plt.plot(ratings_data, 'bo')
+
+# y = [item for item in range(1, 10)] 
+# print(y)
+# plt.scatter(ratings_data,y)
+# plt.show()
+
+
+# Splitting our data ----------------------------------------------------------------------------------
+
+# TODO: can do this if we have time...
 #       np.random.seed, takes care of random
 
 x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20, random_state=42 )
@@ -48,195 +75,136 @@ x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.2
 x_train.reset_index(inplace=True)
 x_test.reset_index(inplace=True)
 
-
-def get_avg_score_dict(data, data_col, splitby, col_str):
-    data_dict = {}
-    for index in range(len(data_col)):            
-        for item in data_col.iloc[index].to_string(index=False).split(splitby):
-            item = item.strip()
-            if not (item in data_dict):
-                data_dict[item] = [data.iloc[index]["rating"], 1]
-            else:
-                data_dict[item][1] += 1
-                data_dict[item][0] += data.iloc[index]["rating"]
-
-    for e in data_dict:
-        data_dict[e] = data_dict[e][0] / data_dict[e][1]
-
-    return data_dict
-
-
-
-
-
+# Genres ----------------------------------------------------------------------------------
 genres = ["Comedy", "Drama", "Short", "Family", "Romance", "Talk-Show",
           "Animation", "Music", "Adventure", "Fantasy", "Action",
           "Sci-Fi", "News", "Crime", "Game-Show", "Mystery", "Musical",
           "Horror", "Thriller", "Reality-TV", "Documentary", "Sport",
           "History", "Western", "Biography", "War", "Film-Noir", "Adult"]
 
+genres.sort()
+blank_genres = pd.DataFrame(columns=genres)
 
-def clean_writers(writers):
-    for e in range(len(writers)):
-        series = writers.iloc[e]
-        s = series.to_string(index=False)
-        list_s = s.split(',')
+x_train = pd.concat([x_train, blank_genres], axis=1)
+x_test = pd.concat([x_test, blank_genres], axis = 1)
 
-        if (len(list_s) >= 3):
-            list_s.pop(-1)
+x_train.fillna(value=0,inplace=True)
+x_test.fillna(value=0,inplace=True)
 
-        writers.iloc[e] = ','.join(list_s)
-    return writers
-
-clean_x_train_writers = clean_writers(x_train[['writers']])
-clean_x_test_writers = clean_writers(x_test[['writers']])
-
-x_train_writers_score_dict = get_avg_score_dict(x_train, clean_x_train_writers, ',', 'writers')
-# x_test_writers_score_dict = get_avg_score_dict(x_test, clean_x_test_writers, ',', 'writers')
-
-# for w in data[['writer']]
+x_train = cf.vectorize_genre(x_train)
+x_test = cf.vectorize_genre(x_test)
 
 
-def summation_of_writers(clean_writers, writers_score_dict):
-    writers_score_sumation = {}
-    for index in range(len(clean_writers)):      
-        total_score = 0     
-        length = 0
-        for item in clean_writers.iloc[index].to_string(index=False).split(','):
-            item = item.strip()
-            if item in writers_score_dict:
-                # print("writer is in the score dictionary")
-                total_score += writers_score_dict[item]
-                length += 1
-            else:
-                total_score += 5
-                length += 1
-                # print("writer is not in score dictionary")
-                
-        writers_score_sumation[index] = total_score / length
-    return writers_score_sumation
+# Director ----------------------------------------------------------------------------------
 
-# TODO: exclude test writer score data from test, only use what is in trained
-# Thats why these are the same: x_train_writers_score_dict
-x_trian_writer_score_sum = summation_of_writers(clean_x_train_writers, x_train_writers_score_dict)
-x_test_writer_score_sum = summation_of_writers(clean_x_test_writers, x_train_writers_score_dict)
-
-new_x_train_writers_scores = pd.DataFrame.from_dict(x_trian_writer_score_sum, orient='index', columns=['writers'])
-new_x_test_writers_scores = pd.DataFrame.from_dict(x_test_writer_score_sum, orient='index', columns=['writers'])
+# Cleaned writer dataset:
+x_train_directors = cf.clean_f(x_train[['directors']])
+x_test_directors = cf.clean_f(x_test[['directors']])
 
 
-x_train.drop('writers', axis='columns', inplace=True)
-x_test.drop('writers', axis='columns', inplace=True)
+# Retrieved dictionary of existing writer average movie scores (Out of our trained data)
+directors_score_dictionary = cf.get_avg_score_dict(x_train, x_train_directors, ',', 'directors')
 
-x_train = pd.concat([x_train, new_x_train_writers_scores], axis=1)
-x_train.drop("index", axis='columns', inplace=True)
+# # Per movie, retrieved and summed writers scores
+x_trian_director_score_sum = cf.summation_of_f(x_train_directors, directors_score_dictionary)
+x_test_director_score_sum = cf.summation_of_f(x_test_directors, directors_score_dictionary)
 
-x_test = pd.concat([x_test, new_x_test_writers_scores], axis=1)
-x_test.drop("index", axis='columns', inplace=True)
+# # Converting our director dictionaries into dataframe columns
+x_train_directors = pd.DataFrame.from_dict(x_trian_director_score_sum, orient='index', columns=['directors'])
+x_test_directors = pd.DataFrame.from_dict(x_test_director_score_sum, orient='index', columns=['directors'])
+
+# # Concatinating our director dataframe columns to their respective dataframes
+# print(x_train_directors)
+x_train = pd.concat([x_train, x_train_directors], axis=1)
+x_test = pd.concat([x_test, x_test_directors], axis=1)
+
+# print(x_test)
+
+# Writers ----------------------------------------------------------------------------------
+
+# Cleaned writer dataset:
+x_train_writers = cf.clean_f(x_train[['writers']])
+x_test_writers = cf.clean_f(x_test[['writers']])
+
+# Retrieved dictionary of existing writer average movie scores (Out of our trained data)
+writers_score_dictionary = cf.get_avg_score_dict(x_train, x_train_writers, ',', 'writers')
+# Replace NAN writers with a fair score. (We net 100+ new data points this way)
+writers_score_dictionary['iamnotaperson'] = 5
+# print('i am not a person:', writers_score_dictionary['iamnotaperson'])
+
+# Per movie, retrieved and summed writers scores
+x_trian_writer_score_sum = cf.summation_of_f(x_train_writers, writers_score_dictionary)
+x_test_writer_score_sum = cf.summation_of_f(x_test_writers, writers_score_dictionary)
+
+# Converting our writer dictionaries into dataframe columns
+x_train_writers = pd.DataFrame.from_dict(x_trian_writer_score_sum, orient='index', columns=['writers'])
+x_test_writers = pd.DataFrame.from_dict(x_test_writer_score_sum, orient='index', columns=['writers'])
+
+# Concatinating our writer dataframe columns to their respective dataframes
+x_train = pd.concat([x_train, x_train_writers], axis=1)
+x_test = pd.concat([x_test, x_test_writers], axis=1)
 
 
-
-def drop_data(data):
-    data.drop('genre', axis='columns', inplace=True)
-    data.drop('directors', axis='columns', inplace=True)
-    data.drop('title', axis='columns', inplace=True)
-    data.drop('rating', axis='columns', inplace=True)
-    return data
-
-x_train = drop_data(x_train)
-x_test = drop_data(x_test)
+x_train = cf.drop_redun_data(x_train)
+x_test = cf.drop_redun_data(x_test)
 
 
-print(5*"\n")
+# KNN ----------------------------------------------------------------------------------
 
-knn = KNeighborsClassifier(n_neighbors=5)
 
+from sklearn.metrics import accuracy_score
+# we need to do a 5 fold cross validation test now... to really see how good this is...
+k_test_score = []
+for n in range(1,20):
+    knn = KNeighborsClassifier(n_neighbors=n)
+    knn.fit(x_train, y_train)
+    prediction = knn.predict(x_test)
+    k_test_score.append(accuracy_score(y_test,prediction, normalize=True))
+    
+best_n =  k_test_score.index(max(k_test_score)) + 1
+print("Best Score is:", max(k_test_score), "K:", best_n)
+
+knn = KNeighborsClassifier(n_neighbors=best_n)
 knn.fit(x_train, y_train)
 prediction = knn.predict(x_test)
 report = classification_report(y_test, prediction)
+
 
 print(70*"=","\n")
 print(report)
 print(70*"=")
 
 
-# we need to do a 5 fold cross validation test now... to really see how good this is...
+# NN ----------------------------------------------------------------------------------
+
+import tensorflow as tf
+
+x_train_list = x_train.values.tolist()
+x_test_list = x_test.values.tolist()
+
+y_test = np.array(y_test)
+y_train = np.array(y_train)
+
+print("Types:", "\nx_test:",type(x_test_list), '\nx_train:',type(x_train_list), '\ny_test:', type(y_test))
+
+print("number of columns:", len(x_train.columns) )
 
 
+norm_x_train = tf.keras.utils.normalize(x_train_list, axis = 1)
+norm_x_test = tf.keras.utils.normalize(x_test_list, axis = 1)
+
+model_0 = tf.keras.models.Sequential()
+model_0.add(tf.keras.layers.Dense(28, activation='relu'))
+model_0.add(tf.keras.layers.Dense(128))
+model_0.add(tf.keras.layers.Dense(2, activation='softmax'))
+
+model_0.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+model_0.fit(norm_x_train, y_train, batch_size=32, epochs=50)
 
 
+val_loss, val_acc = model_0.evaluate(norm_x_test, y_test)
+print(40*"=")
+print("activation = relu:")
+print("loss:",val_loss, ", acc:",val_acc)
+print(40*"=")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# knn = KNeighborsClassifier(n_neighbors=3)
-
-# x_train, x_test, y_train, y_test = train_test_split(
-#     data, target, test_size=0.20)
-
-
-# strings wont work here.........
-# actor names -> need to get actor avg movie score,
-# same for: directors, writers, genre, (runtime?)
-
-# ohe = OneHotEncoder(categories = "auto",sparse = False)
-
-# X = dff[['directors','genre','rating','runtime','title','writers']]
-
-# x_train_enc = ohe.fit_transform(x_train)
-# x_test_enc = ohe.fit_transform(x_test)
-
-
-# director_dummy = pd.get_dummies(data['director'])
-
-
-# knn.fit(x_train, y_train)
-
-# prediction = knn.predict(x_test)
-# report = classification_report(y_test, prediction)
-# print(report)
-
-
-# directors,genre,popularity,rating,runtime,title,writers
-
-# titles = data['title']
-# directors = data['directors']
-# genre = data['genre']
-# # popularity = data['popularity']
-# rating = data['rating']
-# runtime = data['runtime']
-# writers = data['writers']
-
-# print("In Title:",titles.isnull().values.any())
-# print("In Directors:",directors.isnull().values.any())
-# print("In Genre:",genre.isnull().values.any())
-# # print("In popularity:",popularity.isnull().values.any())
-# print("In rating:",rating.isnull().values.any())
-# print("In runtime:",runtime.isnull().values.any())
-# print("In writers:",writers.isnull().values.any())
-
-# df1 = data[data.isna().any(axis=1)]
-# print(df1)
-
-# print(allTitles)

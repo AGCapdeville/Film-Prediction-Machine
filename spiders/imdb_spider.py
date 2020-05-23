@@ -52,6 +52,7 @@ class ImdbSpider(scrapy.Spider):
         item['rating'] = response.css(".ratingValue span::text").get()
         item['runtime'] = response.css(".txt-block time::text").getall()[0].split(' ')[0]
         item['genre'] = response.xpath('//*[@id="titleStoryLine"]/div[4]/a/text()').getall()
+        
 
 
         return item

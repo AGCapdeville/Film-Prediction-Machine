@@ -1,7 +1,7 @@
 
 class CleanFunctions:
 
-    def get_avg_score_dict(self, data, data_col, splitby, col_str):
+    def get_avg_score_dict(self, data, data_col, splitby):
         data_dict = {}
         for index in range(len(data_col)):            
             for item in data_col.iloc[index].to_string(index=False).split(splitby):
@@ -14,6 +14,18 @@ class CleanFunctions:
 
         for e in data_dict:
             data_dict[e] = data_dict[e][0] / data_dict[e][1]
+
+        return data_dict
+
+    def get_occurance_dict(self, data, data_col, splitby):
+        data_dict = {}
+        for index in range(len(data_col)):            
+            for item in data_col.iloc[index].to_string(index=False).split(splitby):
+                item = item.strip()
+                if not (item in data_dict):
+                    data_dict[item] = 1
+                else:
+                    data_dict[item] += 1
 
         return data_dict
 
@@ -30,7 +42,7 @@ class CleanFunctions:
 
         return f
     
-    def summation_of_f(self, clean_f, f_score_dict):
+    def summation_of_avg_f(self, clean_f, f_score_dict):
         score_sumation = {}
         for index in range(len(clean_f)):      
             total_score = 0     
@@ -47,17 +59,24 @@ class CleanFunctions:
             score_sumation[index] = total_score / length
         return score_sumation
 
-    def drop_redun_data(self, data):
-        data.drop('genre', axis='columns', inplace=True)
-        data.drop('popularity', axis='columns', inplace=True)
-        data.drop('writers', axis='columns', inplace=True)
-        data.drop('directors', axis='columns', inplace=True)
-        data.drop('title', axis='columns', inplace=True)
-        data.drop('rating', axis='columns', inplace=True)
-        data.drop('runtime', axis='columns', inplace=True)
+    def drop_batch_data(self, data, toDrop):
 
-        data.drop('level_0', axis="columns", inplace=True)
-        data.drop('index', axis="columns", inplace=True)
+        for drop in toDrop:
+            data.drop(drop, axis='columns', inplace=True)
+
+        # refactored, deleteing this stuff:
+
+        # data.drop('genre', axis='columns', inplace=True)
+        # data.drop('writers', axis='columns', inplace=True)
+        # data.drop('directors', axis='columns', inplace=True)
+        # data.drop('title', axis='columns', inplace=True)
+        # data.drop('rating', axis='columns', inplace=True)
+        # data.drop('runtime', axis='columns', inplace=True)
+        # data.drop('company', axis='columns', inplace=True)
+
+        # data.drop('level_0', axis="columns", inplace=True)
+        # data.drop('index', axis="columns", inplace=True)
+        
         return data
 
 

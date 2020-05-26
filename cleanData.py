@@ -4,6 +4,8 @@ from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from cleanFunctions import CleanFunctions
+from sklearn.preprocessing import OneHotEncoder
+from sklearn import preprocessing
 import math  
 
 
@@ -12,16 +14,23 @@ cf = CleanFunctions()
 with open("./IMDB_MOVIES.csv") as csvfile:
     data = pd.read_csv(csvfile, delimiter=',')
 
-# directors,genre,popularity,rating,runtime,title,writers
-# directors,
-
 
 data['writers'].fillna('iamnotaperson', inplace=True)
 
 data.dropna(inplace=True)
 data.reset_index(inplace=True)
 
+company_data = data['company']
+date_data = data['year']
+stars_data = data['stars']
+
 print('data total:',len(data))
+print(50*'=')
+print('Lengths of features AFTER NAN drop:')
+print('company_data length:',len(company_data))
+print('date_data length:',len(date_data))
+print('stars_data length:',len(stars_data))
+print(50*'=')
 
 # Target Data ---------------------------------------------------------------------------------------
 
@@ -32,7 +41,6 @@ all_ratings = all_ratings.sort_values()
 
 sumOfRating = all_ratings.sum()
 average = sumOfRating/len(all_ratings)
-# print( "AVG: ", average )
 
 
 target = []
@@ -40,7 +48,7 @@ bad_count = 0
 good_count = 0
 
 for rating in data["rating"]:
-    if(rating < 7.3 ):
+    if(rating < 7.1 ):
         target.append(0) #Bad
         bad_count += 1
     else:
@@ -70,10 +78,36 @@ import matplotlib.pyplot as plt
 # TODO: can do this if we have time...
 #       np.random.seed, takes care of random
 
-x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20, random_state=42 )
+x_train, x_test, y_train, y_test = train_test_split( data, target, test_size=0.20, random_state=142 )
 
 x_train.reset_index(inplace=True)
 x_test.reset_index(inplace=True)
+
+
+
+
+# MPAA ----------------------------------------------------------------------------------
+# mpaa_categ = ['Approved','G','GP','NC-17','Not Rated','PG','PG-13','Passed','R','Unrated','X']
+
+# ohe = OneHotEncoder(categories = "auto", sparse = False)
+# le = preprocessing.LabelEncoder()
+
+# x_train['mpaa'] = le.fit_transform(x_train["mpaa"])
+
+# cols = le.classes_
+
+# temp = ohe.fit_transform(x_train[["mpaa"]])
+# x_train_1 = x_train.drop(['mpaa'], axis=1)
+# ohe_column = pd.DataFrame(temp, columns = cols)
+# x_train = pd.concat([x_train_1, ohe_column],axis = 1)
+
+
+
+# x_test['mpaa'] = le.fit_transform(x_test["mpaa"])
+# temp_test = ohe.fit_transform(x_test[["mpaa"]])
+# x_test_1 = x_test.drop(['mpaa'], axis=1)
+# ohe_column_test = pd.DataFrame(temp_test, columns = cols)
+# x_test = pd.concat([x_test_1, ohe_column_test],axis=1)
 
 # Genres ----------------------------------------------------------------------------------
 genres = ["Comedy", "Drama", "Short", "Family", "Romance", "Talk-Show",
@@ -95,6 +129,33 @@ x_train = cf.vectorize_genre(x_train)
 x_test = cf.vectorize_genre(x_test)
 
 
+
+# Stars ----------------------------------------------------------------------------------
+
+stars_dict = cf.get_avg_score_dict(x_train, x_train[['stars']], ',')
+
+x_trian_stars_score_sum = cf.summation_of_avg_f(x_train[['stars']], stars_dict)
+x_test_stars_score_sum = cf.summation_of_avg_f(x_test[['stars']], stars_dict)
+
+x_train_stars = pd.DataFrame.from_dict(x_trian_stars_score_sum, orient='index', columns=['actors'])
+x_test_stars = pd.DataFrame.from_dict(x_test_stars_score_sum, orient='index', columns=['actors'])
+
+x_train = pd.concat([x_train, x_train_stars], axis=1)
+x_test = pd.concat([x_test, x_test_stars], axis=1)
+
+# company ----------------------------------------------------------------------------------
+
+company_dict = cf.get_avg_score_dict(x_train, x_train[['company']], ',')
+
+x_trian_company_score_sum = cf.summation_of_avg_f(x_train[['company']], company_dict)
+x_test_company_score_sum = cf.summation_of_avg_f(x_test[['company']], company_dict)
+
+x_train_company = pd.DataFrame.from_dict(x_trian_company_score_sum, orient='index', columns=['companys'])
+x_test_company = pd.DataFrame.from_dict(x_test_company_score_sum, orient='index', columns=['companys'])
+
+x_train = pd.concat([x_train, x_train_company], axis=1)
+x_test = pd.concat([x_test, x_test_company], axis=1)
+
 # Director ----------------------------------------------------------------------------------
 
 # Cleaned writer dataset:
@@ -103,15 +164,15 @@ x_test_directors = cf.clean_f(x_test[['directors']])
 
 
 # Retrieved dictionary of existing writer average movie scores (Out of our trained data)
-directors_score_dictionary = cf.get_avg_score_dict(x_train, x_train_directors, ',', 'directors')
+directors_score_dictionary = cf.get_avg_score_dict(x_train, x_train_directors, ',')
 
 # # Per movie, retrieved and summed writers scores
-x_trian_director_score_sum = cf.summation_of_f(x_train_directors, directors_score_dictionary)
-x_test_director_score_sum = cf.summation_of_f(x_test_directors, directors_score_dictionary)
+x_trian_director_score_sum = cf.summation_of_avg_f(x_train_directors, directors_score_dictionary)
+x_test_director_score_sum = cf.summation_of_avg_f(x_test_directors, directors_score_dictionary)
 
 # # Converting our director dictionaries into dataframe columns
-x_train_directors = pd.DataFrame.from_dict(x_trian_director_score_sum, orient='index', columns=['directors'])
-x_test_directors = pd.DataFrame.from_dict(x_test_director_score_sum, orient='index', columns=['directors'])
+x_train_directors = pd.DataFrame.from_dict(x_trian_director_score_sum, orient='index', columns=['director'])
+x_test_directors = pd.DataFrame.from_dict(x_test_director_score_sum, orient='index', columns=['director'])
 
 # # Concatinating our director dataframe columns to their respective dataframes
 # print(x_train_directors)
@@ -127,29 +188,34 @@ x_train_writers = cf.clean_f(x_train[['writers']])
 x_test_writers = cf.clean_f(x_test[['writers']])
 
 # Retrieved dictionary of existing writer average movie scores (Out of our trained data)
-writers_score_dictionary = cf.get_avg_score_dict(x_train, x_train_writers, ',', 'writers')
+writers_score_dictionary = cf.get_avg_score_dict(x_train, x_train_writers, ',')
 # Replace NAN writers with a fair score. (We net 100+ new data points this way)
 writers_score_dictionary['iamnotaperson'] = 5
 # print('i am not a person:', writers_score_dictionary['iamnotaperson'])
 
 # Per movie, retrieved and summed writers scores
-x_trian_writer_score_sum = cf.summation_of_f(x_train_writers, writers_score_dictionary)
-x_test_writer_score_sum = cf.summation_of_f(x_test_writers, writers_score_dictionary)
+x_trian_writer_score_sum = cf.summation_of_avg_f(x_train_writers, writers_score_dictionary)
+x_test_writer_score_sum = cf.summation_of_avg_f(x_test_writers, writers_score_dictionary)
 
 # Converting our writer dictionaries into dataframe columns
-x_train_writers = pd.DataFrame.from_dict(x_trian_writer_score_sum, orient='index', columns=['writers'])
-x_test_writers = pd.DataFrame.from_dict(x_test_writer_score_sum, orient='index', columns=['writers'])
+x_train_writers = pd.DataFrame.from_dict(x_trian_writer_score_sum, orient='index', columns=['writer'])
+x_test_writers = pd.DataFrame.from_dict(x_test_writer_score_sum, orient='index', columns=['writer'])
 
 # Concatinating our writer dataframe columns to their respective dataframes
 x_train = pd.concat([x_train, x_train_writers], axis=1)
 x_test = pd.concat([x_test, x_test_writers], axis=1)
 
 
-x_train = cf.drop_redun_data(x_train)
-x_test = cf.drop_redun_data(x_test)
+dropList = ['genre','writers','directors','title','rating','level_0','index','stars','company','mpaa']
+x_train = cf.drop_batch_data(x_train, dropList)
+x_test = cf.drop_batch_data(x_test, dropList)
 
 
 # KNN ----------------------------------------------------------------------------------
+
+print(x_train.shape)
+print(x_test.shape)
+print(x_test.columns)
 
 
 from sklearn.metrics import accuracy_score
@@ -208,3 +274,59 @@ print("activation = relu:")
 print("loss:",val_loss, ", acc:",val_acc)
 print(40*"=")
 
+
+
+
+
+# PCA ----------------------------------------------------------------------------------
+
+from sklearn.decomposition import PCA
+
+n = 3
+pca = PCA(n_components=n)
+pca.fit(x_train)
+x_train_proj = pca.transform(x_train)
+x_test_proj = pca.transform(x_test)
+
+
+print("\nExplained variance ratio (for ",n,"components):")
+print(pca.explained_variance_ratio_, "\n")
+
+
+k = 5
+knn = KNeighborsClassifier(n_neighbors=k)
+knn.fit(x_train_proj, y_train)
+prediction = knn.predict(x_test_proj)
+report = classification_report(y_test, prediction)
+
+print(70*"=","\n")
+print(" --- PCA ---")
+print(report)
+print(70*"=")
+
+
+
+# Logistic Regression ----------------------------------------------------------------------------------
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+
+clf = LogisticRegression(random_state=142)
+clf.fit(x_train, y_train)
+predicted = clf.predict(x_test)
+
+accuracy = (accuracy_score(y_test, predicted))
+
+print(70*"=")
+print("Logistic Regression Data Accuracy: ",accuracy,'\n')
+
+
+
+# Logistic Regression w/ PCA ----------------------------------------------------------------------------------
+
+clf2 = LogisticRegression(random_state=142)
+clf2.fit(x_train_proj, y_train)
+predicted2 = clf2.predict(x_test_proj)
+
+print(70*"=")
+print("Logistic Regression w/PCA Data Accuracy: ",accuracy,'\n')
